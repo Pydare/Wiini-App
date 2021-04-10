@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.android.wiini.ui.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_playAudioFragment"
+            app:destination="@id/playAudioFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_savedAudiosFragment"
+            app:destination="@id/savedAudiosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playAudioFragment"
+        android:name="com.example.android.wiini.ui.PlayAudioFragment"
+        android:label="play_audio_fragment"
+        tools:layout="@layout/play_audio_fragment" />
+    <fragment
+        android:id="@+id/savedAudiosFragment"
+        android:name="com.example.android.wiini.ui.SavedAudiosFragment"
+        android:label="saved_audios_fragment"
+        tools:layout="@layout/saved_audios_fragment" />
+</navigation>
