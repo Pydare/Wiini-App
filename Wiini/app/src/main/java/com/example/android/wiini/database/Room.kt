@@ -13,7 +13,7 @@ interface AudioDao{
     fun insertAll(vararg audios: DatabaseAudio)
 }
 
-@Database(entities = [AudiosDatabase::class], version = 1)
+@Database(entities = [DatabaseAudio::class], version = 1)
 abstract class AudiosDatabase: RoomDatabase(){
     abstract val audioDao: AudioDao
 }
