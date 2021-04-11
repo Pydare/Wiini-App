@@ -77,26 +77,30 @@ def p2a_gcs_trigger(file, context):
 
 def p2a_ocr_pdf(bucket, pdf_blob):
 
+    """
+    https://cloud.google.com/vision/docs/pdf
+    """
+
     # define input config
     gcs_source_uri = "gs://{}/{}".format(bucket.name, pdf_blob.name)
-    gcs_source = vision.types.GcsSource(uri=gcs_source_uri)
-    feature = vision.types.Feature(
-        type=vision.enums.Feature.Type.DOCUMENT_TEXT_DETECTION
+    gcs_source = vision.GcsSource(uri=gcs_source_uri)
+    feature = vision.Feature(
+        type=vision.Feature.Type.DOCUMENT_TEXT_DETECTION
     )
-    input_config = vision.types.InputConfig(
+    input_config = vision.InputConfig(
         gcs_source=gcs_source, mime_type="application/pdf"
     )
 
     # define output config
     pdf_id = pdf_blob.name.replace(".pdf", "")[:4] # use the first 4 chars as pdf_id
     gcs_dest_uri = "gs://{}/{}".format(bucket.name, pdf_id + ".")
-    gcs_destination = vision.types.GcsDestination(uri=gcs_dest_uri)
-    output_config = vision.types.OutputConfig(
+    gcs_destination = vision.GcsDestination(uri=gcs_dest_uri)
+    output_config = vision.OutputConfig(
         gcs_destination=gcs_destination, batch_size=100
     )
 
     # call the API
-    async_request = vision.types.AsyncAnnotateFileRequest(
+    async_request = vision.AsyncAnnotateFileRequest(
         features=[feature], input_config=input_config, output_config=output_config
     )
     async_response = vision_client.async_batch_annotate_files(requests=[async_request])

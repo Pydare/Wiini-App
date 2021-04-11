@@ -11,7 +11,7 @@ from google.cloud import vision
 
 PROJECT_ID = os.environ["GCLOUD_PROJECT"]
 
-def pic_to_text(infile):
+def pic_to_text(infile: str) -> str:
     """Dectects text in an image file
 
     ARGS
