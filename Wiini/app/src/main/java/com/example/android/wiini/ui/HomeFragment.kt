@@ -1,13 +1,12 @@
 package com.example.android.wiini.ui
 
 import android.os.Bundle
+import android.view.*
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
+import androidx.navigation.ui.NavigationUI
 import com.example.android.wiini.R
 import com.example.android.wiini.databinding.HomeFragmentBinding
 import com.example.android.wiini.viewmodels.HomeViewModel
@@ -47,15 +46,34 @@ class HomeFragment : Fragment() {
 
 
         binding.playButton.setOnClickListener{
-            it.findNavController().navigate(R.id.action_homeFragment_to_playAudioFragment)
+            it.findNavController().navigate(HomeFragmentDirections.actionHomeFragmentToPlayAudioFragment())
         }
 
 
         binding.savedAudiosButton.setOnClickListener{
-            it.findNavController().navigate(R.id.action_homeFragment_to_savedAudiosFragment)
+            it.findNavController().navigate(HomeFragmentDirections.actionHomeFragmentToSavedAudiosFragment())
         }
 
+        // informs android that this fragment has an overflow menu option
+        setHasOptionsMenu(true)
         return binding.root
+    }
+
+    /**
+     * abstract function called to inflate menu option that belongs to the fragment
+     */
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        super.onCreateOptionsMenu(menu, inflater)
+        inflater?.inflate(R.menu.overflow_menu, menu)
+    }
+
+    /**
+     * abstract function called when a menu item is selected
+     */
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return NavigationUI.onNavDestinationSelected(
+                item!!, view!!.findNavController()
+        ) || super.onOptionsItemSelected(item)
     }
 
 
