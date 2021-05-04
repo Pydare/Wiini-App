@@ -10,6 +10,7 @@ import retrofit2.http.GET
 
 
 interface WiiniService {
+    //TODO: Figure out android audio operations in API format
     @GET("wiini.json") // i'd need a util to convert this to android audio
     fun getPlaylist(): Deferred<NetworkAudioContainer>
 }
@@ -28,7 +29,8 @@ private val moshi = Moshi.Builder()
  */
 object Network {
     // Configure retrofit to parse JSON and use coroutines: this part would definitely be
-    // reviewed later
+    // reviewed later: this is where the API call to the GCP would be made
+    // TODO: Make API call to the GCP
     private val retrofit = Retrofit.Builder()
         .baseUrl("https://devbytes.udacity.com/")
         .addConverterFactory(MoshiConverterFactory.create(moshi))

@@ -22,6 +22,7 @@ class AudiosRepository(private val database: AudiosDatabase) {
     }
 
     suspend fun refreshAudios(){
+        // this dispatchers.IO is used because its the io coroutine that's being carried out
         withContext(Dispatchers.IO){
             val playlist = Network.wiini.getPlaylist().await()
             database.audioDao.insertAll(*playlist.asDatabaseModel())

@@ -5,7 +5,7 @@ import androidx.room.PrimaryKey
 import com.example.android.wiini.domain.Audio
 
 
-@Entity
+@Entity(tableName = "databaseaudio")
 data class DatabaseAudio constructor(
     @PrimaryKey
     val url: String,

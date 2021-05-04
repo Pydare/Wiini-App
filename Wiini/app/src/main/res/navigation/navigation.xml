@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.android.wiini.ui.HomeFragment"
-        android:label="home_fragment"
+        android:label="@string/app_name"
         tools:layout="@layout/home_fragment" >
         <action
             android:id="@+id/action_homeFragment_to_playAudioFragment"
@@ -20,11 +20,11 @@
     <fragment
         android:id="@+id/playAudioFragment"
         android:name="com.example.android.wiini.ui.PlayAudioFragment"
-        android:label="play_audio_fragment"
+        android:label="@string/play_audio_header"
         tools:layout="@layout/play_audio_fragment" />
     <fragment
         android:id="@+id/savedAudiosFragment"
         android:name="com.example.android.wiini.ui.SavedAudiosFragment"
-        android:label="saved_audios_fragment"
+        android:label="@string/saved_audios_header"
         tools:layout="@layout/saved_audios_fragment" />
 </navigation>

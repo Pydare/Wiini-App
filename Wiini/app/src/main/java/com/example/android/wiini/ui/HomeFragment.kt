@@ -8,34 +8,17 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import com.example.android.wiini.R
+import com.example.android.wiini.database.AudiosDatabase
+import com.example.android.wiini.database.getDatabase
 import com.example.android.wiini.databinding.HomeFragmentBinding
 import com.example.android.wiini.viewmodels.HomeViewModel
 
 class HomeFragment : Fragment() {
 
-    /**
-     * One way to delay creation of the viewModel until an appropriate lifecycle method is to use
-     * lazy. This requires that viewModel not be referenced before onViewCreated(), which we
-     * do in this Fragment.
-     */
-    private val viewModel: HomeViewModel by lazy {
-        val activity = requireNotNull(this.activity) {
-            "You can only access the viewModel after onViewCreated()"
-        }
-        //The ViewModelProviders (plural) is deprecated.
-        //ViewModelProviders.of(this, DevByteViewModel.Factory(activity.application)).get(DevByteViewModel::class.java)
-        ViewModelProvider(this, HomeViewModel.Factory(activity.application)).get(HomeViewModel::class.java)
-
-    }
-
-
-
-
-
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+                inflater: LayoutInflater, container: ViewGroup?,
+                savedInstanceState: Bundle?
+            ): View? {
 
         val binding: HomeFragmentBinding = DataBindingUtil.inflate(
             inflater, R.layout.home_fragment, container, false
@@ -43,7 +26,19 @@ class HomeFragment : Fragment() {
         // set the lifecycleOwner so DataBinding can observe LiveData
         binding.setLifecycleOwner(viewLifecycleOwner)
 
+        // Creating an application for resources
+        val application = requireNotNull(this.activity).application
+        // getting a reference to the database dao
+        val dataSource = getDatabase(application).audioDao
+        // creating the view model factory
+        val viewModelFactory = HomeViewModel.HomeViewModelFactory(dataSource, application)
+        //  finally creating the view model
+        val homeViewModel = ViewModelProvider(this, viewModelFactory).get(HomeViewModel::class.java)
+        // setting the homeViewModel variable in the xml file for data binding
+        binding.homeViewModel = homeViewModel
 
+
+        // TODO: change the onClick logic to be used with data binding (unfortunately can't be done for navigation)
 
         binding.playButton.setOnClickListener{
             it.findNavController().navigate(HomeFragmentDirections.actionHomeFragmentToPlayAudioFragment())
@@ -53,6 +48,8 @@ class HomeFragment : Fragment() {
         binding.savedAudiosButton.setOnClickListener{
             it.findNavController().navigate(HomeFragmentDirections.actionHomeFragmentToSavedAudiosFragment())
         }
+
+        // set the title of the fragment
 
         // informs android that this fragment has an overflow menu option
         setHasOptionsMenu(true)

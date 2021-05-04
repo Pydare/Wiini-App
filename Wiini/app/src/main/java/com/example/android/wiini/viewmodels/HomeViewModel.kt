@@ -4,6 +4,7 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.example.android.wiini.database.AudioDao
 import com.example.android.wiini.database.getDatabase
 import com.example.android.wiini.repository.AudiosRepository
 import kotlinx.coroutines.CoroutineScope
@@ -11,6 +12,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.launch
 import java.lang.IllegalArgumentException
+import javax.sql.CommonDataSource
 
 
 /**
@@ -23,17 +25,19 @@ import java.lang.IllegalArgumentException
  * reference to applications across rotation since Application is never recreated during actiivty
  * or fragment lifecycle events.
  */
-class HomeViewModel(application: Application) : AndroidViewModel(application) {
+class HomeViewModel(dataSource: AudioDao, application: Application) : AndroidViewModel(application) {
 
     /**
      * This is the job for all coroutines started by this viewMiodel.
      *
      * Cancelling this job will cancel all coroutines started by thus viewmodel
+     *
+     * It is destroyed when the view model is destroyed
      */
     private val viewModelJob = SupervisorJob()
 
     /**
-     * This is the main scope for all coroutines launched by MainViewModel.
+     * This is the main scope for all coroutines launched by HomeViewModel.
      *
      * Since we pass viewModelJob, you can cancel all coroutines launched by calling viewModelJob.
      * cancel(
@@ -57,11 +61,14 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
     }
 
 
-    class Factory(val app: Application): ViewModelProvider.Factory {
+    class HomeViewModelFactory(
+            private val dataSource: AudioDao,
+            private val application: Application
+    ): ViewModelProvider.Factory {
         override fun <T : ViewModel?> create(modelClass: Class<T>): T {
             if (modelClass.isAssignableFrom(HomeViewModel::class.java)){
                 @Suppress("UNCHECKED_CAST")
-                return HomeViewModel(app) as T
+                return HomeViewModel(dataSource, application) as T
             }
             throw IllegalArgumentException("Unable to construct viewmodel")
         }
