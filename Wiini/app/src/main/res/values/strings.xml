@@ -19,4 +19,8 @@
         accident, sometimes on purpose (injected humour and the like).
 
     </string>
+    <string name="sign_in_text">Sign In</string>
+    <string name="sign_in_button_text">Sign In</string>
+    <string name="main_app_button_value">Main App</string>
+    <string name="server_client_id">150611963076-3lfrrneek1eig6rk25ofdavtbles48jn.apps.googleusercontent.com</string>
 </resources>

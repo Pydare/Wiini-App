@@ -13,7 +13,8 @@ import com.example.android.wiini.database.getDatabase
 import com.example.android.wiini.databinding.HomeFragmentBinding
 import com.example.android.wiini.viewmodels.HomeViewModel
 
-class HomeFragment : Fragment() {
+class
+HomeFragment : Fragment() {
 
     override fun onCreateView(
                 inflater: LayoutInflater, container: ViewGroup?,

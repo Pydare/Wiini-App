@@ -1,5 +1,6 @@
 package com.example.android.wiini.repository
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
 import com.example.android.wiini.database.AudiosDatabase
@@ -9,6 +10,7 @@ import com.example.android.wiini.network.Network
 import com.example.android.wiini.network.asDatabaseModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import java.io.IOException
 
 
 /**
@@ -23,9 +25,14 @@ class AudiosRepository(private val database: AudiosDatabase) {
 
     suspend fun refreshAudios(){
         // this dispatchers.IO is used because its the io coroutine that's being carried out
+        // io is usually used for read--write operations
         withContext(Dispatchers.IO){
-            val playlist = Network.wiini.getPlaylist().await()
-            database.audioDao.insertAll(*playlist.asDatabaseModel())
+            val playlist = Network.wiini.getAudioAsync().await() // await is a suspend function and doesn't block the thread
+            try {
+                database.audioDao.insertAll(*playlist.asDatabaseModel())
+            }catch (e: IOException){
+                Log.e("RefreshAudiosErrorTag", "Failed to set media data source", e)
+            }
         }
     }
 

@@ -18,6 +18,6 @@ class SavedAudiosFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.saved_audios_fragment, container, false)
     }
-
+    // TODO: Create saved audios adapter once data have been extracted
 
 }

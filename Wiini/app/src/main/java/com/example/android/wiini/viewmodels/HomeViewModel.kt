@@ -25,7 +25,7 @@ import javax.sql.CommonDataSource
  * reference to applications across rotation since Application is never recreated during actiivty
  * or fragment lifecycle events.
  */
-class HomeViewModel(dataSource: AudioDao, application: Application) : AndroidViewModel(application) {
+class HomeViewModel(application: Application) : AndroidViewModel(application) {
 
     /**
      * This is the job for all coroutines started by this viewMiodel.
@@ -68,7 +68,7 @@ class HomeViewModel(dataSource: AudioDao, application: Application) : AndroidVie
         override fun <T : ViewModel?> create(modelClass: Class<T>): T {
             if (modelClass.isAssignableFrom(HomeViewModel::class.java)){
                 @Suppress("UNCHECKED_CAST")
-                return HomeViewModel(dataSource, application) as T
+                return HomeViewModel(application) as T
             }
             throw IllegalArgumentException("Unable to construct viewmodel")
         }
