@@ -101,7 +101,8 @@ dependencies {
     // Play Store dependency
     implementation 'com.google.android.gms:play-services-auth:19.0.0'
 
-
+    // HttpClient dependency
+    implementation "com.fasterxml.jackson.module:jackson-module-kotlin:2.12.1"
 
     // Multidex
     def multidex_version = "2.0.1"
