@@ -9,11 +9,12 @@ import locale
 import glob
 import time 
 import json
+import proto
 
 from pydub import AudioSegment
 
 from google.cloud import storage
-from google.cloud import vision_v1 as vision
+from google.cloud import vision
 from google.cloud import texttospeech_v1 as texttospeech
 from google.cloud import automl_v1beta1 as automl
 from google.protobuf import json_format
@@ -69,7 +70,7 @@ def p2a_gcs_trigger(file, context):
         return
 
     # generate speech (or generate labels for annotation)
-    if file_name.lower.endswith("tables_1.csv"):
+    if file_name.lower().endswith("tables_1.csv"):
         if ANNOTATION_MODE:
             p2a_generate_labels(bucket, file_blob)
         else:
@@ -104,7 +105,7 @@ def p2a_ocr_pdf(bucket, pdf_blob):
 
     # define output config
     pdf_id = pdf_blob.name.replace(".pdf", "")[:4] # use the first 4 chars as pdf_id
-    gcs_destination_uri = "gs://{}/{}".format(bucket.name, pdf_id + ".")
+    gcs_destination_uri = "gs://{}/{}".format(bucket.name, pdf_id + "_") 
 
     gcs_destination = vision.GcsDestination(uri=gcs_destination_uri)
     output_config = vision.OutputConfig(
@@ -195,25 +196,34 @@ def p2a_predict(bucket, json_blob):
         feature_blob.delete()
 
 
+def proto_message_to_dict(message: proto.Message) -> dict:
+    """Helper method to parse protobuf message to dictionary."""
+    return json.loads(message.__class__.to_json(message))
+
+
 def build_feature_csv(json_blob, pdf_id, first_page):
-    
+    print("Started the build_feature_csv function")
     # parse json
     json_string = json_blob.download_as_string()
-    json_response = json_format.Parse(json_string, vision.AnnotateFileResponse())
+    # json_response = json_format.Parse(json_string, 
+    #                     proto_message_to_dict(vision.AnnotateFileResponse()))
+    json_response = proto_message_to_dict(vision.AnnotateFileResponse())
+    print("Response received in the build_feature_csv function")
+    print(json_response["responses"])
 
     # convert the json file to a bag of CSV lines
     csv = ""
     page_count = first_page
-    for resp in json_response.responses:
+    for resp in json_response["responses"]: 
         para_count = 0
-        for page in resp.full_text_annotation.pages:
+        for page in resp["full_text_annotation"]["pages"]:
 
             # collect para features for the page
             page_features = []
-            for block in page.blocks:
+            for block in page["blocks"]:
                 if str(block.block_types) != "1": # process only TEXT blocks
                     continue
-                for para in block.paragraphs:
+                for para in block["paragraphs"]:
                     para_id = "{}-{:03}-{:03}".format(pdf_id, page_count, para_count)
                     f = extract_paragraph_feature(para_id, para)
                     page_features.append(f)
@@ -234,6 +244,7 @@ def build_feature_csv(json_blob, pdf_id, first_page):
                     f["layout"],
                 )
         page_count += 1
+    print("Ended the build_feature_csv function")
     return csv
 
 
@@ -241,10 +252,10 @@ def extract_paragraph_feature(para_id, para):
 
     # collect text
     text = ""
-    for word in para.words:
-        for symbol in word.symbols:
-            text += symbol.text
-            if hasattr(symbol.property, "dectected_break"):
+    for word in para["words"]:
+        for symbol in word["symbols"]:
+            text += symbol["text"]
+            if hasattr(symbol["property"], "dectected_break"):
                 break_type = symbol.property.detected_break.type
                 if str(break_type) == "1":
                     text += " " # if the break is SPACE
@@ -257,9 +268,9 @@ def extract_paragraph_feature(para_id, para):
 
     # extract bounding box features
     x_list, y_list = [], []
-    for v in para.bounding_box.normalized_vertices:
-        x_list.append(v.x)
-        y_list.append(v.y)
+    for v in para["bounding_box"]["normalized_vertices"]:
+        x_list.append(v["x"])
+        y_list.append(v["y"])
     f = {}
     f["para_id"] = para_id
     f["text"] = text
