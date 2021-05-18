@@ -201,28 +201,36 @@ def proto_message_to_dict(message: proto.Message) -> dict:
     return json.loads(message.__class__.to_json(message))
 
 
+def parse_message(json_string, json_message):
+    for key in json_message.keys():
+        if key in json_string:
+            json_message[key] = json_string[key]
+    return json_message
+
+
 def build_feature_csv(json_blob, pdf_id, first_page):
     print("Started the build_feature_csv function")
     # parse json
-    json_string = json_blob.download_as_string()
+    json_string = json.loads(json_blob.download_as_string())
     # json_response = json_format.Parse(json_string, 
     #                     proto_message_to_dict(vision.AnnotateFileResponse()))
     json_response = proto_message_to_dict(vision.AnnotateFileResponse())
     print("Response received in the build_feature_csv function")
-    print(json_response["responses"])
+    # method that merges json_string into json_message
+    json_response = parse_message(json_string, json_response)
 
     # convert the json file to a bag of CSV lines
     csv = ""
     page_count = first_page
     for resp in json_response["responses"]: 
         para_count = 0
-        for page in resp["full_text_annotation"]["pages"]:
+        for page in resp["fullTextAnnotation"]["pages"]:
 
             # collect para features for the page
             page_features = []
             for block in page["blocks"]:
-                if str(block.block_types) != "1": # process only TEXT blocks
-                    continue
+                # if str(block["blockTypes"]) != "1": # process only TEXT blocks
+                #     continue
                 for para in block["paragraphs"]:
                     para_id = "{}-{:03}-{:03}".format(pdf_id, page_count, para_count)
                     f = extract_paragraph_feature(para_id, para)
@@ -233,6 +241,7 @@ def build_feature_csv(json_blob, pdf_id, first_page):
             for f in page_features:
                 csv += '{}, "{}", {}, {:.6f}, {:.6f}, {:.6f}, {:.6f}, {:.6f}, {:.6f}, {:.6f}, {}\n'.format(
                     f["para_id"],
+                    f["text"],
                     f["chars"],
                     f["width"],
                     f["height"],
@@ -252,13 +261,14 @@ def extract_paragraph_feature(para_id, para):
 
     # collect text
     text = ""
+    print("Inside the extract_paragraph_feature function")
     for word in para["words"]:
         for symbol in word["symbols"]:
             text += symbol["text"]
-            if hasattr(symbol["property"], "dectected_break"):
-                break_type = symbol.property.detected_break.type
-                if str(break_type) == "1":
-                    text += " " # if the break is SPACE
+            # if "detectedBreak" in symbol["property"].keys(): 
+            #     break_type = symbol["property"]["detectedBreak"]["type"]
+            #     if str(break_type) == "1":
+            #         text += " " # if the break is SPACE
 
     # remove double quotes
     text = text.replace('"', "")
@@ -268,7 +278,7 @@ def extract_paragraph_feature(para_id, para):
 
     # extract bounding box features
     x_list, y_list = [], []
-    for v in para["bounding_box"]["normalized_vertices"]:
+    for v in para["boundingBox"]["normalizedVertices"]:
         x_list.append(v["x"])
         y_list.append(v["y"])
     f = {}
