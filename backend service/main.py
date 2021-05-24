@@ -24,8 +24,8 @@ import requests
 ANNOTATION_MODE = False
 
 # AutoML Tables configs
-compute_region = "us-central1"
-model_display_name = "DIGIT_MODEL"
+compute_region = "eu"
+model_display_name = "labels_for_model_20210521110217"
 
 # break length
 SECTION_BREAK = 2 # sec
@@ -203,7 +203,7 @@ def proto_message_to_dict(message: proto.Message) -> dict:
 
 def parse_message(json_string, json_message):
     for key in json_message.keys():
-        if key in json_string:
+        if key in json_string: # no of pages
             json_message[key] = json_string[key]
     return json_message
 
@@ -218,6 +218,7 @@ def build_feature_csv(json_blob, pdf_id, first_page):
     print("Response received in the build_feature_csv function")
     # method that merges json_string into json_message
     json_response = parse_message(json_string, json_response)
+    print(json_response)
 
     # convert the json file to a bag of CSV lines
     csv = ""
@@ -261,14 +262,17 @@ def extract_paragraph_feature(para_id, para):
 
     # collect text
     text = ""
-    print("Inside the extract_paragraph_feature function")
     for word in para["words"]:
         for symbol in word["symbols"]:
             text += symbol["text"]
-            # if "detectedBreak" in symbol["property"].keys(): 
-            #     break_type = symbol["property"]["detectedBreak"]["type"]
-            #     if str(break_type) == "1":
-            #         text += " " # if the break is SPACE
+            if isinstance(symbol, dict): # and "detectedBreak" in symbol["property"].keys(): 
+                for key in symbol.keys():
+                    if key == "property":
+                        for key2 in symbol["property"]:
+                            if key2 == "detectedBreak":
+                                break_type = symbol["property"]["detectedBreak"]["type"]
+                                if str(break_type) == "SPACE":
+                                    text += " " # if the break is SPACE
 
     # remove double quotes
     text = text.replace('"', "")
@@ -338,7 +342,7 @@ def parse_prediction_results(bucket, csv_blob):
         sc_body = float(row["label_body_source"])
         sc_caption = float(row["label_caption_source"])
         sc_header = float(row["label_header_source"])
-        # if sc_ohter > 0.7
+        # if sc_other > 0.7
         if sc_other > max(sc_header, sc_body, sc_caption):
             label_dict[id] = LABEL_OTHER
         elif sc_header > max(sc_body, sc_caption):

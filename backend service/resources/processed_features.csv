@@ -1,0 +1,1006 @@
+id,text,chars,width,height,area,char_size,pos_x,pos_y,aspect,layout,label
+bank-001-000,2015 Fifth International Conference on Communication Systems and Network Technologies,85,0.602941,0.015152,0.009135,0.000107,0.499183,0.060606,39.794118, h,body
+bank-001-001,Head Gesture Recognition System Using Gesture Cam,49,0.531046,0.018939,0.010058,0.000205,0.499183,0.105429,28.039222, h,body
+bank-001-002,Rushikesh T. Bankar,19,0.150327,0.012626,0.001898,0.0001,0.271242,0.165404,11.905876, h,body
+bank-001-003,"Research Scholar,Department of Electronics Engineering,G. H. Raisoni College of Engineering,",92,0.259804,0.045455,0.011809,0.000128,0.272059,0.199495,5.715687, h,header
+bank-001-004,"Nagpur, India.rushikesh.bankar@raisoni.net",42,0.196078,0.032828,0.006437,0.000153,0.271242,0.236111,5.972853, h,body
+bank-001-005,Dr. Suresh S. SalankarDepartment of Electronics & Telecommunication,67,0.321895,0.032828,0.010567,0.000158,0.698529,0.175505,9.805424, h,body
+bank-001-006,"Engineering,G. H. Raisoni College of Engineering,",49,0.25,0.02904,0.00726,0.000148,0.700163,0.206439,8.6087, h,body
+bank-001-007,"Nagpur, India.suresh.salankar@raisoni.net",41,0.184641,0.031566,0.005828,0.000142,0.698529,0.23548,5.849412, h,body
+bank-001-008,"Abstract - Head Gesture means the position made by themovement of head by considering all its facial geometry aseyes, nose, lips etc. The use of such gesture is to expressthought, emotion, etc. Such Head Gesture is very useful /beneficial for the Handicapped / Peoples having Paralysisfrom neck onwards. For such peoples Hand GestureRecognition System is not useful. Such peoples give theindications by using their Head Movements. The gesturerecognition from the video sequences is one of the mostimportant challenges in the computer vision. It offers to thesystem, the ability to identify, recognize and interpret thehuman gestures in order to control some devices. In thispaper, we provide a review on gesture recognition withparticular emphasis on Head Gestures and FacialExpressions. Applications involving Face Detection, FaceTracking, Gesture Recognition, and Obstacle Detection arediscussed in detail.",908,0.382353,0.219697,0.084002,9.3e-05,0.29085,0.388889,1.740365, h,header
+bank-001-009,"Keywords Face Recognition, Intelligent Systems,Computer Vision, Head Gestures, Face Detection.",94,0.380719,0.027778,0.010575,0.000113,0.290033,0.526515,13.705921, h,body
+bank-001-010,I.,2,0.00817,0.007576,6.2e-05,3.1e-05,0.232843,0.563131,1.078433, h,body
+bank-001-011,INTRODUCTION,12,0.098039,0.010101,0.00099,8.3e-05,0.316993,0.563131,9.705891, h,body
+bank-001-012,"captured images of the user for an application. Forexample, a motion triggered surveillance camera capturesthe video of the user's head, detects the movements of theuser's head and gives an indication for the face direction.",224,0.380719,0.056818,0.021632,9.7e-05,0.703431,0.311237,6.700652, h,header
+bank-001-013,"Recognizing Gestures is a complex task which involvesmany aspects such as motion modelling, motion analysis,pattern recognition and machine learning. Since gesturerecognition is receiving more and more attention in recentresearch, a comprehensive review on various gesturerecognition techniques developed in recent years isneeded.",330,0.382353,0.098485,0.037656,0.000114,0.704248,0.388889,3.882353, h,header
+bank-001-014,"In a PC based Smart Camera, the camera is a webcamor CCTV camera, of which the video output is connectedto a PC port through either USB, Ethernet, Fire wire, orthe other protocols. Such kind of camera configurationhas a few limitations. For example, a general purpose PCis usually not suited to the intensive image processing ofthe high resolution as well as high frame rate cameraoutput video streams. In addition to this, the bandwidthrequirement for the camera PC link is very high. TheGesture Cam that is the Smart Camera can greatlysimplify the application system design to perform imageprocessing tasks. The Gesture Cam / Smart Camerahaving the embedded processing unit, is a much betterway to process the images at the high resolution as well ashigh frame rate. This performs in real time. The onlyimage feature or the high level description of the user'sface in four directions needs to be transferred to a centralcontrol computer, is the output of the smart camera, thebandwidth is low.",995,0.382353,0.271465,0.103795,0.000104,0.704248,0.578914,1.408481, h,header
+bank-001-015,"The Smart Camera / Gesture Cam can have manyapplications, such as Video Surveillance, Security,Human Computer Interface, Computer Vision, UserInterface technology is an integral as well as critical partof the most modern ICT systems. Unlike all existing UserInterface Technologies which are computer centered, anMMUI that is Multi Modal User Interfaces is usercentered. The Multi Modal User Interfaces allows a useror the disabled people to interact with a computer usinguser's natural communication modalities, such as speech,Gestures, Eye Gaze, and Facial Expression. This isoccurring, just as in Human to Human Communication.The MMUI systems include new devices as well as",675,0.382353,0.188131,0.071933,0.000107,0.702614,0.8125,2.032372, h,header
+bank-001-016,The,3,0.026144,0.010101,0.000264,8.8e-05,0.338235,0.655303,2.588227, h,body
+bank-001-017,"The evolution of the User Interface (UI) witnessed thedevelopment from text based UI based on keyboard toGUI based on mice. In current virtual environmentsapplications, keyboards, mice, and joysticks are still themost popular and dominant devices. However, they areinconvenient and unnatural.",292,0.382353,0.084596,0.032346,0.000111,0.29085,0.619318,4.519755, h,header
+bank-001-018,"of humanmovements, especially head gestures, has become animportant part of HCII (Human Computer IntelligentInteraction) in recent years, which serves as a motivatingforce for research in modelling, analysing and recognitionof head gestures. Many techniques developed in HCII canbe extended to other areas such as surveillance, robotcontrol and teleconferencing.",362,0.382353,0.117424,0.044898,0.000124,0.29085,0.708965,3.256165, h,header
+bank-001-019,"A Smart Camera in this proposed system can bedefined as a vision system to produce a high levelunderstanding of the images scene and accordingly that itshould generate application specific data or information inwhich the user requires, to be used in an autonomous aswell as an intelligent system. The reason for using smartcamera is that there exist inside the camera, a processingunit which performs Application Specific InformationProcessing. The Application Specific InformationProcessing unit is used to extract the information from the",540,0.382353,0.147727,0.056484,0.000105,0.29085,0.837753,2.588236, h,header
+bank-001-020,use,3,0.021242,0.007576,0.000161,5.4e-05,0.378268,0.655303,2.803894, h,body
+bank-001-021,535,3,0.017974,0.008838,0.000159,5.3e-05,0.497549,0.938763,2.033625, h,body
+bank-001-022,978-1-4799-1797-6/15 $31.00 Ã‚Â© 2015 IEEEDOI 10.1109/CSNT.2015.81,63,0.230392,0.021465,0.004945,7.8e-05,0.196895,0.945076,10.733567, h,body
+bank-001-023,IEEEcomputer,12,0.052288,0.016414,0.000858,7.2e-05,0.854575,0.9375,3.185509, h,body
+bank-001-024,society,7,0.037582,0.010101,0.00038,5.4e-05,0.878268,0.948232,3.720585, h,body
+bank-002-000,"improvements in the Recognition Based Technologies.For example, Speech Recognition, and GestureRecognition. Such systems have the potential to functionin a more robust as well as stable manner than theunimodal recognition systems which involves the singlerecognition based technology.",284,0.382353,0.085859,0.032828,0.000116,0.29085,0.132576,4.453287, h,header
+bank-002-001,"The successful deployment of the intelligent systemrelies on their high performance as well as low cost. Ascompared to the other head gesture recognition system,the main performance of the intelligent system includesthe autonomous navigation capability for good safety,flexibility, mobility, obstacle avoidance etc., an intelligentsystem including voice based control system, vision basedcontrol system, and sensor based control system. The newgeneration, an intelligent system of head gesturerecognition should be able to deal with the uncertaintiesfrom the practical applications point of view. They are theuser head either out of the image view or only the profileface is in the captured image, the face colour of the user isuser dependent, or may change dramatically in thevarying illumination conditions, the different facialappearances conditions of the user, such as mustache andglasses, and the cluttered background. The proposedsystem is an intelligent system for the head gesturerecognition, which is based on the combination ofadaboost and improved camshift algorithms.",1080,0.383987,0.291667,0.111996,0.000104,0.291667,0.321338,1.316527, h,header
+bank-002-002,"The research on human gestures for the disabledpeoples is going on. K. Yuan [1] represents the HeadGesture Recognition for Hands Free Control of AnIntelligent Wheelchair. In this paper, a novel integratedapproach to Real - Time Face Detection, Tracking andGesture Recognition is proposed, namely Head GestureBased Interface (HGI). It is to be used as the HumanRobot Interface for the Intelligent Wheelchair, namelyRobo Chair. The system is used to solve the problems.They are - The user head may be out of the image view, oronly the profile face is in the captured image, the facecolor is user dependent, and may change dramatically invarying illumination conditions, the user may havedifferent facial appearances, such as mustache and glasses,and the background may be cluttered when an IntelligentWheelchair move in the real world. H. Kim, S. H. Lee, M.K. Sohn and D. J. Kim [2] present a system for head poseestimation in gray level images. The two techniques wereemployed in this research project. The method of RandomForests was employed for dealing with the large set oftraining data. This algorithm is used in the computer visionSystem. To detect the user's faces in the varyingillumination conditions, a Binary Pattern Run Lengthmatrix is used. This matrix also includes a Binary Pattern.M. Davy and R. Deepa [3] present Head MovementSystem using Accelerometer Sensor. The head movementis the gesture which can be performed",1431,0.383987,0.372475,0.143025,0.0001,0.291667,0.653409,1.030907, h,other
+bank-002-003,by thequadriplegic patients or disabled peoples whose body,58,0.383987,0.041667,0.015999,0.000276,0.291667,0.845328,9.215683, h,header
+bank-002-004,"parts below the neck is paralyzed. The system includesthe accelerometer sensor which detects the headmovement of the user or disabled people. The proposedsystem uses the accelerometer to find out themovement of the head is detected. Ericka Janet RechyRamirez and Huosheng Hu [4] present a flexible bio signalbased HMI system. In this HMI system, an Emotive EPOCsensor is used for the head movements of the user. Thesensor recognizes the head movements of the user. ChanlitNoiruxsar and Pranchalee Samanpiboon [5] presents faceorientation recognition system for head gesture recognitionsystem. The USB camera was fixed in front of the user'sface. The face of the user was detected using adaboostalgorithm. The face of the user in the four differentdirections, which is used for generating the controlcommands for the wheelchair or motion control system,consists of frontal, right, left, up and down. A Review onRobo Chair Assistance Using Head Gesture Recognition ispresented in [6]. In this system, a web cam is used for theinput of the user. A cascade object detection method isused for the face detection of the user. Rushikesh T.Bankar and Suresh S. Salankar [10] present an IntelligentHead Gesture Recognition System. The system is usefulfor the handicapped peoples.",1270,0.382353,0.335859,0.128417,0.000101,0.702614,0.257576,1.138434, h,other
+bank-002-005,"The gesture (Hand, Head, Arm, Eye etc.) recognition isan important part of Multi Modal User Interfaces system.The vision based gesture recognition system involves thegeneral purpose cameras which are connected to generalpurpose PC for processing the proposed system.",266,0.382353,0.069444,0.026552,0.0001,0.702614,0.458965,5.505885, h,header
+bank-002-006,II.,3,0.013072,0.008838,0.000116,3.9e-05,0.609477,0.50947,1.478988, h,body
+bank-002-007,DESIGN OF GESTURE CAM,21,0.171569,0.011364,0.00195,9.3e-05,0.726307,0.50947,15.098085, h,body
+bank-002-008,ImageCaptureUnit,16,0.050654,0.040404,0.002047,0.000128,0.559641,0.566919,1.253676, h,header
+bank-002-009,H,1,0.116013,0.063131,0.007324,0.007324,0.625,0.566919,1.837645, h,header
+bank-002-010,GestureRecogniti,16,0.060458,0.026515,0.001603,0.0001,0.711601,0.5625,2.280116, h,body
+bank-002-011,Host &DisplayUnit,17,0.050654,0.037879,0.001919,0.000113,0.861928,0.568182,1.337256, h,header
+bank-002-012,on Unit,7,0.04902,0.011364,0.000557,8e-05,0.712418,0.582702,4.31372, h,body
+bank-002-013,Figure 1. Gesture Cam design components.,40,0.23366,0.013889,0.003245,8.1e-05,0.703431,0.616793,16.823514, h,body
+bank-002-014,"Figure 1 shows the design of a Gesture Cam. TheGesture Cam is the FPGA based Smart Camera which canperform all the processing tasks. The use of FPGA as adevelopment platform is because as compared to PC toperform data intensive video processing tasks in real time,the FPGA is a better computing platform. The highbandwidth requirement between the camera and PC is notnecessary because the output from the camera can be assimple as an index of a gesture among the predefined headgesture data base.",496,0.382353,0.138889,0.053105,0.000107,0.702614,0.704545,2.752941, h,header
+bank-002-015,"The Gesture Cam consists of the three parts. The firstpart is the Image Capture Unit. The Image Capture Unitincludes a small in-house built PCB. On the PCB, there isa megapixel CMOS color image sensor OV9620 from theomnivision. The PCB is fit into a dummy camera casing.",270,0.382353,0.068182,0.02607,9.7e-05,0.702614,0.806818,5.607844, h,header
+bank-002-016,536,3,0.01634,0.007576,0.000124,4.1e-05,0.498366,0.938131,2.156868, h,body
+bank-003-000,Figure 2Tools Desktop,21,0.068627,0.016414,0.001126,5.4e-05,0.702614,0.107955,4.180998, h,body
+bank-003-001,File,4,0.013072,0.005051,6.6e-05,1.7e-05,0.552288,0.112374,2.58823, h,caption
+bank-003-002,Edit,4,0.013072,0.005051,6.6e-05,1.7e-05,0.580065,0.112374,2.588236, h,caption
+bank-003-003,View,4,0.019608,0.005051,9.9e-05,2.5e-05,0.611111,0.112374,3.882356, h,caption
+bank-003-004,Insert,6,0.02451,0.005051,0.000124,2.1e-05,0.644608,0.112374,4.852938, h,caption
+bank-003-005,Window,6,0.034314,0.006313,0.000217,3.6e-05,0.767157,0.113005,5.435297, h,body
+bank-003-006,Help,4,0.017974,0.005051,9.1e-05,2.3e-05,0.806373,0.112374,3.558826, h,caption
+bank-003-007,Tum Lett,8,0.037582,0.005051,0.00019,2.4e-05,0.701797,0.131313,7.441169, h,caption
+bank-003-008,"The second part is the Gesture Recognition Unit. Toform Gesture Recognition Unit, a Xilinx Virtex-II ProFPGA development kit has been chosen. The kit is apowerful development platform for",187,0.380719,0.05303,0.02019,0.000108,0.291667,0.117424,7.179272, h,header
+bank-003-009,the imagingapplications.,24,0.383987,0.045455,0.017454,0.000727,0.291667,0.145202,8.447712, h,header
+bank-003-010,The third part is the Host & Display Unit. The Host &Display Unit consists of a host PC with two LCDmonitors. The first LCD Monitor is used for the codedevelopment as well as user interface for the cameraconfiguration. The second LCD Monitor is used for thereal time video display of results from the different stagesof processing.,331,0.380719,0.09596,0.036534,0.00011,0.291667,0.207071,3.967492, h,header
+bank-003-011,The output of the Gesture Cam is interfaced with theMicrocontroller for the movement of the wheelchair or thegeneration of the motion control commands.,151,0.380719,0.042929,0.016344,0.000108,0.291667,0.275253,8.868512, h,header
+bank-003-012,Figure 3. Face detection of the user.,37,0.196078,0.011364,0.002228,6e-05,0.704248,0.285985,17.254912, h,body
+bank-003-013,"Figure 3 shows the face detection of the user. The facedetection of the user is done in the four directions, left,right, forward, and reverse. The left turn profile of the useris detected which is shown in the figure 3. The viola /jones face detection method is applied for the left turn ofthe user's head.",306,0.382353,0.079545,0.030414,9.9e-05,0.704248,0.344066,4.806721, h,header
+bank-003-014,"FACE DETECTION METHODFor detection of user's face, we use the viola / jonesface detector method. This is a widely used method for thereal time object detection. In this method, the training isslow but the detection is very fast.",228,0.380719,0.07197,0.0274,0.00012,0.291667,0.344066,5.289991, h,header
+bank-003-015,"Before applying the viola / jones face detectionmethod, first we take the video of the user using web cam.From the input video, the user's images are grabbed. Thesegrabbed images then processes using the viola / jones facedetection method.",239,0.380719,0.066919,0.025477,0.000107,0.291667,0.414773,5.689236, h,header
+bank-003-016,"The face detection is done in the four directions. Thesedirections are the left turn, right turn, forward, and reverse.When the user wants to turn the left, the face detection isdone for left turn image of the user.",215,0.382353,0.055556,0.021242,9.9e-05,0.292484,0.478535,6.882349, h,header
+bank-003-017,"V. OBSTACLE DETECTON TECHNIQUEThe proposed system is mainly adapted for the peoplewho are suffering with different disabilities. For thosepeoples, in certain conditions, problems could be occurredwhile handling the devices, during certain conditions. Thesystem includes the obstacle detection technique. Thesystem is responsible for the detection of obstacles whileperforming the proposed system. The subsystem consistsof an ultrasonic sensor. The sensor emits the sound waves.The frequency of the sound waves is well above theperceivable frequency range of the human ears. The soundwaves which emits from the sensor, when strike an object,it gets reflected. They are received by the sensor. In oursystem, a limit of 40 cm was set. If any obstacle comescloser than this limit, a buzzer activates. In this way theuser is warned.",827,0.383987,0.224747,0.0863,0.000104,0.703431,0.508838,1.708526, h,header
+bank-003-018,IV.,3,0.017974,0.010101,0.000182,6.1e-05,0.206699,0.521465,1.779426, h,body
+bank-003-019,EXPERIMENTAL RESULT,19,0.156863,0.010101,0.001584,8.3e-05,0.315359,0.522727,15.529427, h,body
+bank-003-020,Editor-F Module Moduleim,24,0.055556,0.00505,0.000281,1.2e-05,0.287582,0.551768,11.000097, h,caption
+bank-003-021,Toolbus Dubtop Window Help,26,0.065359,0.003788,0.000248,1e-05,0.184641,0.556187,17.254803, h,caption
+bank-003-022,Figure 2,8,0.013072,0.003788,5e-05,6e-06,0.287582,0.561237,3.45099, h,caption
+bank-003-023,ile Edit Viewer Tools Desktop Window Help,41,0.094771,0.00505,0.000479,1.2e-05,0.199346,0.566919,18.764873, h,caption
+bank-003-024,Catured Image,13,0.02451,0.00505,0.000124,1e-05,0.286765,0.57702,4.852961, h,caption
+bank-003-025,set vide,8,0.026144,0.003788,9.9e-05,1.2e-05,0.132353,0.58649,6.902014, h,caption
+bank-003-026,pevs via,8,0.022876,0.006313,0.000144,1.8e-05,0.132353,0.59154,3.623521, h,body
+bank-003-027,Gew,3,0.026144,0.002525,6.6e-05,2.2e-05,0.132353,0.597222,10.352748, h,caption
+bank-003-028,houtShowtitle,13,0.014706,0.008838,0.00013,1e-05,0.136438,0.638258,1.663856, h,body
+bank-003-029,deletevia,9,0.021242,0.003788,8e-05,9e-06,0.129902,0.652146,5.607813, h,caption
+bank-003-030,TE,2,0.00817,0.00505,4.1e-05,2.1e-05,0.10866,0.691919,1.617662, h,caption
+bank-003-031,hop,3,0.009804,0.00505,5e-05,1.7e-05,0.156863,0.691919,1.941193, h,caption
+bank-003-032,Figure 2. Grabbed Image of the user.,36,0.20098,0.011364,0.002284,6.3e-05,0.291667,0.724116,17.686285, h,body
+bank-003-033,"Figure 2 shows the grabbed image of the user. First wetake the input video of the user. From this input video, theuser's input images are grabbed. These grabbed inputimages are used for the further processes.",208,0.380719,0.056818,0.021632,0.000104,0.291667,0.770833,6.700652, h,header
+bank-003-034,"In further process, the viola / jones face detectormethod is used. The above grabbed images are in fourdirections of the user. The four directions are turn left ofthe user's head, right turn, forward, and reverse direction.",223,0.383987,0.056818,0.021817,9.8e-05,0.291667,0.825126,6.75817, h,header
+bank-003-035,The viola / jones face detector method is applied forthese four directional images of the user.,95,0.382353,0.026515,0.010138,0.000107,0.292484,0.86553,14.420169, h,body
+bank-003-036,VI. CONCLUSIONSWe have presented the head gesture recognition systemusing gesture cam. The gesture cam is the FPGA basedsmart camera. This FPGA based smart camera canrecognize the head gestures. The output of the gesture camis then interfaced with the microcontroller for furthertaking action to the wheelchair for turning as per the needof the user or generating the motion control commands.The intelligent system for head gesture recognition usinggesture cam is completed when it is implemented on thewheelchair.,514,0.382353,0.155303,0.059381,0.000116,0.704248,0.71149,2.46198, h,header
+bank-003-037,"The next work is to design the Gesture Camera for thefurther processing. The face detection in four differentdirections is to be done. For this face detection, the webcam is used. After designing the gesture cam, the system isan intelligent system to recognize the human head gesturefor the disabled peoples.",308,0.382353,0.083333,0.031863,0.000103,0.704248,0.833333,4.588237, h,header
+bank-003-038,537,3,0.01634,0.007576,0.000124,4.1e-05,0.498366,0.938131,2.156868, h,body
+bank-004-000,REFERENCES,10,0.083333,0.011364,0.000947,9.5e-05,0.291667,0.095328,7.333335, h,body
+bank-004-001,"[1] P. Jia, H. Hu, T. Lu and K. Yuan, Ã¢â‚¬Å“Head Gesture Recognition For",67,0.380719,0.010101,0.003846,5.7e-05,0.291667,0.114899,37.691153, h,body
+bank-004-002,"Hands Free Control of an Intelligent Wheelchair,Ã¢â‚¬Â an International",66,0.351307,0.011364,0.003992,6e-05,0.306373,0.125631,30.915048, h,body
+bank-004-003,"Journal 34/1 (2007) 60 - 68.[2] H. Kim, S. H. Lee, M. K. Sohn and D. J. Kim, Ã¢â‚¬Å“Illumination",90,0.382353,0.026515,0.010138,0.000113,0.29085,0.143308,14.420174, h,body
+bank-004-004,"Invariant Head Pose Estimation Using Random Forests Classifierand Binary Pattern Run Length MatrixÃ¢â‚¬Â, Human CentricComputing and Information Sciences, a Springer Open Journal,",174,0.352941,0.034091,0.012032,6.9e-05,0.305556,0.174874,10.35294, h,body
+bank-004-005,"2014.[3] Manju Davy and R. Deepa, Ã¢â‚¬Å“Hardware Implementation Based on",67,0.380719,0.027778,0.010576,0.000158,0.291667,0.205808,13.705886, h,body
+bank-004-006,"Head Movement Using Accelerometer Sensor,Ã¢â‚¬Â InternationalJournal of Applied Sciences and Engineering Research, Volume -",118,0.351307,0.022727,0.007984,6.8e-05,0.306373,0.228535,15.457504, h,body
+bank-004-007,"3, Issue - 1, 2014.[4] Ericka Janet Rechy Ramirez and Huosheng Hu, Ã¢â‚¬Å“A Flexible Bio",82,0.380719,0.027778,0.010576,0.000129,0.291667,0.252525,13.705881, h,body
+bank-004-008,"Signal Based HMI For Hands Free Control of an Electric PoweredWheelchair,Ã¢â‚¬Â An International Journal of Artificial Life Research,",128,0.351307,0.022727,0.007984,6.2e-05,0.306373,0.276515,15.457511, h,body
+bank-004-009,"4 (1), 59 - 76, January - March 2014.[5] Chanlit Noiruxsar and Pranchalee Samanpiboon, Ã¢â‚¬Å“Face Orientation",104,0.380719,0.02904,0.011056,0.000106,0.291667,0.301136,13.10998, h,body
+bank-004-010,"Recognition For Electric Wheelchair Control,Ã¢â‚¬Â Journal ofAutomation and Control Engineering, Volume 2, No. 4,",108,0.351307,0.02399,0.008428,7.8e-05,0.306373,0.326389,14.643974, h,body
+bank-004-011,"December - 2014.[6] Shraddha V. Manikpure, Rushikesh T. Bankar and Suresh S.",76,0.380719,0.025253,0.009614,0.000127,0.291667,0.349747,15.076473, h,body
+bank-004-012,"Salankar, Ã¢â‚¬Å“A Review on Robo Chair Assistance Using HeadGesture RecognitionÃ¢â‚¬Â, International Journal of Innovative Scienceand Modern Engineering (IJISME), ISSN: 2319 - 6386, Volume -",180,0.351307,0.032828,0.011533,6.4e-05,0.306373,0.380051,10.701358, h,body
+bank-004-013,"3, Issue - 2, January - 2015.[7] Pei Fia and Huosheng H. Hu, Ã¢â‚¬Å“Head Gesture Recognition For",90,0.380719,0.027778,0.010576,0.000118,0.291667,0.410354,13.705876, h,body
+bank-004-014,"Hands Free Control of an Intelligent Wheelchair,Ã¢â‚¬Â Research",58,0.351307,0.011364,0.003992,6.9e-05,0.306373,0.428662,30.915048, h,body
+bank-004-015,"Article, www.emeraldinsight.com/0143 - 991X.htm..[8] Parimita Saika and Karen Das, Ã¢â‚¬Å“Head Gesture Recognition Using",114,0.380719,0.026515,0.010095,8.9e-05,0.291667,0.447601,14.358544, h,body
+bank-004-016,"Optical Flow Based Classification with Reinforcement of GMMBased Background SubtractionÃ¢â‚¬Â, International Journal ofComputer Applications (0975 - 8887), Volume - 65, No. 25, March",177,0.352941,0.034091,0.012032,6.8e-05,0.305556,0.476641,10.352943, h,body
+bank-004-017,"- 2013.[9] Preeti Srivastava, Dr. S. Chatterjee and Ritula Thakur, Ã¢â‚¬Å“A Novel",75,0.380719,0.025253,0.009614,0.000128,0.291667,0.506313,15.076455, h,body
+bank-004-018,"Head Gesture Recognition Based Control For IntelligentWheelchairs, International Journal of Research in Electrical &Electronics Engineering, Volume - 2, Issue - 2, April - June, 2014,",183,0.351307,0.035354,0.01242,6.8e-05,0.306373,0.537879,9.936967, h,header
+bank-004-019,"PP. 10 - 17.[10] Rushikesh T. Bankar and Suresh S. Salankar, Ã¢â‚¬Å“Implementation of",79,0.382353,0.026515,0.010138,0.000128,0.292484,0.568813,14.420196, h,body
+bank-004-020,"an Intelligent Head Gesture Recognition SystemÃ¢â‚¬Â, InternationalJournal of Innovative Science and Modern Engineering (IJISME),",124,0.351307,0.022727,0.007984,6.4e-05,0.306373,0.590909,15.45749, h,body
+bank-004-021,"ISSN: 2319-6386, Volume - 3, Issue - 2, January - 2015.[11] Yuan Luo Zhang Fang Hu and Lin Li Yizhang, Ã¢â‚¬Å“A Novel Head",116,0.380719,0.025253,0.009614,8.3e-05,0.291667,0.614899,15.076473, h,body
+bank-004-022,"Gesture Recognition Means in the Human Wheelchair InteractionÃ¢â‚¬Â,International Conference on Computer Application and SystemModelling (ICCASM - 2010).",148,0.352941,0.034091,0.012032,8.1e-05,0.305556,0.644571,10.35295, h,body
+bank-004-023,538,3,0.01634,0.007576,0.000124,4.1e-05,0.498366,0.938131,2.156868, h,body
+crai-001-000,"AbstractÃ¢â‚¬â€Loss of mobility can occur for a variety of rea-sons,such as spinal cord injury or motor neurone disease. Theonset of these conditions often brings with it an associated lossof personal independence, which is primarily due to the factthat the sufferer is no longer able to control their mobility.This project aims to address this problem through the creationof a head movement based wheelchair control system. Using apersonal digital assistant (PDA) artificial intelligence techniqueson an embedded LINUX operating system, a wireless headmovement wheelchair control system has been designed andimplemented. This system provides relief for sufferers of con-ditions which inhibit mobility through a method of wheelchaircontrol which offers enhanced ease of use, attractiveness andindependence.Index TermsÃ¢â‚¬â€Head movement, personal digital assistant(PDA), power wheelchair control, neural network, embeddedsystem, wireless, bluetooth, linux.",945,0.400327,0.212121,0.084918,9e-05,0.288399,0.407828,1.887255, h,header
+crai-001-001,"I. INTRODUCTIONIn order to overcome the inherent difficulties associatedwith the use of joystick control by a person with a disabilitylimiting hand or arm movement, several new control tech-niques have been developed. The traditional solution is touse a joystick which can be operated by the userÃ¢â‚¬â„¢s chin orelbow.These difficulties have resulted in the development ofseveral novel hands-free control techniques. Some of theseinclude eye gaze control [1], [2], eyewink control [3] andvoice control [4]Ã¢â‚¬â€œ[6].The form of hands-free control that has been focused onin this project and our work generally is head movementbased control [7]Ã¢â‚¬â€œ[9]. Head movement is a natural wayof expressing direction, and as a control technique is bothintuitive and simple. Head movement is diverse enough toreplace the joystick as a control device, and has the advantageof being usable by sufferers of high level spinal damage.The first head movement system we developed was atelemetric head movement device for the control of powerwheelchairs [7]. This system has many benefits for thewheelchair operator, and it uses a notebook computer asthe control device. This is problematic because the notebookneeds to be visible to the wheelchair operator in order forthem to successfully interact with the control system. Thisrequirement places the notebook directly in the operatorÃ¢â‚¬â„¢s",1352,0.400327,0.397727,0.159221,0.000118,0.288399,0.731692,1.006536, h,other
+crai-001-002,"Proceedings of the 2005 IEEEEngineering in Medicine and Biology 27th Annual ConferenceShanghai, China, September 1-4, 2005",122,0.380719,0.032828,0.012498,0.000102,0.278595,0.049242,11.597285, h,body
+crai-001-003,0-7803-8740-6/05/$20.00 Ã‚Â©2005 IEEE.,35,0.28268,0.011364,0.003212,9.2e-05,0.229575,0.950126,24.875677, h,body
+crai-001-004,Wireless Real-Time Head Movement SystemUsing a Personal Digital Assistant (PDA) forControl of a Power Wheelchair,112,0.727124,0.099747,0.072529,0.000648,0.499183,0.140783,7.28965, h,header
+crai-001-005,"D.A. Craig, H.T. NguyenKey University Research Centre for Health Technologies, Faculty of Engineering,University of Technology, Sydney, NSW, AUSTRALIA",150,0.547386,0.042929,0.023499,0.000157,0.499183,0.239899,12.75087, h,header
+crai-001-006,772,3,0.026144,0.011364,0.000297,9.9e-05,0.5,0.945076,2.300658, h,body
+crai-001-007,"field of vision, which is visually distracting and potentiallyhazardous.In 2004, a real-time head movement control system usinga DIMM-PC based embedded system running linux for thecontrol of a power wheelchair was developed [9]. This systemhas several advantages over systems developed previously.The primary advantages over previous work were the freeingup of the space directly in front of the user which provides abetter field of vision, and creating a more natural, integratedenvironment for the user of the wheelchair.This paper will describe the development of a real-timehead movement control system using a PDA as the primarycontrol device. It will also describe a technique devised forthis project to improve previous head movement classificationrates in the design of the neural network controller.The PDA is an obvious candidate for the controller becauseof its compact size and its integrated peripheral devices. Outof the box, the PDA enables a wireless connection to the headmovement sensor, and also provides an inbuilt display. Thepositive aspects of this system are the comfort of the operatorand a reduction in the area obstructed in the operatorÃ¢â‚¬â„¢s fieldof vision.II. METHODSA. High Level System DesignThe overall system block diagram of this design is shownin figure 1. The system contains three main modules: theinput, data processing and output. The system input is ahead movement sensor, which is connected via bluetoothto a PDA. The PDA runs a neural network-based digitalcontroller, which monitors the input in order to recognisehead movements. The PDA controls the power wheelchairby controlling a quad channel DAC via the serial port.",1660,0.400327,0.489899,0.19612,0.000118,0.709967,0.545455,0.817162, v,other
+crai-001-008,Fig. 1. Overall System Block Diagram,36,0.214052,0.008838,0.001892,5.3e-05,0.709967,0.910985,24.218641, h,body
+crai-002-000,"B. Wireless Real-Time Head Movement SystemAn ADXL-202EB232 is used as the head movementtransducer. It contains an ADXL-202JQC dual axis tilt sensorand an 16C63 microchip microcontroller. The 16C63 micro-controller is used to interface between the RS-232 interfaceprovided on the board and another RS-232 based device.Connected to the RS-232 interface is a connectBlue cB-OEMSPA13i-01 RS-232 to bluetooth converter. This deviceallows other bluetooth enabled devices to connect to thetransducer at distances up to 10m in a wireless capacity,using the RS-232 protocol encapsulated over bluetooth. TheRS-232 protocol uses a baud rate of 9600 bps and 8N1 parity.The sensor is sampled at a sample rate of 10Hz, by sendingthe ASCII character Ã¢â‚¬ËœGÃ¢â‚¬â„¢ to the sensor at the sample time.The entire system is contained within a custom designedbaseball cap with a small pouch in the top of the cap for thesensor. The sensor does not require any external connections,as bluetooth is used as the communications medium. Thesensor detects head movement in the form of tilt on twoaxes, forward / back and left / right. This is demonstrated infigure 2. An adaptive calibration system ensures that if theÃ¢â‚¬Ëœat-restÃ¢â‚¬â„¢ position of the subject significantly changes, thenthe sensor is re-calibrated.",1269,0.401961,0.35101,0.141092,0.000111,0.289216,0.268939,1.145154, h,other
+crai-002-001,"C. Neural Network Controller DesignThe neural network design employs a novel technique inorder to successfully recognise all of the commands with highaccuracy. Previous attempts at training a neural network onhead movement commands for wheelchair control have metwith difficulty in training all commands to a high degreeof accuracy. The network had particular trouble recognisingthe stop command (a head shaking movement). In orderto combat these difficulties, a neural network architecturewhich uses parallel neural networks has been developed. Thisarchitecture contains two neural networks which are running",609,0.400327,0.169192,0.067732,0.000111,0.288399,0.84596,2.366109, h,header
+crai-002-002,tionraeleccA,12,0.003268,0.032828,0.000107,9e-06,0.104575,0.517677,0.099547, v,body
+crai-002-003,tionraeleccA,12,0.003268,0.032828,0.000107,9e-06,0.104575,0.641414,0.099547, v,body
+crai-002-004,0.6,3,0.009804,0.005051,5e-05,1.7e-05,0.117647,0.473485,1.941178, h,caption
+crai-002-005,0.4,3,0.009804,0.005051,5e-05,1.7e-05,0.117647,0.49495,1.941174, h,caption
+crai-002-006,0.2,3,0.009804,0.005051,5e-05,1.7e-05,0.117647,0.517677,1.941163, h,caption
+crai-002-007,0,1,0.003268,0.00505,1.7e-05,1.7e-05,0.120915,0.540404,0.647059, v,caption
+crai-002-008,Ã¢Ë†â€™0.2,4,0.014706,0.00505,7.4e-05,1.9e-05,0.115196,0.561869,2.911779, h,caption
+crai-002-009,0.6,3,0.009804,0.00505,5e-05,1.7e-05,0.117647,0.597222,1.941178, h,caption
+crai-002-010,0.4,3,0.009804,0.00505,5e-05,1.7e-05,0.117647,0.618687,1.941193, h,caption
+crai-002-011,0.2,3,0.009804,0.005051,5e-05,1.7e-05,0.117647,0.641414,1.941178, h,caption
+crai-002-012,0,1,0.003268,0.005051,1.7e-05,1.7e-05,0.120915,0.664141,0.647053, v,caption
+crai-002-013,Ã¢Ë†â€™0.2,4,0.014706,0.005051,7.4e-05,1.9e-05,0.115196,0.685606,2.91175, h,caption
+crai-002-014,0 0.5 1 1.5 2 2.5 3,19,0.155229,0.00505,0.000784,4.1e-05,0.200163,0.566919,30.735573, h,caption
+crai-002-015,0 0.5 1 1.5 2 2.5 3,19,0.155229,0.00505,0.000784,4.1e-05,0.200163,0.690657,30.735512, h,caption
+crai-002-016,Fig. 2. Sensor outputs in response to head nods,47,0.263072,0.008838,0.002325,4.9e-05,0.288399,0.720328,29.764515, h,body
+crai-002-017,Forward Nod,11,0.04085,0.005051,0.000206,1.9e-05,0.200163,0.467172,8.088227, h,caption
+crai-002-018,Right Nod,9,0.031046,0.00505,0.000157,1.7e-05,0.200163,0.590909,6.147089, h,caption
+crai-002-019,Time (s),8,0.026144,0.00505,0.000132,1.7e-05,0.199346,0.574495,5.176476, h,caption
+crai-002-020,Time (s),8,0.026144,0.00505,0.000132,1.7e-05,0.199346,0.698232,5.176517, h,caption
+crai-002-021,YX,2,0.003268,0.012626,4.1e-05,2.1e-05,0.26634,0.483586,0.258823, v,body
+crai-002-022,YX,2,0.003268,0.011364,3.7e-05,1.9e-05,0.26634,0.606692,0.287582, v,body
+crai-002-023,tionraeleccA,12,0.003268,0.032828,0.000107,9e-06,0.303922,0.517677,0.099547, v,body
+crai-002-024,tionraeleccA,12,0.003268,0.032828,0.000107,9e-06,0.303922,0.641414,0.099547, v,body
+crai-002-025,0.1,3,0.00817,0.005051,4.1e-05,1.4e-05,0.316176,0.484848,1.617649, h,caption
+crai-002-026,0,1,0.003268,0.005051,1.7e-05,1.7e-05,0.318627,0.49495,0.647059, v,caption
+crai-002-027,Ã¢Ë†â€™0.1,4,0.013072,0.00505,6.6e-05,1.7e-05,0.313725,0.506313,2.588259, h,caption
+crai-002-028,Ã¢Ë†â€™0.2,4,0.013072,0.005051,6.6e-05,1.7e-05,0.313725,0.517677,2.588218, h,caption
+crai-002-029,Ã¢Ë†â€™0.3,4,0.013072,0.005051,6.6e-05,1.7e-05,0.313725,0.52904,2.588203, h,caption
+crai-002-030,Ã¢Ë†â€™0.4,4,0.013072,0.00505,6.6e-05,1.7e-05,0.313725,0.540404,2.588239, h,caption
+crai-002-031,Ã¢Ë†â€™0.5,4,0.013072,0.00505,6.6e-05,1.7e-05,0.313725,0.551768,2.588259, h,caption
+crai-002-032,0.1,3,0.00817,0.005051,4.1e-05,1.4e-05,0.316176,0.608586,1.617652, h,caption
+crai-002-033,0,1,0.003268,0.00505,1.7e-05,1.7e-05,0.318627,0.618687,0.647066, v,caption
+crai-002-034,Ã¢Ë†â€™0.1,4,0.013072,0.00505,6.6e-05,1.7e-05,0.313725,0.630051,2.588249, h,caption
+crai-002-035,Ã¢Ë†â€™0.2,4,0.013072,0.005051,6.6e-05,1.7e-05,0.313725,0.641414,2.588239, h,caption
+crai-002-036,Ã¢Ë†â€™0.3,4,0.013072,0.00505,6.6e-05,1.7e-05,0.313725,0.652778,2.588239, h,caption
+crai-002-037,Ã¢Ë†â€™0.4,4,0.013072,0.005051,6.6e-05,1.7e-05,0.313725,0.664141,2.588213, h,caption
+crai-002-038,Ã¢Ë†â€™0.5,4,0.013072,0.00505,6.6e-05,1.7e-05,0.313725,0.675505,2.588239, h,caption
+crai-002-039,0 0.5 1 1.5 2 2.5 3,19,0.155229,0.00505,0.000784,4.1e-05,0.39951,0.566919,30.735569, h,caption
+crai-002-040,0 0.5 1 1.5 2 2.5 3,19,0.155229,0.00505,0.000784,4.1e-05,0.39951,0.690657,30.735508, h,caption
+crai-002-041,Backward Nod,12,0.047386,0.005051,0.000239,2e-05,0.39951,0.467172,9.38234, h,caption
+crai-002-042,Time (s),8,0.026144,0.00505,0.000132,1.7e-05,0.398693,0.574495,5.176474, h,caption
+crai-002-043,Left Nod,8,0.026144,0.00505,0.000132,1.7e-05,0.398693,0.590909,5.176494, h,caption
+crai-002-044,Time (s),8,0.026144,0.00505,0.000132,1.7e-05,0.398693,0.698232,5.176515, h,caption
+crai-002-045,YX,2,0.003268,0.015152,5e-05,2.5e-05,0.437908,0.549242,0.215686, v,body
+crai-002-046,YX,2,0.003268,0.015151,5e-05,2.5e-05,0.437908,0.661616,0.215686, v,body
+crai-002-047,"in parallel, which are fed the same input data but classify thedata differently.The advantage of using two separate neural networks isthat the training of each data set is completely independent.This allows each network to recognise more strongly thetype of data that it has been trained for. In this scheme, onenetwork classifies directional commands to the wheelchair(left, right, forward and back) and the other network classifiesthe stop command only.The structure of each of the two neural networks is verysimilar, being a multilayered neural network with a singlehidden layer. The input layer of both networks consists of83 neurons in total. These 83 neurons are divided up into41 inputs along the forward / back axis, 41 inputs along theleft / right axis, and one augmentation input: -1. The hiddenlayer of both neural networks contains 5 neurons, as well asone fixed input augmentation neuron. The networks differ instructure in their output layers; the directional classificationnetwork has four output neurons, one for each command,whilst the stop classification network has only one outputneuron to correspond to its single output.D. Personal Digital AssistantOne of the goals of this project was to achieve all of therequired processing and control on a simple PDA. The PDAused for this project was a Compaq iPaq H3870. The iPaqH3870 contains number of features, including 64MB of stor-age, a 320x240 pixel display, bluetooth wireless support anda 200MHz StrongARM CPU. The main advantage of using aPDA over other embedded solutions such as the DIMM-PC[9] is that it is a fully assembled and working system. Nohardware design is necessary, because one unit provides bothI/O (in the forms of RS-232 and bluetooth) and user feedback(the display). This solution compares favourably with otherembedded solutions where such features must be bought asmodules and added to the base product.The iPAQ is connected to the wireless acceleration sensorusing its inbuilt bluetooth hardware. This hardware has a hardtransfer rate limit of 230.4 Kbps, but this is not an obstacleas the sensor itself does not communicate at more than 9600bps. The bluetooth connection allows wireless operation ofthe wheelchair from distances approaching 10m. The iPAQcontrols the wheelchair by using a special interface boardwhich was custom built for this project. The interface boarduses an 8-bit microcontroller to translate commands givenover RS-232 into analogue voltages by using a quad channel,serial DAC.In order to provide greater flexibility and control overthe software environment, a minimal version of FamiliarLinux 0.7 has been chosen as the operating system, replac-ing WindowsCE on the iPAQ. The minimal version thatwas installed was further customised with a modified bootprocess, and some cross compiled libraries not availablewith the distribution. Using Linux as the operating systemon the iPAQ allowed us to take advantage of the manysoftware development tools which are available for Linux.773",2996,0.423203,0.857323,0.362821,0.000121,0.698529,0.522096,0.493633, v,other
+crai-003-000,"Development for the project was done on a Gentoo Linuxx86 desktop machine; because the development and targetarchitectures were different, the control software had tobe cross compiled on the x86 for an ARM architecture.The control software was written in C++ and utilised theQT/Embedded graphical toolkit, a cross-platform tool set.",332,0.401961,0.087121,0.035019,0.000105,0.289216,0.136995,4.613811, h,header
+crai-003-001,"III. RESULTSA. Neural NetworkThe success of this project rests largely on the abilityof each of the neural networks presented above to be suc-cessfully trained to recognise the various head movementcommands. Training of these two networks was undertakenusing the delta learning rule with standard back propagationand a fixed learning constant. In this technique the systemoutput is compared with the desired output, and the weightsare updated in such a way as to bring the actual output closerto the one desired. To carry out the training, 400 sampleswere taken from 10 different volunteers. These samples weredivided up into three sets: the training, validation and testsets. The training set was allocated 200 samples, whilst thevalidation and test sets were each allocated 100 samples.The most common information used to judge how well anetwork has been trained are cycle error plots. These plotsshow the sum of the errors per training cycle, and in asystem which has been properly trained, should approachzero. Figures 3 and 4 show the cycle error plots of thevalidation data sets. This plot allows us to see how well thenetwork responds to data upon which it has not been directlytrained.",1193,0.400327,0.357323,0.143046,0.00012,0.288399,0.375631,1.120349, h,other
+crai-003-002,"Figure 3 shows the cycle error of the validation data setusing the neural network trained to recognise directionalcommands. This figure shows a smooth curve, which hasno sharp changes, indicating that five hidden neurons aresufficient. The cycle error is also fairly close to convergingto zero, although it does exhibit some signs of over-trainingafter about the 250th cycle. The final weights for this network",410,0.400327,0.102273,0.040943,0.0001,0.288399,0.879419,3.914305, h,header
+crai-003-003,rrroE,5,0.003268,0.016414,5.4e-05,1.1e-05,0.116013,0.672349,0.199094, v,body
+crai-003-004,30,2,0.00817,0.00505,4.1e-05,2.1e-05,0.123366,0.580808,1.61766, h,caption
+crai-003-005,25,2,0.00817,0.00505,4.1e-05,2.1e-05,0.123366,0.612374,1.617651, h,caption
+crai-003-006,20,2,0.00817,0.005051,4.1e-05,2.1e-05,0.123366,0.642677,1.617638, h,caption
+crai-003-007,15,2,0.00817,0.00505,4.1e-05,2.1e-05,0.123366,0.674242,1.617657, h,caption
+crai-003-008,10,2,0.00817,0.005051,4.1e-05,2.1e-05,0.123366,0.704545,1.617651, h,caption
+crai-003-009,Fig. 3. Validation Cycle Error of Directional Neural Network,60,0.334967,0.008838,0.002961,4.9e-05,0.288399,0.802399,37.899089, h,body
+crai-003-010,5,1,0.003268,0.005051,1.7e-05,1.7e-05,0.125817,0.734848,0.647061, v,caption
+crai-003-011,0,1,0.003268,0.005051,1.7e-05,1.7e-05,0.125817,0.766414,0.647061, v,caption
+crai-003-012,0 50 100 150 200 250 300 350 400 450 500,40,0.341503,0.00505,0.001725,4.3e-05,0.299837,0.771465,67.617715, h,caption
+crai-003-013,Multi Layer Verification Set Cycle Error,40,0.138889,0.00505,0.000701,1.8e-05,0.298203,0.574495,27.500026, h,caption
+crai-003-014,Cycle,5,0.019608,0.005051,9.9e-05,2e-05,0.297386,0.77904,3.882304, h,caption
+crai-003-015,"B. Personal Digital AssistantAnother key issue which this paper aims to address iswhether current generation PDAs have enough computingpower to allow them to be used as control devices, andmore specifically, whether it is realistic to attempt to usea numerically demanding technique such as artificial neuralnetworks on a PDA. Embarking on this project it wasunknown whether the ARM processor used on a PDA has774",413,0.423203,0.143939,0.060916,0.000147,0.698529,0.878788,2.940145, h,header
+crai-003-016,"were taken from the 250th cycle, before any over trainingeffects were noticeable.Figure 4 shows the cycle error of the validation data setusing the neural network trained to recognise stop commands.This figure also shows a smooth curve, indicating that fivehidden neurons are sufficient. The cycle error converges tozero fairly quickly, and unlike the direction network, doesnot appear to be over trained at all. The final weights for thestop neural network were taken as the final weights after the500th cycle.At the completion of the network training on-line systemtesting was carried out. The control system was able toaccurately classify 97.14% of head movement commandsusing the control system described, and was able to drivethe wheelchair accordingly. Table I shows how the resultsare broken down on a command level.",823,0.400327,0.238636,0.095533,0.000116,0.709967,0.477904,1.67756, h,header
+crai-003-017,rrroE,5,0.003268,0.016414,5.4e-05,1.1e-05,0.537582,0.191288,0.199094, v,body
+crai-003-018,35,2,0.00817,0.005051,4.1e-05,2.1e-05,0.544935,0.099747,1.617646, h,caption
+crai-003-019,30,2,0.00817,0.005051,4.1e-05,2.1e-05,0.544935,0.126263,1.617645, h,caption
+crai-003-020,25,2,0.00817,0.005051,4.1e-05,2.1e-05,0.544935,0.152778,1.617645, h,caption
+crai-003-021,20,2,0.00817,0.005051,4.1e-05,2.1e-05,0.544935,0.179293,1.617645, h,caption
+crai-003-022,15,2,0.00817,0.005051,4.1e-05,2.1e-05,0.544935,0.205808,1.617648, h,caption
+crai-003-023,10,2,0.00817,0.005051,4.1e-05,2.1e-05,0.544935,0.232323,1.617645, h,caption
+crai-003-024,5,1,0.003268,0.00505,1.7e-05,1.7e-05,0.547386,0.258838,0.647067, v,caption
+crai-003-025,0,1,0.003268,0.005051,1.7e-05,1.7e-05,0.547386,0.285354,0.647063, v,caption
+crai-003-026,0 50 100 150 200 250 300 350 400 450 500,40,0.341503,0.005051,0.001725,4.3e-05,0.721405,0.290404,67.617441, h,caption
+crai-003-027,Fig. 4. Validation Cycle Error of Stop Neural Network,53,0.302288,0.008838,0.002672,5e-05,0.709967,0.320076,34.201659, h,body
+crai-003-028,Command Total Correctly IdentifiedStop 16 15Forwards 14 13Backwards 14 14Left 13 13Right 13 13Totals 70 68Success Rate 97.14%,125,0.235294,0.113636,0.026738,0.000214,0.70915,0.710859,2.070588, h,header
+crai-003-029,TABLE IRESULTS OF ONLINE TESTING,32,0.168301,0.02399,0.004038,0.000126,0.709967,0.624369,7.015477, h,body
+crai-003-030,Multi Layer Verification Set Cycle Error,40,0.138889,0.005051,0.000701,1.8e-05,0.719771,0.093434,27.499975, h,caption
+crai-003-031,Cycle,5,0.019608,0.005051,9.9e-05,2e-05,0.718954,0.29798,3.882352, h,caption
+crai-004-000,"the raw computing power to allow the successful real timeuse of two neural networks operating concurrently.In order to make a judgement about whether the CPU ispowerful enough to run two neural networks in real time andstill meet all of its scheduling demands, two neural networksof the topologies described above were run concurrently onthe PDA. These networks were run for five minutes in total,and once a second the total CPU usage was measured usinga terminal based system monitor. Figure 5 shows the totalCPU usage over those five minutes. In table II, some of themain parameters of figure 5 are summarised.",612,0.401961,0.162879,0.065471,0.000107,0.289216,0.174874,2.467852, h,header
+crai-004-001,"IV. CONCLUSIONThis project has used a Compaq iPAQ H3870 for thewireless, neural network based control of a power wheelchairusing head movement.",143,0.400327,0.060606,0.024262,0.00017,0.288399,0.729798,6.605394, h,header
+crai-004-002,)(%sedu15,9,0.011438,0.026515,0.000303,3.4e-05,0.120098,0.380682,0.431373, v,body
+crai-004-003,UPC,3,0.003268,0.012626,4.1e-05,1.4e-05,0.116013,0.401515,0.258823, v,body
+crai-004-004,30,2,0.006536,0.005051,3.3e-05,1.7e-05,0.122549,0.286616,1.294115, h,caption
+crai-004-005,25,2,0.006536,0.005051,3.3e-05,1.7e-05,0.122549,0.320707,1.294115, h,caption
+crai-004-006,20,2,0.006536,0.005051,3.3e-05,1.7e-05,0.122549,0.354798,1.294118, h,caption
+crai-004-007,10,2,0.006536,0.005051,3.3e-05,1.7e-05,0.122549,0.42298,1.294118, h,caption
+crai-004-008,5,1,0.003268,0.00505,1.7e-05,1.7e-05,0.124183,0.457071,0.647063, v,caption
+crai-004-009,0,1,0.003268,0.00505,1.7e-05,1.7e-05,0.124183,0.491162,0.647063, v,caption
+crai-004-010,0 50 100 150 200 250 300,24,0.343137,0.005051,0.001733,7.2e-05,0.29902,0.496212,67.940974, h,caption
+crai-004-011,Fig. 5. CPU Load of iPAQ with Parallel Neural Networks,54,0.318627,0.008838,0.002816,5.2e-05,0.288399,0.525884,36.050558, h,body
+crai-004-012,CPU Graph Parameter Percentage ValueMaximum 25.2%Minimum 18.8%Average 20.2%Overhead 1-2%,88,0.228758,0.068182,0.015597,0.000177,0.289216,0.636364,3.35512, h,header
+crai-004-013,TABLE IICPU USAGE STATISTICS,28,0.135621,0.02399,0.003254,0.000116,0.288399,0.572601,5.653241, h,body
+crai-004-014,Neural Network CPU Usage,24,0.091503,0.00505,0.000462,1.9e-05,0.297386,0.280303,18.117771, h,caption
+crai-004-015,Time (s),8,0.026144,0.00505,0.000132,1.7e-05,0.297386,0.502525,5.176476, h,caption
+crai-004-016,775,3,0.026144,0.011364,0.000297,9.9e-05,0.5,0.945076,2.300658, h,body
+crai-004-017,"This has been achieved through the development of anentire system to capture, sample, and train neural networks.Previous results have been enhanced through the use of asecond neural network running in parallel in order to increasethe classification rate of all commands. The project has shownthat PDAs are a viable alternative to designing a customembedded system, and has shown that it is possible to buildan effective neural network based controller using a PDA.It has shown this through the design and testing of a fullyoperational control system.ACKNOWLEDGEMENTThis study was supported by an ARC LIEF grant(LE0454081).REFERENCES[1] C. Law, M. Leung, Y. Xu, and S. Tso, Ã¢â‚¬Å“A cap as interface for wheelchaircontrol,Ã¢â‚¬Â Intelligent Robots and System, IEEE/RSJ International Con-ference on, vol. 2, pp. 1439Ã¢â‚¬â€œ1444, 2002.[2] R. Barea, L. Boquete, M. Mazo, and E. Lopez, Ã¢â‚¬Å“System for assistedmobility using eye movements based on electrooculography,Ã¢â‚¬Â NeuralSystems and Rehabilitation Engineering, IEEE Transactions on [seealso IEEE Trans. on Rehabilitation Engineering], vol. 10, no. 4, pp.209Ã¢â‚¬â€œ218, 2002.[3] E. Crisman, A. Loomis, R. Shaw, and Z. Laszewski, Ã¢â‚¬Å“Using the eyewink control interface to control a powered wheelchair,Ã¢â‚¬Â Engineering inMedicine and Biology Society, Proceedings of the Annual InternationalConference of the IEEE, vol. 13, pp. 1821Ã¢â‚¬â€œ1822, 1991.[4] R. Simpson and S. Levine, Ã¢â‚¬Å“Voice control of a powered wheelchair,Ã¢â‚¬ÂNeural Systems and Rehabilitation Engineering, IEEE Transactions on[see also IEEE Trans. on Rehabilitation Engineering], vol. 10, no. 2,pp. 122Ã¢â‚¬â€œ125, 2002.[5] K. Komiya, K. Morita, K. Kagekawa, and K. Kurosu, Ã¢â‚¬Å“Guidance ofa wheelchair by voice,Ã¢â‚¬Â Industrial Electronics Society, IECON. 26thAnnual Conference of the IEEE, vol. 1, pp. 102Ã¢â‚¬â€œ107, 2000.[6] M. Mazo, F. J. Rodriguez, J. L. Lazaro, J. Urena, J. C.Garcia, E. Santiso, and P. A. Revenga, Ã¢â‚¬Å“Electronic control ofa wheelchair guided by voice commands,Ã¢â‚¬Â Control EngineeringPractice, vol. 3, no. 5, pp. 665Ã¢â‚¬â€œ674, 1995. [Online]. Avail-able: [7] T. Joseph and H. Nguyen, Ã¢â‚¬Å“Neural network control of wheelchairsusing telemetric head movement,Ã¢â‚¬ÂEngineering in Medicine and BiologySociety. Proceedings of the 20th Annual International Conference of theIEEE, vol. 5, pp. 2731Ã¢â‚¬â€œ2733, 1998.[8] P. Taylor and H. Nguyen, Ã¢â‚¬Å“Performance of a head-movement interfacefor wheelchair control,Ã¢â‚¬Â Engineering in Medicine and Biology Society.Proceedings of the 25th Annual International Conference of the IEEE,vol. 2, pp. 1590Ã¢â‚¬â€œ1593, 2003.[9] H. Nguyen, L. King, and G. Knight, Ã¢â‚¬Å“Real-time head movementsystem and embedded linux implementation for the control of powerwheelchairs,Ã¢â‚¬Â Engineering in Medicine and Biology Society. Proceed-ings of the 26th Annual International Conference of the IEEE, vol. 7,pp. 4892Ã¢â‚¬â€œ4895, 2004.",2774,0.400327,0.666667,0.266885,9.6e-05,0.709967,0.426768,0.60049, v,other
+Deve-001-000,ResearchGate,12,0.117647,0.012626,0.001485,0.000124,0.890523,0.046717,9.317641, h,body
+Deve-001-001,"See discussions, stats, and author profiles for this publication at: ",69,0.482026,0.008838,0.00426,6.2e-05,0.306373,0.095328,54.53784, h,body
+Deve-001-002,Development of an Infrared-Based Sensor for Finger Movement Detection,69,0.797386,0.021465,0.017116,0.000248,0.464052,0.125631,37.148783, h,body
+Deve-001-003,Article . June 2019,19,0.081699,0.007576,0.000619,3.3e-05,0.104575,0.164141,10.784324, h,body
+Deve-001-004,CITATIONS,9,0.037582,0.006313,0.000237,2.6e-05,0.082516,0.205177,5.952942, h,body
+Deve-001-005,READS,5,0.021242,0.006313,0.000134,2.7e-05,0.510621,0.205177,3.364708, h,body
+Deve-001-006,3,1,0.004902,0.006313,3.1e-05,3.1e-05,0.066176,0.217803,0.776471, v,body
+Deve-001-007,222,3,0.017974,0.008838,0.000159,5.3e-05,0.507353,0.217803,2.033619, h,body
+Deve-001-008,2 authors:,10,0.044118,0.007576,0.000334,3.3e-05,0.087418,0.25,5.823527, h,body
+Deve-001-009,Agbotiname Lucky ImoizeUniversity of Lagos,42,0.116013,0.02399,0.002783,6.6e-05,0.164216,0.279672,4.835915, h,body
+Deve-001-010,Aanu BabajideUniversity of Lagos,32,0.084967,0.022727,0.001931,6e-05,0.584967,0.280303,3.738563, h,body
+Deve-001-011,44 PUBLICATIONS 174 CITATIONS,29,0.129085,0.006313,0.000815,2.8e-05,0.172386,0.302399,20.447127, h,body
+Deve-001-012,2 PUBLICATIONS 3 CITATIONS,26,0.114379,0.006313,0.000722,2.8e-05,0.599673,0.302399,18.117701, h,body
+Deve-001-013,SEE PROFILE,11,0.045752,0.006313,0.000289,2.6e-05,0.142157,0.322601,7.247083, h,body
+Deve-001-014,SEE PROFILE,11,0.044118,0.006313,0.000279,2.5e-05,0.577614,0.322601,6.988251, h,body
+Deve-001-015,Some of the authors of this publication are also working on these related projects:,83,0.379085,0.010101,0.003829,4.6e-05,0.254902,0.367424,37.529375, h,body
+Deve-001-016,Project,7,0.01634,0.005051,8.3e-05,1.2e-05,0.084967,0.401515,3.235297, h,caption
+Deve-001-017,BER comparison of different modulation schemes over AWGN and Rayleigh fading channels for MIMO-OFDM system View project,119,0.576797,0.010101,0.005826,4.9e-05,0.422386,0.401515,57.102883, h,body
+Deve-001-018,Project,7,0.01634,0.00505,8.3e-05,1.2e-05,0.084967,0.439394,3.23531, h,caption
+Deve-001-019,Wireless Sensor Networks View project,37,0.173203,0.010101,0.00175,4.7e-05,0.220588,0.438131,17.147109, h,body
+Deve-001-020,All content following this page was uploaded by Agbotiname Lucky Imoize on 25 January 2020.,91,0.424837,0.008838,0.003755,4.1e-05,0.28268,0.956439,48.067137, h,body
+Deve-001-021,The user has requested enhancement of the downloaded file.,58,0.218954,0.007576,0.001659,2.9e-05,0.179739,0.974747,28.901989, h,body
+Deve-002-000,SOCIETY FOR SCIENCE AND EDUCATION,33,0.246732,0.008838,0.002181,6.6e-05,0.801471,0.020833,27.915963, h,body
+Deve-002-001,UNITED KINGDOM,14,0.124183,0.008838,0.001098,7.8e-05,0.862745,0.032197,14.050422, h,body
+Deve-002-002,JBEMÃ„Â° HOURNAL OF BIOMEDICAL,27,0.47549,0.054293,0.025816,0.000956,0.276961,0.078914,8.757866, h,header
+Deve-002-003,JOURNAL OF BIOMEDICALENGINEERING AND MEDICAL IMAGING,52,0.385621,0.037879,0.014607,0.000281,0.437908,0.084596,10.180392, h,header
+Deve-002-004,ISSN: 2055-1266VOLUME 6 ISSUE 4,31,0.120915,0.02904,0.003511,0.000113,0.898693,0.090278,4.163682, h,body
+Deve-002-005,Development of an Infrared-Based Sensor for Finger Movement,59,0.754902,0.021465,0.016204,0.000275,0.5,0.164773,35.169545, h,body
+Deve-002-006,Detection,9,0.114379,0.016414,0.001877,0.000209,0.498366,0.191288,6.968329, h,body
+Deve-002-007,"Agbotiname Lucky Imoize, Aanuoluwapo Eberechukwu Babajide1Department of Electrical and Electronics Engineering, University of Lagos, Akoka-Lagos, Nigeria?Department of Computer Engineering, University of Lagos, Akoka-Lagos, Nigeria.",232,0.70098,0.050505,0.035403,0.000153,0.499183,0.248737,13.879409, h,header
+Deve-002-008,aimoize@unilag.edu.ng; aanuoluwapo.babajide@live.unilag.edu. ng,63,0.495098,0.013889,0.006876,0.000109,0.499183,0.284722,35.64713, h,body
+Deve-002-009,ABSTRACT,8,0.076797,0.011364,0.000873,0.000109,0.512255,0.332702,6.758181, h,body
+Deve-002-010,"With the increasing interest in smart devices and convenient remote control, the need for accuratewireless means of control has become imperative. This gives rise to the growing research interests in thearea of gesture and finger movement detection. In this paper, a suitable design exploring some techniquesinvolved in hand and finger movement detection, using depth-sensing infrared cameras embedded onXbox Kinect Module is presented. First, 3-D images are generated and filtered along the z-axis, then twodistinct techniques; Haar-Like Features, and Deep Learning using a Convolution Neural Network (CNN),are performed on the images to detect hands movement. In order to evaluate the robustness of theproposed technique, useful metrics like, Precision, Recall, F1-Score and Accuracy are used to evaluate theefficiency of the technique. Results show that while the deep learning model showed the most accurateresults with a weighted accuracy of 1.0 (due to the absence of noise in the images), a weighted accuracyof 0.97 is observed for the Haar-Like features. Finally, the Haar-like features technique appears to runfaster due to its static nature whereas, the deep learning model is quite slow in terms of running time.Overall, these findings point to the conclusion that the deep learning model is a better technique fordetecting hands movements despite its longer running time.",1383,0.763072,0.267677,0.204257,0.000148,0.499183,0.493687,2.850721, h,header
+Deve-002-011,"Keywords: Finger movement detection, Haar-Like features, Deep Learning, Z-axis filtering, Accuracy,Precision, Recall, F1-score, Weighted average, 3-D Images, Depth Sensor, Infrared (IR) Images,Convolutional Neural Network (CNN).",228,0.761438,0.05303,0.040379,0.000177,0.498366,0.666667,14.358544, h,header
+Deve-002-012,"1 IntroductionGlobally, there has been an exponential growth in the number of electronic devices currently in use forvarious applications including fingers movement detection, and the littlest convenience could be thedeciding factor in preference. Companies in the electronics industry are always open to customer-centricinnovations that could give the slightest edge against competitors. This need for innovation fuels thisdesign to create an infrared-based sensor for finger movement detection. While steering away fromsolutions geared towards detecting finger movement by extensive use of hardware, this design utilisesthe infrared depth couple in the Xbox Kinect sensor for input and then processes the generated imageswith a z-axis filtering algorithm, a template matching process, which uses a neural network trained feature",830,0.763072,0.175505,0.133923,0.000161,0.499183,0.793561,4.347863, h,header
+Deve-002-013,DOI: 10.14738/jbemi.64.7639Publication Date: 28th June 2019URL: ,64,0.338235,0.045455,0.015374,0.00024,0.294935,0.92298,7.441168, h,header
+Deve-003-000,"JOURNAL OF BIOMEDICAL ENGINEERING AND MEDICAL IMAGING, Volume 6, No 4, August 2019",82,0.651961,0.012626,0.008232,0.0001,0.497549,0.064394,51.635291, h,body
+Deve-003-001,"recognition model to detect and recognise captured hands. Based on the theoretical background, it isexpected that successful detection and recognition will occur with good enough accuracy as compared toother methods. The response time is expected to be slower as the image processing algorithms could becomputationally expensive.",329,0.763072,0.074495,0.056845,0.000173,0.499183,0.123106,10.243269, h,header
+Deve-003-002,"In this design, infrared technology is used to detect hand and finger movements with no attached orhandheld hardware piece. This solution could find several applications in gaming, vehicle control, wirelesscontrol of most electronic devices, and data analysis. More specifically, the design is aimed at detectingfinger movement using infrared technology. The key objectives are; to detect hands and fingers byprocessing depth images from the infrared camera using Haar-like features object detection algorithm, todetect hands and fingers by processing depth images from the infrared camera using a convex hullformation and detection algorithm, to detect hands and fingers by processing depth images from theInfrared camera using a pre-trained deep learning model, and to select the best of the three algorithmsusing testing accuracy, precision, recall and F1 score. Furthermore, this design includes theimplementation of three algorithms (Haar-like features, convex hull formation, and deep learning model)that can recognise hands and fingers given depth infrared images as input. Finally, the evaluation of theaccuracy of the investigated algorithms is demonstrated to show the performances of the algorithms.",1210,0.763072,0.229798,0.175352,0.000145,0.499183,0.286616,3.32062, h,header
+Deve-003-003,"2 Related WorkHand gestures are a common way people communicate, from simple pointing gestures to signify directionto more complex gestures in sign language. This has made a big field out of hand and finger gesturerecognition as giving computers a way to recognise this basic way of communication would have manyuseful applications. Several researchers have made several contributions to find better ways forcomputers to recognise hand gestures shown by humans. Haar-like features, as proposed by Viola andJones in [1], uses the Adaboost learning algorithm to generate classifiers by selecting critical visualfeatures called Haar-like features in the image and then finds matches in smaller rectangularrepresentations of the image called 'integral images'. This evolutionary method has allowed researchersto develop several object detection systems that provide good accuracy and speed.",886,0.76634,0.199495,0.152881,0.000173,0.499183,0.511364,3.8414, h,header
+Deve-003-004,"Chen et al [2] implemented a real-time hand detection system using Haar-like features for hand posturedetection and syntactic analysis based on a stochastic context-free grammar for gesture recognition.While this paper highlights the high accuracy Haar-like features offer for hand posture detection, it alsopoints out that it cannot be used for gesture recognition because of the transition states of gestures.Hence, the use of Haar-like features in this design is limited to hand and finger detection and other staticdetection methods outlined in [3].",553,0.763072,0.112374,0.085749,0.000155,0.499183,0.676136,6.790485, h,header
+Deve-003-005,"Ã¢â‚¬Å“The convex hull CH (S) of a set 'S' is the smallest convex set that contains 'S'[4], this statement describesa convex hull, the importance of convex hull generation is clear in the processing of images. Selecting theouter borders of an object such as a hand can detect distinct parts of the hand for further processing. Renet al [5] used the convex hull method to detect fingers from images generated by infrared depth sensorsby first using a novel method for detecting gestures called Finger Earth Mover's Distance (FEMD). Afterthe sensor detects the hand, the generated information is converted to 'signatures' before the FEMDtechnique is then applied. Finger detection is achieved by either threshold decomposition or near-convexshape decomposition.",753,0.763072,0.151515,0.115617,0.000154,0.499183,0.820707,5.036275, h,header
+Deve-003-006,COPYRIGHT Ã‚Â© SOCIETY FOR SCIENCE AND EDUCATION UNITED KINGDOM,60,0.47549,0.011364,0.005403,9e-05,0.484477,0.936237,41.843269, h,body
+Deve-003-007,30,2,0.017974,0.008838,0.000159,7.9e-05,0.878268,0.936237,2.033623, h,body
+Deve-004-000,"Agbotiname Lucky Imoize, Aanuoluwapo Eberechukwu Babajide; Development of an Infrared-Based Sensor for Finger MovementDetection, Journal of Biomedical Engineering and Medical Imaging, Volume 6, No 4, Aug (2019), pp 29-44Also, Bergh et al [6] used a convex hull algorithm to get the centre of the hand in images. Infrared depthsensors were mounted on a robot that got directions in the form of pointing gestures from users. As itcaptures the gestures as 3D images by the sensor, their proposed model estimated the orientation of thehand by determining the wrist position regarding the centre of the hand (convex hull algorithm). After asuccessful orientation estimation, the model then recognised the hand posture by classifying the imagebased on the Average Neighbourhood Margin Minimisation (ANMM). Finally, the pointing direction wasdetermined based on the hand posture and orientation.Guan-Feng et al [7] used a 3D depth camera to detect the user and z-axis filtering to segment the hand.Further processing was then done on the segmented hand as a hand contour (convex hull) is formed usingonly the boundary pixels from the image of the hand. Gesture recognition is then done by using contourpoints to get convex defects in subsequent images. Evidently, the use of the convex hull algorithm allowsfor flexible processing because the hull provides information about the hand and different methods coulddraw data from the information.",1435,0.803922,0.285354,0.229402,0.00016,0.519608,0.199495,2.817283, h,header
+Deve-004-001,"Deep learning (8], as an Al technique, involves the use of a back-propagation algorithm to generatepredictive models based on data supplied, thus, implying that models that detect hands can be createdand trained by supplying several images of hands [9]. Oyedotun and Khashman [10] in their paperdeveloped a system for detecting all 24 hand gestures in Thomas Moeslund's gesture recognitiondatabase (11) using a deep learning model. They also showed that more biologically oriented deep neuralnetworks like CNN learned the hand gesture alphabet with good accuracy and relatively lower error rates.",596,0.763072,0.112374,0.085749,0.000144,0.499183,0.412247,6.790483, h,header
+Deve-004-002,"A related work by Hussain et al [12] achieved gesture recognition by the use of VGG16 [13], a pre-trainedCNN. The developed classifier recognised hand shape through transfer learning (14) over the VGG16 andtraced detected hands using a skin colour detection algorithm if the motion was dynamic. Drawing aconclusion from reviewed papers, deep learning models achieve high accuracy rates for dynamic sets ofdata such as hand and finger movement and are hence a good technique for gesture recognition.",498,0.763072,0.093434,0.071297,0.000143,0.499183,0.526515,8.166931, h,header
+Deve-004-003,"Discussing other techniques of hand and finger movement detection, Cheng et al [15] achieved similarresults in a more minimalistic manner. Avoiding the use of a depth camera, the researchers used anInfrared LED and Infrared Receiver. This pair of sensors detected finger movement regarding time and fedthe raw signal to a system that used a mathematical model in combination with a decision tree todetermine the proper gesture being made. A similar but more complex approach was taken by Liu et al[16] where a Passive Infrared (PIR) sensor array was used to collect input with pseudo-random codedFresnel lenses. The sensor arrays used compressed infrared sensing to detect only the spatial-temporalchanging motion and then interpreting the information by using 'Vector Quantisation' to recognise thesemantic of arm gesture.",823,0.763072,0.169192,0.129106,0.000157,0.499183,0.670455,4.510097, h,header
+Deve-004-004,"Similarly, Megalingam et al [17] set-up an Infrared LED-Receiver sensor array embedded in a tablet anddetected hand movement on the tablet by recording ulnar deviation (in the palm). With a similar use ofsimple infrared materials, Metzger et al (18] utilised a single Infrared proximity sensor in their wearablesolution to the problem. The device, after being mounted on the ear and controlled using finger gestures,would detect an object/finger as a pulse, and multiple pulses would signify multiple fingers. Theunderlying technology implied that the input depended on the number of fingers that passed the sensorand not the direction of gesture as in previous methods. While these methods offer fast response time",715,0.763072,0.132576,0.101165,0.000141,0.499183,0.833965,5.755745, h,header
+Deve-004-005,URL: ,5,0.318627,0.012626,0.004023,0.000805,0.477941,0.939394,25.235219, h,body
+Deve-004-006,31,2,0.014706,0.008838,0.00013,6.5e-05,0.85866,0.9375,1.663859, h,body
+Deve-005-000,"JOURNAL OF BIOMEDICAL ENGINEERING AND MEDICAL IMAGING, Volume 6, No 4, August 2019",82,0.651961,0.012626,0.008232,0.0001,0.497549,0.064394,51.635291, h,body
+Deve-005-001,"and low computational cost and power, they, however, do not provide holistic information about thehand and fingers in this case.",128,0.763072,0.034091,0.026014,0.000203,0.499183,0.102904,22.383435, h,body
+Deve-005-002,"Unlike the hardware solutions to gesture recognition, there are solutions that utilize truly wirelesstechnology (mainly Infrared cameras and Infrared-based depth-sensing modules) while maintainingsimilar low power costs. Based on this, Erden and Ãƒâ€¡etin (19] achieved gesture recognition using a PIRsensor and an RGB camera. While the PIR sensor detected hand gesture using the Jacquard distance forthe Winner Takes All (WTA) algorithm comparison, the RGB camera was to detect if the object recognisedby the PIR sensor was, in fact, a hand. This approach tackled the problem of providing holistic informationby separating functions and assigning them to separate sensors.",669,0.763072,0.132576,0.101165,0.000151,0.499183,0.198864,5.755743, h,header
+Deve-005-003,"Furthermore, Ionescu et al [20, 21) used depth-sensing Infrared cameras (composed of an InfraredDesigner and Infrared Receiver). The technique used was a novel space slicing technique which capturedthe reflected light from the sensors in Ã¢â‚¬Ëœslices' of space and calculated depth through a reconfigurablehardware unit that combined the slices by calculation to form a depth image. Further filtration of theimage based on depth would then isolate the hand position in the image. Another interesting approachto the use of infrared cameras was taken by Sato et al [22] where their implementation uses a ready-madeInfrared Camera as input, detects hands in a process called 'binarization', and then uses templatematching (determining search windows in the image for each hand region and searching for matchingfingertip templates in that region, the template used for the fingertips is a rectangle with a semi-circle atthe top) for fingertip detection. The centre of the hand is found by morphological erosion operation of anextracted hand region. This method can successfully capture and detect a hand.",1095,0.763072,0.210859,0.1609,0.000147,0.499183,0.381944,3.61888, h,header
+Deve-005-004,"Xia and Fujimura [23] took a different approach in their paper where gestures are recognised using asequence of real-time depth image data gained by the sensing hardware. The head of the user is detectedusing vertical and horizontal histograms while the hand of the user is detected by using depth eliminationbased on the aspect ratio (z-axis filtering). This approach, ever, has a draw ck, as it is restricted toonly single users as a time. Implementations using depth cameras [24] provide high accuracy and holisticdata but are computationally expensive when compared to cruder infrared methods, as they require realtime processing of feed from the depth sensor.",664,0.764706,0.132576,0.101381,0.000153,0.5,0.565025,5.768066, h,header
+Deve-005-005,"There also exist implementations that are uniquely different from the usual methods, one example isusing an Infrared transmitter remote stick that constantly transmits a signal to a receiver placed in thevicinity [25]. The constant input from the receiver was then programmed to detect variations in theInfrared transmitter's position. The researcher then gave a set of variations that could be interpreted bythe system. Hence, once a message is recognised from the input, it would initiate an action. Thisimplementation would be faster and have good accuracy. However, it is not fully contactless as asecondary device is used for transmission. And an approach that does not make use of Infrared technologybut images processing algorithms and computer vision (AI) is taken by Utsumi et al [26], where multipleRGB cameras capture the object, and the resulting images are then classified using a certain algorithm.",912,0.763072,0.170455,0.130069,0.000143,0.499183,0.727904,4.476689, h,header
+Deve-005-006,"To make daily tasks easier and more efficient, engineering, as a mother discipline, has used a wide varietyof scientific concepts. One of these applications is the case of IR technology for motion tracking. IRtechnology is based on the utilisation of Infrared waves. Its main application is the creation of a widerange of IR sensors. Several IR sensors exist and can range from simple IR blasters and receivers to depth",419,0.764706,0.073232,0.056001,0.000134,0.498366,0.862374,10.442188, h,header
+Deve-005-007,COPYRIGHT Ã‚Â© SOCIETY FOR SCIENCE AND EDUCATION UNITED KINGDOM,60,0.47549,0.011364,0.005403,9e-05,0.484477,0.936237,41.843269, h,body
+Deve-005-008,32,2,0.01634,0.010101,0.000165,8.3e-05,0.879085,0.936869,1.617646, h,body
+Deve-006-000,"Agbotiname Lucky Imoize, Aanuoluwapo Eberechukwu Babajide; Development of an Infrared-Based Sensor for Finger MovementDetection, Journal of Biomedical Engineering and Medical Imaging, Volume 6, No 4, Aug (2019), pp 29-44perceptive IR cameras. Given the wide variety and their functions, how is it possible to use an IR sensorto detect the location of the hand and then the movement of fingers?",393,0.803922,0.07197,0.057858,0.000147,0.519608,0.092803,11.170279, h,header
+Deve-006-001,"In order to solve this problem, the Infrared depth sensor couple as used by [5, 20-23, 25, 27] would beutilised. After getting the depth image, three distinct methods of image processing would obtain handand finger movement; Haar-like features [1, 2], Convex hull detection [4-7, 28], and Deep learning modelgeneration (9, 10, 12-14].",334,0.763072,0.073232,0.055882,0.000167,0.499183,0.17803,10.419879, h,header
+Deve-006-002,"3 Materials and MethodThe finger movement detection system presented in this study comprises of three main units; theprocessing unit, the input unit, the output unit. The processing unit comprises the CPU in which the codeis activated, while the code provides the implementation of the designed algorithm. Finally, the processingunit interfaces with both input and output units, this makes it a central unit.The input unit consists of the Xbox Kinect module and any other computing device used in writing theprograms in the CPU. During the actual use of the system, the input unit consists of the Xbox Kinectmodule alone. The Xbox Kinect module is equipped with an infrared-depth couple and an RGB camera;this helps in generating the 3-D images used for finger detection. The output unit consists of a monitorscreen alone, which displays the images used by the system and output of detected hands and fingers. Adiagrammatic explanation of the structure is shown in Figure 1.",974,0.772876,0.238636,0.184436,0.000189,0.499183,0.340278,3.238718, h,header
+Deve-006-003,"In this design, finger movement is achieved using an incremental model of development, as seen in Figure2, one phase has to be completed before the next. This sub-chapter states each phase involved in theimplementation phase and explains how it is done. The methods involved in implementation are softwaremethods and would exist in codes and commands written in the Python Programming Language. Figure 3shows the general process flow of the implementations.",457,0.763072,0.093434,0.071297,0.000156,0.499183,0.507576,8.166934, h,header
+Deve-006-004,Input Unit:This unit consist ofthe Kinect Sensorwhihc generates an,66,0.112745,0.046717,0.005267,8e-05,0.396242,0.602904,2.413355, h,header
+Deve-006-005,"RGB image,Infrared Image andDepth Information",45,0.107843,0.036616,0.003949,8.8e-05,0.397059,0.643308,2.945234, h,header
+Deve-006-006,Processing Unit,15,0.093137,0.012626,0.001176,7.8e-05,0.574346,0.604798,7.376508, h,body
+Deve-006-007,Hand DetectionDetecting Hands in,32,0.107843,0.022727,0.002451,7.7e-05,0.575163,0.622475,4.745099, h,body
+Deve-006-008,Infrared Images,15,0.091503,0.013889,0.001271,8.5e-05,0.575163,0.638258,6.588234, h,body
+Deve-006-009,Processing UnitFinger DetectionnDetecting Fingers in,52,0.114379,0.035354,0.004044,7.8e-05,0.759804,0.618687,3.235299, h,header
+Deve-006-010,detected images,15,0.094771,0.012626,0.001197,8e-05,0.759804,0.641414,7.505887, h,body
+Deve-006-011,Processing Unit:,16,0.091503,0.013889,0.001271,7.9e-05,0.576797,0.715278,6.58823, h,body
+Deve-006-012,Proccessing Unit:Output:Finger Movement,39,0.437908,0.025253,0.011058,0.000284,0.593137,0.722222,17.341194, h,body
+Deve-006-013,Finger MovementDisplay result ofRecognition,43,0.46732,0.02904,0.013571,0.000316,0.580065,0.734217,16.092074, h,body
+Deve-006-014,DetectionHand and FingerMovementRecognizing,43,0.44281,0.032828,0.014537,0.000338,0.56781,0.75,13.488664, h,body
+Deve-006-015,DetectingDetectionmovement of,29,0.421569,0.026515,0.011178,0.000385,0.578431,0.767045,15.899191, h,body
+Deve-006-016,Movement inspecific fingers,27,0.264706,0.022727,0.006016,0.000223,0.668301,0.777778,11.64708, h,body
+Deve-006-017,FingersFigure 1: Physical Structural Setup of the Finger Movement Detection System,82,0.534314,0.050505,0.026986,0.000329,0.517157,0.794192,10.579423, h,header
+Deve-006-018,URL: ,5,0.318627,0.012626,0.004023,0.000805,0.477941,0.939394,25.235219, h,body
+Deve-006-019,33,2,0.014706,0.008838,0.00013,6.5e-05,0.85866,0.9375,1.663859, h,body
+Deve-007-000,"JOURNAL OF BIOMEDICAL ENGINEERING AND MEDICAL IMAGING, Volume 6, No 4, August 2019",82,0.651961,0.012626,0.008232,0.0001,0.497549,0.064394,51.635291, h,body
+Deve-007-001,Requirements Phase:,19,0.107843,0.011364,0.001225,6.4e-05,0.403595,0.100379,9.490193, h,body
+Deve-007-002,Literature Review,17,0.086601,0.008838,0.000765,4.5e-05,0.406046,0.11048,9.798323, h,body
+Deve-007-003,Design Phase:Methodology,24,0.070261,0.020202,0.001419,5.9e-05,0.479575,0.164141,3.477944, h,body
+Deve-007-004,ImplementationPhase: Design,27,0.073529,0.018939,0.001393,5.2e-05,0.554739,0.21654,3.882354, h,body
+Deve-007-005,Execution,9,0.04902,0.008838,0.000433,4.8e-05,0.553922,0.230429,5.546217, h,body
+Deve-007-006,Verification Phase:,19,0.091503,0.008838,0.000809,4.3e-05,0.627451,0.268308,10.352941, h,body
+Deve-007-007,Results andDiscussion,21,0.05719,0.017677,0.001011,4.8e-05,0.628268,0.282828,3.235295, h,body
+Deve-007-008,Figure 2: Incremental Development Model of Design,49,0.351307,0.013889,0.004879,0.0001,0.510621,0.33649,25.29417, h,body
+Deve-007-009,Stored hand,11,0.065359,0.008838,0.000578,5.3e-05,0.545752,0.386995,7.394952, h,body
+Deve-007-010,data,4,0.021242,0.008838,0.000188,4.7e-05,0.546569,0.398359,2.403349, h,body
+Deve-007-011,Start,5,0.02451,0.008838,0.000217,4.3e-05,0.275327,0.424874,2.773107, h,body
+Deve-007-012,Sensorinput,11,0.037582,0.020202,0.000759,6.9e-05,0.406046,0.425505,1.860295, h,body
+Deve-007-013,Fingermovementdetection,23,0.055556,0.02904,0.001613,7e-05,0.629085,0.443813,1.913042, h,body
+Deve-007-014,andrecognition,14,0.058824,0.022727,0.001337,9.5e-05,0.627451,0.47096,2.588235, h,body
+Deve-007-015,Handdetection,13,0.04902,0.022727,0.001114,8.6e-05,0.405229,0.497475,2.156864, h,body
+Deve-007-016,Movement?,9,0.060458,0.008838,0.000534,5.9e-05,0.628268,0.543561,6.840326, h,body
+Deve-007-017,No,2,0.014706,0.007576,0.000111,5.6e-05,0.719771,0.539141,1.941172, h,body
+Deve-007-018,Hand?,5,0.034314,0.010101,0.000347,6.9e-05,0.406046,0.584596,3.397053, h,body
+Deve-007-019,No,2,0.014706,0.007576,0.000111,5.6e-05,0.473039,0.582071,1.941176, h,body
+Deve-007-020,Yes,3,0.019608,0.008838,0.000173,5.8e-05,0.638889,0.587753,2.218485, h,body
+Deve-007-021,Displayoutput,13,0.039216,0.021465,0.000842,6.5e-05,0.630719,0.619318,1.826988, h,body
+Deve-007-022,Yes,3,0.017974,0.007576,0.000136,4.5e-05,0.489379,0.627525,2.372549, h,body
+Deve-007-023,Figure 3: Process flow of Finger Movement Detection Algorithm,61,0.428105,0.012626,0.005405,8.9e-05,0.511438,0.64899,33.90605, h,body
+Deve-007-024,"3.1 Setup and ConfigurationTo make this design work properly, it must be set up and configured properly. To configure this system,all necessary frameworks are installed; ROS [29] and Xbox Kinect 360 SDK, then communication betweenthe sensors is established. To ensure proper synchronisation, data is transmitted from the sensor to theprocessing unit. The data obtained from the infrared sensor is reduced by a method called Z-Axis Filtering,which involves cutting off parts of a generated depth image beyond a specified depth. This process helpsreduce the amount of information to be processed while making the hand the major object in scope.While this technique is for collecting real-time data for processing, to develop the models, a dataset of2000 infrared images [30] was used in training and testing.",806,0.763072,0.175505,0.133923,0.000166,0.499183,0.75947,4.347863, h,header
+Deve-007-025,COPYRIGHT Ã‚Â© SOCIETY FOR SCIENCE AND EDUCATION UNITED KINGDOM,60,0.47549,0.011364,0.005403,9e-05,0.484477,0.936237,41.843269, h,body
+Deve-007-026,34,2,0.017974,0.008838,0.000159,7.9e-05,0.878268,0.936237,2.033623, h,body
+Deve-008-000,"Agbotiname Lucky Imoize, Aanuoluwapo Eberechukwu Babajide; Development of an Infrared-Based Sensor for Finger MovementDetection, Journal of Biomedical Engineering and Medical Imaging, Volume 6, No 4, Aug (2019), pp 29-44",220,0.795752,0.030303,0.024114,0.00011,0.523693,0.07197,26.259808, h,body
+Deve-008-001,"3.2 Static object detection algorithm using Haar-like FeaturesConsidering a native RGB image, Haar-like features are generated features that are a representation ofpixel intensities up to a particular location in an image, this implies that Haar-like features can becalculated fast and easily since they are only mathematical sums based on the concept of integral images[1]. Because of the speed and lightweight of Haar-like features, it is majorly used as an algorithm for imageobject detection, this use case is similar to this design since all hands can be classified as objects.",582,0.763072,0.118687,0.090567,0.000156,0.499183,0.15404,6.429286, h,header
+Deve-008-002,"To use this technique, the Haar-like features algorithm is deployed to select eigenvectors from a datasetof infrared images of a hand and then store this data in a cascade (Haar-cascade). The Haar-cascade isthen employed in identifying selected eigenvectors in subsequent images to determine if a hand exists ornot.",315,0.763072,0.070707,0.053955,0.000171,0.499183,0.260101,10.79202, h,header
+Deve-008-003,"3.3 Dynamic object detection using a convolutional neural networkBeing born from machine learning in Al and based on ANN, deep learning is an algorithm that uses multiplelayers to identify high-level features in data [31]. Deep learning algorithms can be used in any field wheredata of past events applies to generate predictive models with high levels of accuracy. To be implementedin this design, a deep learning model is trained to detect hands and fingers in infrared images by feedinga large enough dataset of hand images. A deep learning model is used to extract features from severalsample infrared images of hands and then recognise these features in subsequent images. The model canbe trained to identify hands and fingers distinctly.",743,0.763072,0.159091,0.121398,0.000163,0.499183,0.390152,4.796452, h,header
+Deve-008-004,"3.4 Comparison of TechniquesTo compare the different techniques of hand detection, it is important to select appropriate metrics thatcover both strengths and weaknesses of all techniques being tested. The following detection andclassification metrics have thus been selected. The confusion matrix gives a depiction of the True Positives(TP), True Negatives (TN), False Positives (FP) and False Negatives (FN) [32]. For two sets of data, theconfusion matrix is shown in equation (1). The accuracy is the ratio of correct detections to totaldetections; the formula is given in equation (2). The precision is the ratio of true positives to selectedelements and is given in equation (3). The recall is the ratio of true positives to total positives and is givenin equation (4). The F1-mean score, given in equation (5), is the harmonic mean between precision andrecall. For testing under various sets of data, the weighted score, given in equation (6), gives an averagescore that lies heavily on the weights or count of the different sets.",1035,0.763072,0.217172,0.165718,0.00016,0.499183,0.589646,3.513679, h,header
+Deve-008-005,[TP FNULTN TN,13,0.076797,0.027778,0.002133,0.000164,0.492647,0.741162,2.764708, h,body
+Deve-008-006,-1,3,0.01634,0.012626,0.000206,6.9e-05,0.870915,0.742424,1.294111, h,body
+Deve-008-007,TN+TP,5,0.044118,0.007576,0.000334,6.7e-05,0.513889,0.781566,5.823549, h,body
+Deve-008-008,Accuracy,8,0.073529,0.016414,0.001207,0.000151,0.39951,0.789773,4.47964, h,body
+Deve-008-009,-2,3,0.01634,0.013889,0.000227,7.6e-05,0.870915,0.789773,1.17647, h,body
+Deve-008-010,TN+TP+FN+FP,11,0.096405,0.007576,0.00073,6.6e-05,0.513889,0.796717,12.725521, h,body
+Deve-008-011,ÃÂ¢Ã ,2,0.013072,0.007576,9.9e-05,5e-05,0.542484,0.82702,1.725491, h,body
+Deve-008-012,Precision =,11,0.091503,0.012626,0.001155,0.000105,0.464052,0.834596,7.247079, h,body
+Deve-008-013,-3,3,0.01634,0.012626,0.000206,6.9e-05,0.870915,0.834596,1.294119, h,body
+Deve-008-014,FP +TP,6,0.044118,0.008838,0.00039,6.5e-05,0.543301,0.842803,4.991617, h,body
+Deve-008-015,-4,3,0.01634,0.013889,0.000227,7.6e-05,0.870915,0.880682,1.176468, h,body
+Deve-008-016,TPRecall,8,0.106209,0.017677,0.001877,0.000235,0.504085,0.877525,6.008407, h,body
+Deve-008-017,FN+TPF1 Mean Score = 2 x,24,0.20915,0.030303,0.006338,0.000264,0.46732,0.89899,6.901958, h,body
+Deve-008-018,precisionxrecallprecision+recall,32,0.107843,0.027778,0.002996,9.4e-05,0.593137,0.907828,3.882354, h,body
+Deve-008-019,-5,3,0.01634,0.012626,0.000206,6.9e-05,0.870915,0.907828,1.294111, h,body
+Deve-008-020,URL: ,5,0.318627,0.013889,0.004425,0.000885,0.477941,0.938763,22.941158, h,body
+Deve-008-021,35,2,0.014706,0.008838,0.00013,6.5e-05,0.85866,0.9375,1.663859, h,body
+Deve-009-000,"JOURNAL OF BIOMEDICAL ENGINEERING AND MEDICAL IMAGING, Volume 6, No 4, August 2019",82,0.651961,0.012626,0.008232,0.0001,0.497549,0.064394,51.635291, h,body
+Deve-009-001,Ã‘Æ’ÃÂ¿,2,0.014706,0.007576,0.000111,5.6e-05,0.590686,0.088384,1.94118, h,body
+Deve-009-002,-6,3,0.01634,0.013889,0.000227,7.6e-05,0.870915,0.099116,1.176468, h,body
+Deve-009-003,1=1 scoreixcountiWeighted Average of n sets =,45,0.370915,0.027778,0.010303,0.000229,0.518791,0.097222,13.352943, h,body
+Deve-009-004,Xi=1 counti4 Results and Discussion,35,0.29902,0.040404,0.012082,0.000345,0.528595,0.117424,7.400737, h,header
+Deve-009-005,"4.1 Static Object Detection Using Haar-Like FeaturesHands were detected using Haar-Like Features, which was written in Python programming language. Theresults include but not limited to the successful detection of hands in different positions. Each distinctposition had to be trained into the detection model as an XML file before being loaded into the pythoncode. A sample of a real-time image is as shown in Figure 4. The python code to run the model whichimplements the Haar-like feature detection is wireless. Figure 5 shows the Confusion Matrix for usingHaar-like features. The Precision, Recall, F1-score and weighted scores are calculated using equations (26) in Table 1. The confusion matrix from equation (1) generated for the results of the metrics is given inequation (7).",783,0.764706,0.176768,0.135175,0.000173,0.5,0.238636,4.32605, h,header
+Deve-009-006,cursuspydery],13,0.06536,0.006313,0.000413,3.2e-05,0.617647,0.36553,10.35298, h,body
+Deve-009-007,4x Flexplorer,13,0.044118,0.007576,0.000334,2.6e-05,0.701797,0.375,5.823521, h,body
+Deve-009-008,Namefostxml,11,0.027778,0.013889,0.000386,3.5e-05,0.719771,0.395833,1.999993, h,body
+Deve-009-009,hand.xmlhistory internal.pyhistory.py,37,0.044118,0.022727,0.001003,2.7e-05,0.737745,0.415404,1.941178, h,body
+Deve-009-010,langconfigO palm.xmlsmile.xml,29,0.034314,0.020202,0.000693,2.4e-05,0.724673,0.435606,1.698529, h,body
+Deve-009-011,Video,5,0.013072,0.005051,6.6e-05,1.3e-05,0.496732,0.45202,2.588238, h,caption
+Deve-009-012,X,1,0.004902,0.003788,1.9e-05,1.9e-05,0.762255,0.452652,1.294104, h,caption
+Deve-009-013,CONCEEditor: Users balspyder Dr.DY,34,0.23366,0.018939,0.004425,0.00013,0.343954,0.369318,12.337264, h,body
+Deve-009-014,unified. temp.py Homework solution.py X13. codiny utf-8,55,0.145425,0.015151,0.002203,4e-05,0.309641,0.387626,9.59805, h,body
+Deve-009-015,"Spyder EditorThis is a temporary script file.7Import cv290v2._version_1011 hand caseadet.V2.Cascadeclassifier('pala,12 hand cascade2 - V2.Cascadeclassifier('fist.)13 hand_cascade3 - cv2.CascadeClassifier hand, al'34 def detect(gray, frore):15 hands hand_cascade3.detectMultiscale gray, 1.3, 5)16 fists - hand cascade2.detectMultiscale gray, 1.3, 5)12 palms - hand cascadel.detectMultiscale(gray, 1.3, 5",402,0.189542,0.083333,0.015795,3.9e-05,0.328431,0.440657,2.27451, h,header
+Deve-009-016,"for (x, y, W, n) in hands:",26,0.083333,0.006313,0.000526,2e-05,0.296569,0.482955,13.200063, h,body
+Deve-009-017,"CV2.rectangle(frame, (x, y), (x, yeh), (255, 9, *), )20 for (x, y, , ) in fists:23",82,0.215686,0.015151,0.003268,4e-05,0.341503,0.493687,14.235308, h,body
+Deve-009-018,"cv2.rectangle(frame, (x, y). (x, yth). (255, 0, 0), 2)22 for (x, y, M, h) in pales:23 ev2.rectangle(frame, (x, y), (x, yoh), (255, , ), 2)24 return franc252627 video_capture - cv2.videocapture()28 while True:29 frame - video_capture.read()30 gray .cv2.cvtColor(franc, CV2.COLOR_BGRZGRAY)",287,0.215686,0.055556,0.011983,4.2e-05,0.341503,0.52399,3.882355, h,header
+Deve-009-019,"canvas - detect(gray, frane)32 cv2.inshow Video, canvas)",56,0.112745,0.011364,0.001281,2.3e-05,0.290033,0.556187,9.921575, h,body
+Deve-009-020,if cv2.waitKey(1) & exFF - ord(a):,34,0.117647,0.006313,0.000743,2.2e-05,0.315359,0.563763,18.635267, h,body
+Deve-009-021,break35 video capture.release()36 cv2.destroyal Windows(),57,0.081699,0.016414,0.001341,2.4e-05,0.276144,0.575126,4.977388, h,body
+Deve-009-022,Figure 4: Hand Detection Using (Haar Cascades) Haar-Like Features,65,0.45098,0.013889,0.006264,9.6e-05,0.511438,0.638258,32.470586, h,body
+Deve-009-023,CMATRIX,7,0.058824,0.015152,0.000891,0.000127,0.303922,0.766414,3.882346, h,body
+Deve-009-024,208 0 0 1 0 0 0 2 0 0,21,0.292484,0.012626,0.003693,0.000176,0.505719,0.691919,23.164656, h,body
+Deve-009-025,0 210 0 0 0 6 0 1 0 00 0 185 8 0 0 0 2 00 0 9 181 0 0 0 0 1 00 2 0 0 182 3 0 0 0 00 5 0 0 0 188 0 1 0 00 0 0 1 0 180 0 02 1 0 0 0 0 0 196 0 00 0 1 0 1 0 5 0 213 00 0 0 0 0 0 0 0 0 200,183,0.287582,0.145202,0.041757,0.000228,0.517974,0.775884,1.980562, h,header
+Deve-009-026,-7,3,0.017974,0.018939,0.00034,0.000113,0.871732,0.765783,0.949021, v,body
+Deve-009-027,COPYRIGHT Ã‚Â© SOCIETY FOR SCIENCE AND EDUCATION UNITED KINGDOM,60,0.47549,0.011364,0.005403,9e-05,0.484477,0.936237,41.843269, h,body
+Deve-009-028,36,2,0.01634,0.008838,0.000144,7.2e-05,0.879085,0.936237,1.848745, h,body
+Deve-010-000,"Agbotiname Lucky Imoize, Aanuoluwapo Eberechukwu Babajide; Development of an Infrared-Based Sensor for Finger MovementDetection, Journal of Biomedical Engineering and Medical Imaging, Volume 6, No 4, Aug (2019), pp 29-44",220,0.795752,0.030303,0.024114,0.00011,0.523693,0.07197,26.259808, h,body
+Deve-010-001,Table 1: Metrics for Haar-Like Features,39,0.261438,0.010101,0.002641,6.8e-05,0.498366,0.10101,25.882351, h,body
+Deve-010-002,Support,7,0.066994,0.013889,0.00093,0.000133,0.758987,0.143308,4.823535, h,body
+Deve-010-003,211,3,0.02451,0.008838,0.000217,7.2e-05,0.760621,0.159722,2.773113, h,body
+Deve-010-004,217,3,0.02451,0.008838,0.000217,7.2e-05,0.760621,0.177399,2.773113, h,body
+Deve-010-005,195,3,0.02451,0.010101,0.000248,8.3e-05,0.760621,0.194444,2.426478, h,body
+Deve-010-006,191,3,0.02451,0.008838,0.000217,7.2e-05,0.760621,0.212753,2.773116, h,body
+Deve-010-007,Classification Report for Haar-Like FeaturesGesture Class,57,0.406863,0.030303,0.012329,0.000216,0.451797,0.133838,13.42647, h,body
+Deve-010-008,Precision Recall F1-scorePalm_Forward (1),41,0.488562,0.034091,0.016656,0.000406,0.437091,0.152146,14.331153, h,body
+Deve-010-009,0.990.99,8,0.122549,0.011364,0.001393,0.000174,0.499183,0.159722,10.784318, h,body
+Deve-010-010,0.99Index_Forward (2),21,0.473856,0.032828,0.015556,0.000741,0.429739,0.169192,14.434391, h,body
+Deve-010-011,0.960.97,8,0.122549,0.012626,0.001547,0.000193,0.500817,0.17803,9.705885, h,body
+Deve-010-012,0.96Fist (3),12,0.473856,0.044192,0.020941,0.001745,0.429739,0.1875,10.72269, h,header
+Deve-010-013,0.940.95,8,0.120915,0.011364,0.001374,0.000172,0.5,0.195076,10.640519, h,body
+Deve-010-014,0.94Fist_Turned (4),19,0.473856,0.034091,0.016154,0.00085,0.429739,0.205177,13.899787, h,body
+Deve-010-015,0.950.95,8,0.120915,0.012626,0.001527,0.000191,0.5,0.212121,9.576472, h,body
+Deve-010-016,0.95Thumb_Up (5),16,0.473856,0.040404,0.019146,0.001197,0.429739,0.222222,11.727939, h,header
+Deve-010-017,0.990.97,8,0.124183,0.016414,0.002038,0.000255,0.5,0.230429,7.565611, h,body
+Deve-010-018,0.98Middle_Finger_Front (6) 0.95,32,0.477124,0.032828,0.015663,0.000489,0.428105,0.241162,14.533943, h,body
+Deve-010-019,0.97,4,0.029412,0.010101,0.000297,7.4e-05,0.545752,0.247475,2.911771, h,body
+Deve-010-020,0.96OK (7),10,0.473856,0.042929,0.020342,0.002034,0.429739,0.257576,11.038061, h,header
+Deve-010-021,0.970.97,8,0.124183,0.016414,0.002038,0.000255,0.5,0.265783,7.565607, h,body
+Deve-010-022,0.97Palm_Side (8),17,0.472222,0.030303,0.01431,0.000842,0.430556,0.275253,15.583334, h,body
+Deve-010-023,0.980.98,8,0.122549,0.011364,0.001393,0.000174,0.500817,0.28346,10.78433, h,body
+Deve-010-024,0.98C (9),9,0.473856,0.042929,0.020342,0.00226,0.429739,0.292929,11.038064, h,header
+Deve-010-025,0.970.97,8,0.124183,0.016414,0.002038,0.000255,0.5,0.299874,7.565602, h,body
+Deve-010-026,0.97Point_Down (10),19,0.472222,0.040404,0.01908,0.001004,0.430556,0.310606,11.687507, h,header
+Deve-010-027,1.001.00,8,0.122549,0.012626,0.001547,0.000193,0.500817,0.318182,9.705885, h,body
+Deve-010-028,1.00micro avg,13,0.473856,0.060606,0.028719,0.002209,0.429739,0.328283,7.818628, h,header
+Deve-010-029,0.970.97,8,0.124183,0.015151,0.001882,0.000235,0.5,0.335859,8.196086, h,body
+Deve-010-030,0.97macro avg,13,0.473856,0.030303,0.014359,0.001105,0.429739,0.34596,15.637256, h,body
+Deve-010-031,0.970.97,8,0.120915,0.012626,0.001527,0.000191,0.5,0.353535,9.576442, h,body
+Deve-010-032,0.97weighted avg,16,0.473856,0.041667,0.019744,0.001234,0.429739,0.363005,11.372549, h,header
+Deve-010-033,0.970.97,8,0.122549,0.012626,0.001547,0.000193,0.500817,0.371212,9.705885, h,body
+Deve-010-034,0.97,4,0.031046,0.011364,0.000353,8.8e-05,0.651144,0.370581,2.732027, h,body
+Deve-010-035,187194186199220000,18,0.027778,0.098485,0.002736,0.000152,0.760621,0.27399,0.282052, v,header
+Deve-010-036,20002000,8,0.035948,0.027778,0.000999,0.000125,0.759804,0.344697,1.294118, h,body
+Deve-010-037,2000,4,0.034314,0.010101,0.000347,8.7e-05,0.760621,0.371212,3.397055, h,body
+Deve-010-038,Classification Report for Haar-Like features,44,0.207516,0.008838,0.001834,4.2e-05,0.499183,0.416035,23.479079, h,body
+Deve-010-039,1.01,4,0.01634,0.007576,0.000124,3.1e-05,0.284314,0.433081,2.156855, h,body
+Deve-010-040,1,1,0.003268,0.006313,2.1e-05,2.1e-05,0.29085,0.452652,0.51765, v,body
+Deve-010-041,0.99,4,0.017974,0.007576,0.000136,3.4e-05,0.283497,0.472222,2.372543, h,body
+Deve-010-042,0.98,4,0.017974,0.006313,0.000113,2.8e-05,0.283497,0.491793,2.847057, h,body
+Deve-010-043,"Precision, Recall and F1-score Value",36,0.014706,0.133838,0.001968,5.5e-05,0.263889,0.512626,0.109878, v,header
+Deve-010-044,0.97,4,0.017974,0.006313,0.000113,2.8e-05,0.283497,0.511995,2.847052, h,body
+Deve-010-045,0.96,4,0.017974,0.006313,0.000113,2.8e-05,0.283497,0.532197,2.847052, h,body
+Deve-010-046,0.95,4,0.017974,0.007576,0.000136,3.4e-05,0.283497,0.551768,2.372534, h,body
+Deve-010-047,0.94,4,0.017974,0.006313,0.000113,2.8e-05,0.283497,0.571338,2.847043, h,body
+Deve-010-048,0.93,4,0.017974,0.006313,0.000113,2.8e-05,0.283497,0.590278,2.847057, h,body
+Deve-010-049,1,1,0.003268,0.006313,2.1e-05,2.1e-05,0.303922,0.601641,0.517652, v,body
+Deve-010-050,2,1,0.003268,0.006313,2.1e-05,2.1e-05,0.351307,0.601641,0.517657, v,body
+Deve-010-051,3,1,0.003268,0.006313,2.1e-05,2.1e-05,0.400327,0.601641,0.517654, v,body
+Deve-010-052,4,1,0.004902,0.00505,2.5e-05,2.5e-05,0.448529,0.60101,0.970603, v,caption
+Deve-010-053,5,1,0.003268,0.006313,2.1e-05,2.1e-05,0.496732,0.601641,0.517654, v,body
+Deve-010-054,6,1,0.004902,0.007576,3.7e-05,3.7e-05,0.544935,0.60101,0.647055, v,body
+Deve-010-055,7,1,0.004902,0.006313,3.1e-05,3.1e-05,0.593954,0.601641,0.776476, v,body
+Deve-010-056,8,1,0.004902,0.006313,3.1e-05,3.1e-05,0.64134,0.601641,0.776476, v,body
+Deve-010-057,9,1,0.003268,0.006313,2.1e-05,2.1e-05,0.689542,0.601641,0.517657, v,body
+Deve-010-058,10,2,0.00817,0.006313,5.2e-05,2.6e-05,0.737745,0.601641,1.294135, h,body
+Deve-010-059,Gesture Class,13,0.06536,0.008838,0.000578,4.4e-05,0.521242,0.61553,7.394949, h,body
+Deve-010-060,Precision,9,0.044118,0.007576,0.000334,3.7e-05,0.440359,0.641414,5.823542, h,body
+Deve-010-061,Recall,6,0.027778,0.007576,0.00021,3.5e-05,0.515523,0.640151,3.666649, h,body
+Deve-010-062,F1-score,8,0.039216,0.007576,0.000297,3.7e-05,0.589869,0.641414,5.176484, h,body
+Deve-010-063,"Figure 5: Scatter Plot of Precision, Recall and F1-Score for Haar-Like Features",79,0.51634,0.012626,0.006519,8.3e-05,0.511438,0.680556,40.894223, h,body
+Deve-010-064,"4.2 Dynamic object detection using a convolutional neural network (CNN)The CNN was trained using the Ã¢â‚¬Ëœleapgestrecog' dataset of 20,000 infrared images downloaded from Kaggle[30] to recognise hands under 10 different classes; Palm_Forward, Index_forward, Fist, Fist_Turned,Thumb_Up, Middle_Finger_Front, OK, Palm_side, C and Point_Down. The generated model which wastrained using 10 Epochs and 14,000 steps per epoch was created using python script. Obtained results foraccuracy and loss are as shown in Figure 8 and Figure 9, respectively, with their accompanying details inTable 2 and Table 3, respectively. Table 4 shows the results of the metrics (Precision, Recall, and F1-Score)of the deep learning model for each class of data. The confusion matrix generated in the form of equation(1) from the results of the metrics is as shown in equation (8). The Precision, Recall, F1-score and weightedscores are calculated as shown in Table 4, using equations (2-6).",962,0.763072,0.195707,0.149339,0.000155,0.499183,0.801136,3.899051, h,header
+Deve-010-065,URL: ,5,0.318627,0.012626,0.004023,0.000805,0.477941,0.939394,25.235219, h,body
+Deve-010-066,37,2,0.014706,0.008838,0.00013,6.5e-05,0.85866,0.9375,1.663859, h,body
+Deve-011-000,"JOURNAL OF BIOMEDICAL ENGINEERING AND MEDICAL IMAGING, Volume 6, No 4, August 2019",82,0.651961,0.012626,0.008232,0.0001,0.497549,0.064394,51.635291, h,body
+Deve-011-001,Table 2: Training Results of CNN (Accuracy),43,0.289216,0.013889,0.004017,9.3e-05,0.510621,0.092803,20.823525, h,body
+Deve-011-002,Epoch,5,0.053922,0.013889,0.000749,0.00015,0.384804,0.13952,3.88235, h,body
+Deve-011-003,12,2,0.00817,0.027778,0.000227,0.000113,0.384804,0.165404,0.294118, v,body
+Deve-011-004,3,1,0.006536,0.008838,5.8e-05,5.8e-05,0.383987,0.191288,0.739496, v,body
+Deve-011-005,Model Accuracy,14,0.119281,0.016414,0.001958,0.00014,0.500817,0.121843,7.266968, h,body
+Deve-011-006,Train0.93110.99750.99890.99820.99950.99940.99890.99960.9997,59,0.04902,0.170455,0.008356,0.000142,0.490196,0.217803,0.287582, v,header
+Deve-011-007,Test0.99830.99870.99980.99970.99970.99970.9988,46,0.04902,0.135101,0.006623,0.000144,0.604575,0.200126,0.362836, v,header
+Deve-011-008,4,1,0.00817,0.008838,7.2e-05,7.2e-05,0.384804,0.208965,0.924371, v,body
+Deve-011-009,5,1,0.006536,0.008838,5.8e-05,5.8e-05,0.383987,0.226641,0.739496, v,body
+Deve-011-010,6,1,0.006536,0.008838,5.8e-05,5.8e-05,0.383987,0.244318,0.739496, v,body
+Deve-011-011,7,1,0.00817,0.008838,7.2e-05,7.2e-05,0.384804,0.261995,0.924371, v,body
+Deve-011-012,8,1,0.006536,0.008838,5.8e-05,5.8e-05,0.383987,0.278409,0.739497, v,body
+Deve-011-013,1,1,0.004902,0.008838,4.3e-05,4.3e-05,0.605392,0.279672,0.554627, v,body
+Deve-011-014,9,1,0.006536,0.008838,5.8e-05,5.8e-05,0.383987,0.297348,0.739496, v,body
+Deve-011-015,0.9995,6,0.04902,0.011364,0.000557,9.3e-05,0.604575,0.297348,4.313721, h,body
+Deve-011-016,10,2,0.014706,0.010101,0.000149,7.4e-05,0.384804,0.314394,1.455883, h,body
+Deve-011-017,1,1,0.004902,0.008838,4.3e-05,4.3e-05,0.491013,0.315025,0.554623, v,body
+Deve-011-018,1,1,0.004902,0.008838,4.3e-05,4.3e-05,0.605392,0.315025,0.554626, v,body
+Deve-011-019,Table 3: Training Results of CNN,32,0.214052,0.012626,0.002703,8.4e-05,0.510621,0.352273,16.952945, h,body
+Deve-011-020,Epoch,5,0.042484,0.013889,0.00059,0.000118,0.380719,0.399621,3.058822, h,body
+Deve-011-021,1,1,0.004902,0.008838,4.3e-05,4.3e-05,0.379902,0.417298,0.554624, v,body
+Deve-011-022,2,1,0.006536,0.008838,5.8e-05,5.8e-05,0.379085,0.436237,0.739497, v,body
+Deve-011-023,Test0.0066,10,0.04902,0.030303,0.001485,0.000149,0.602941,0.407828,1.617648, h,body
+Deve-011-024,0.00610.00033280.0006637,24,0.076797,0.04798,0.003685,0.000154,0.603758,0.455808,1.600618, h,header
+Deve-011-025,3,1,0.006536,0.008838,5.8e-05,5.8e-05,0.379085,0.455177,0.739496, v,body
+Deve-011-026,4,1,0.00817,0.008838,7.2e-05,7.2e-05,0.379902,0.475379,0.924366, v,body
+Deve-011-027,Model Loss,10,0.080065,0.013889,0.001112,0.000111,0.499183,0.380682,5.764708, h,body
+Deve-011-028,Train0.23060.01110.00480.01070.0020.00260.00780.0033,52,0.04902,0.161616,0.007922,0.000152,0.485294,0.474747,0.303309, v,header
+Deve-011-029,0.00120.0000041542,18,0.102941,0.031566,0.003249,0.000181,0.484477,0.577651,3.261177, h,body
+Deve-011-030,5,1,0.006536,0.011364,7.4e-05,7.4e-05,0.380719,0.493056,0.575164, v,body
+Deve-011-031,0.003,5,0.039216,0.008838,0.000347,6.9e-05,0.602941,0.493056,4.436973, h,body
+Deve-011-032,6,1,0.00817,0.007576,6.2e-05,6.2e-05,0.379902,0.511364,1.078431, h,body
+Deve-011-033,7,1,0.006536,0.008838,5.8e-05,5.8e-05,0.380719,0.530934,0.739491, v,body
+Deve-011-034,8,1,0.006536,0.007576,5e-05,5e-05,0.379085,0.549242,0.862747, v,body
+Deve-011-035,0.00370.00824.859E-05,21,0.071895,0.049242,0.00354,0.000169,0.602941,0.530934,1.460029, h,header
+Deve-011-036,0.00130.000091735,17,0.094771,0.030303,0.002872,0.000169,0.602941,0.57702,3.12745, h,body
+Deve-011-037,9,1,0.006536,0.008838,5.8e-05,5.8e-05,0.379085,0.567551,0.739497, v,body
+Deve-011-038,10,2,0.01634,0.008838,0.000144,7.2e-05,0.380719,0.58649,1.848745, h,body
+Deve-011-039,Model Accuracy vs Epoch Number,30,0.173203,0.010101,0.00175,5.8e-05,0.5,0.619949,17.147077, h,body
+Deve-011-040,1.01,4,0.017974,0.006313,0.000113,2.8e-05,0.281863,0.638258,2.847045, h,body
+Deve-011-041,1,1,0.009804,0.008838,8.7e-05,8.7e-05,0.285948,0.654672,1.109239, h,body
+Deve-011-042,0.99,4,0.019608,0.007576,0.000149,3.7e-05,0.281046,0.67298,2.58824, h,body
+Deve-011-043,0.98,4,0.017974,0.008838,0.000159,4e-05,0.281863,0.690025,2.033626, h,body
+Deve-011-044,0.97,4,0.017974,0.007576,0.000136,3.4e-05,0.281863,0.707071,2.372548, h,body
+Deve-011-045,Model Accuracy,14,0.01634,0.063131,0.001032,7.4e-05,0.261438,0.715909,0.258824, v,header
+Deve-011-046,0.96,4,0.019608,0.006313,0.000124,3.1e-05,0.281046,0.724116,3.105876, h,body
+Deve-011-047,0.94,4,0.017974,0.007576,0.000136,3.4e-05,0.281863,0.758838,2.372539, h,body
+Deve-011-048,0.93,4,0.017974,0.007576,0.000136,3.4e-05,0.281863,0.776515,2.372555, h,body
+Deve-011-049,0.92,4,0.019608,0.007576,0.000149,3.7e-05,0.281046,0.792929,2.588233, h,body
+Deve-011-050,0,1,0.004902,0.006313,3.1e-05,3.1e-05,0.301471,0.804924,0.776471, v,body
+Deve-011-051,2,1,0.003268,0.006313,2.1e-05,2.1e-05,0.375817,0.804924,0.517645, v,body
+Deve-011-052,4,1,0.004902,0.005051,2.5e-05,2.5e-05,0.450163,0.805556,0.970587, v,caption
+Deve-011-053,6,1,0.004902,0.006313,3.1e-05,3.1e-05,0.522059,0.804924,0.776468, v,body
+Deve-011-054,8,1,0.004902,0.006313,3.1e-05,3.1e-05,0.595588,0.804924,0.776465, v,body
+Deve-011-055,10,2,0.009804,0.006313,6.2e-05,3.1e-05,0.669935,0.804924,1.552933, h,body
+Deve-011-056,12,2,0.009804,0.007576,7.4e-05,3.7e-05,0.743464,0.805556,1.294106, h,body
+Deve-011-057,Epoch Number,12,0.075163,0.011364,0.000854,7.1e-05,0.522876,0.818813,6.614383, h,body
+Deve-011-058,,6,0.029412,0.008838,0.00026,4.3e-05,0.48366,0.845328,3.327709, h,body
+Deve-011-059,,5,0.027778,0.007576,0.00021,4.2e-05,0.544935,0.84596,3.666645, h,body
+Deve-011-060,Figure 6: Graph of Model Accuracy (Accuracy vs Epoch Number),60,0.428105,0.013889,0.005946,9.9e-05,0.498366,0.885732,30.823504, h,body
+Deve-011-061,COPYRIGHT Ã‚Â© SOCIETY FOR SCIENCE AND EDUCATION UNITED KINGDOM,60,0.47549,0.011364,0.005403,9e-05,0.484477,0.936237,41.843269, h,body
+Deve-011-062,38,2,0.017974,0.008838,0.000159,7.9e-05,0.878268,0.936237,2.033623, h,body
+Deve-012-000,"Agbotiname Lucky Imoize, Aanuoluwapo Eberechukwu Babajide; Development of an Infrared-Based Sensor for Finger MovementDetection, Journal of Biomedical Engineering and Medical Imaging, Volume 6, No 4, Aug (2019), pp 29-44",220,0.795752,0.030303,0.024114,0.00011,0.523693,0.07197,26.259808, h,body
+Deve-012-001,Model Loss vs Epoch Number,26,0.143791,0.008838,0.001271,4.9e-05,0.501634,0.11048,16.268915, h,body
+Deve-012-002,0.25,4,0.017974,0.007576,0.000136,3.4e-05,0.291667,0.127525,2.372549, h,body
+Deve-012-003,0.2,3,0.013072,0.006313,8.3e-05,2.8e-05,0.295752,0.152146,2.070589, h,body
+Deve-012-004,0.15,4,0.01634,0.007576,0.000124,3.1e-05,0.292484,0.176768,2.156864, h,body
+Deve-012-005,Model Loss,10,0.011438,0.042929,0.000491,4.9e-05,0.268791,0.20202,0.266436, v,header
+Deve-012-006,0.1,3,0.013072,0.006313,8.3e-05,2.8e-05,0.294118,0.201389,2.070589, h,body
+Deve-012-007,0.05,4,0.01634,0.007576,0.000124,3.1e-05,0.292484,0.22601,2.156864, h,body
+Deve-012-008,0,1,0.003268,0.007576,2.5e-05,2.5e-05,0.29902,0.25,0.431372, v,body
+Deve-012-009,0,1,0.003268,0.00505,1.7e-05,1.7e-05,0.312092,0.261364,0.647059, v,caption
+Deve-012-010,4,1,0.003268,0.00505,1.7e-05,1.7e-05,0.454248,0.261364,0.647059, v,caption
+Deve-012-011,6,1,0.004902,0.007576,3.7e-05,3.7e-05,0.525327,0.261364,0.647058, v,body
+Deve-012-012,8,1,0.003268,0.006313,2.1e-05,2.1e-05,0.594771,0.260732,0.51764, v,body
+Deve-012-013,10,2,0.009804,0.00505,5e-05,2.5e-05,0.666667,0.261364,1.94118, h,caption
+Deve-012-014,12,2,0.009804,0.007576,7.4e-05,3.7e-05,0.736928,0.261364,1.294115, h,body
+Deve-012-015,-0.05,5,0.021242,0.007576,0.000161,3.2e-05,0.290033,0.275253,2.803926, h,body
+Deve-012-016,Epoch Number,12,0.071895,0.010101,0.000726,6.1e-05,0.52451,0.282828,7.117668, h,body
+Deve-012-017,,6,0.027778,0.007576,0.00021,3.5e-05,0.484477,0.308081,3.666653, h,body
+Deve-012-018,Test,4,0.019608,0.006313,0.000124,3.1e-05,0.545752,0.307449,3.105881, h,body
+Deve-012-019,Figure 7: Graph of Model loss (loss vs Epoch Number),52,0.357843,0.013889,0.00497,9.6e-05,0.499183,0.349116,25.764742, h,body
+Deve-012-020,Model Accuracy vs Epoch Number,30,0.168301,0.010101,0.0017,5.7e-05,0.499183,0.381313,16.661778, h,body
+Deve-012-021,(Localised to 0.9975 - 1.0005),30,0.143791,0.010101,0.001452,4.8e-05,0.5,0.392677,14.235277, h,body
+Deve-012-022,1.0005,6,0.029412,0.006313,0.000186,3.1e-05,0.294118,0.409722,4.65884, h,body
+Deve-012-023,1,1,0.003268,0.006313,2.1e-05,2.1e-05,0.305556,0.433712,0.517645, v,body
+Deve-012-024,0.9995,6,0.029412,0.007576,0.000223,3.7e-05,0.294118,0.457071,3.882358, h,body
+Deve-012-025,Model Accuracy,14,0.013072,0.060606,0.000792,5.7e-05,0.267974,0.481061,0.215686, v,header
+Deve-012-026,0.999,5,0.022876,0.007576,0.000173,3.5e-05,0.295752,0.481061,3.019598, h,body
+Deve-012-027,0.9985,6,0.031046,0.006313,0.000196,3.3e-05,0.293301,0.504419,4.917629, h,body
+Deve-012-028,0.998,5,0.02451,0.006313,0.000155,3.1e-05,0.296569,0.528409,3.882327, h,body
+Deve-012-029,0.9975,6,0.029412,0.007576,0.000223,3.7e-05,0.294118,0.55303,3.882352, h,body
+Deve-012-030,0,1,0.004902,0.005051,2.5e-05,2.5e-05,0.319444,0.564394,0.970581, v,caption
+Deve-012-031,2,1,0.003268,0.006313,2.1e-05,2.1e-05,0.388889,0.563763,0.517646, v,body
+Deve-012-032,4,1,0.004902,0.006313,3.1e-05,3.1e-05,0.456699,0.563763,0.776465, v,body
+Deve-012-033,6,1,0.004902,0.007576,3.7e-05,3.7e-05,0.525327,0.563131,0.647059, v,body
+Deve-012-034,8,1,0.003268,0.006313,2.1e-05,2.1e-05,0.594771,0.563763,0.517641, v,body
+Deve-012-035,10,2,0.009804,0.006313,6.2e-05,3.1e-05,0.663399,0.563763,1.552929, h,body
+Deve-012-036,12,2,0.009804,0.006313,6.2e-05,3.1e-05,0.73366,0.563763,1.552942, h,body
+Deve-012-037,Epoch Number,12,0.071895,0.011364,0.000817,6.8e-05,0.526144,0.577651,6.326817, h,body
+Deve-012-038,Train,5,0.026144,0.008838,0.000231,4.6e-05,0.48366,0.602904,2.958011, h,body
+Deve-012-039,Test,4,0.019608,0.007576,0.000149,3.7e-05,0.544118,0.602273,2.588257, h,body
+Deve-012-040,Figure 8: Graph of Model Accuracy (localised),45,0.303922,0.013889,0.004221,9.4e-05,0.511438,0.644571,21.882493, h,body
+Deve-012-041,Model Loss vs Epoch Number,26,0.137255,0.008838,0.001213,4.7e-05,0.513072,0.674874,15.529494, h,body
+Deve-012-042,(Localised to 0-0.012),22,0.109477,0.011364,0.001244,5.7e-05,0.513889,0.6875,9.634024, h,body
+Deve-012-043,0.012,5,0.021242,0.007576,0.000161,3.2e-05,0.312909,0.70202,2.803926, h,body
+Deve-012-044,0.01,4,0.017974,0.006313,0.000113,2.8e-05,0.314542,0.722854,2.847075, h,body
+Deve-012-045,0.008,5,0.021242,0.006313,0.000134,2.7e-05,0.312909,0.744318,3.364729, h,body
+Deve-012-046,0.006,5,0.022876,0.006313,0.000144,2.9e-05,0.312092,0.765783,3.623548, h,body
+Deve-012-047,Model Loss,10,0.014706,0.040404,0.000594,5.9e-05,0.286765,0.776515,0.363971, v,header
+Deve-012-048,M,1,0.052288,0.131313,0.006866,0.006866,0.498366,0.767677,0.39819, v,header
+Deve-012-049,0.004,5,0.021242,0.006313,0.000134,2.7e-05,0.312909,0.785985,3.364724, h,body
+Deve-012-050,0.002,5,0.022876,0.007576,0.000173,3.5e-05,0.312092,0.806818,3.019607, h,body
+Deve-012-051,0,1,0.003268,0.005051,1.7e-05,1.7e-05,0.321895,0.828283,0.647054, v,caption
+Deve-012-052,0,1,0.003268,0.00505,1.7e-05,1.7e-05,0.334967,0.839646,0.647061, v,caption
+Deve-012-053,2,1,0.004902,0.006313,3.1e-05,3.1e-05,0.402778,0.839015,0.776474, v,body
+Deve-012-054,4,1,0.004902,0.006313,3.1e-05,3.1e-05,0.469771,0.839015,0.776471, v,body
+Deve-012-055,6,1,0.003268,0.006313,2.1e-05,2.1e-05,0.537582,0.839015,0.517647, v,body
+Deve-012-056,8,1,0.004902,0.006313,3.1e-05,3.1e-05,0.605392,0.839015,0.776481, v,body
+Deve-012-057,10,2,0.00817,0.006313,5.2e-05,2.6e-05,0.67402,0.839015,1.29413, h,body
+Deve-012-058,12,2,0.009804,0.006313,6.2e-05,3.1e-05,0.740196,0.839015,1.552953, h,body
+Deve-012-059,-0.002,6,0.026144,0.007576,0.000198,3.3e-05,0.312091,0.849747,3.450985, h,body
+Deve-012-060,Epoch Number,12,0.068627,0.011364,0.00078,6.5e-05,0.537582,0.856692,6.039231, h,body
+Deve-012-061,Train,5,0.02451,0.007576,0.000186,3.7e-05,0.497549,0.881313,3.235312, h,body
+Deve-012-062,,5,0.026144,0.007576,0.000198,4e-05,0.553922,0.881313,3.450994, h,body
+Deve-012-063,Figure 9: Graph of Model loss (localized)URL: ,46,0.326797,0.031566,0.010316,0.000224,0.482026,0.929924,10.352927, h,body
+Deve-012-064,39,2,0.014706,0.008838,0.00013,6.5e-05,0.85866,0.9375,1.663859, h,body
+Deve-013-000,"JOURNAL OF BIOMEDICAL ENGINEERING AND MEDICAL IMAGING, Volume 6, No 4, August 2019",82,0.651961,0.012626,0.008232,0.0001,0.497549,0.064394,51.635291, h,body
+Deve-013-001,211 0,5,0.055556,0.016414,0.000912,0.000182,0.415033,0.118056,3.384616, h,body
+Deve-013-002,CMATRIX,7,0.058824,0.016414,0.000966,0.000138,0.333333,0.192551,3.583708, h,body
+Deve-013-003,0 0 0 0 0 0 0 00 217 0 0 0 0 0 0 0 00 0 195 0 0 0 0 0 0 00 0 1 1900 0 0 0 0 00 0 0 0 187 0 0 0 0 00,99,0.277778,0.092172,0.025603,0.000259,0.542484,0.15846,3.013698, h,header
+Deve-013-004,0 0 0 0 194 0 0 0 00 0 0 0 0 0 186 0 0 00 0 0 0 0 0 0 199 0 00 0 0 0 0 0 0 0 220 00 0 0 0 0 0 0 0 0 200,103,0.287582,0.079545,0.022876,0.000222,0.54902,0.232955,3.615313, h,header
+Deve-013-005,-8,3,0.01634,0.013889,0.000227,7.6e-05,0.870915,0.192551,1.176469, h,body
+Deve-013-006,Table 4: Metrics for Deep Learning Model,40,0.277778,0.012626,0.003507,8.8e-05,0.498366,0.310606,22.000004, h,body
+Deve-013-007,Support,7,0.060458,0.015152,0.000916,0.000131,0.745915,0.352273,3.990194, h,body
+Deve-013-008,211217,6,0.026144,0.02904,0.000759,0.000127,0.745098,0.378157,0.900256, v,body
+Deve-013-009,195,3,0.02451,0.010101,0.000248,8.3e-05,0.744281,0.40404,2.426472, h,body
+Deve-013-010,191,3,0.02451,0.011364,0.000279,9.3e-05,0.745915,0.422348,2.156866, h,body
+Deve-013-011,Classification Report,21,0.148693,0.016414,0.002441,0.000116,0.499183,0.335227,9.058829, h,body
+Deve-013-012,Precision Recall,16,0.138889,0.012626,0.001754,0.00011,0.525327,0.352273,11.000006, h,body
+Deve-013-013,1.00 1.001.00 1.000.99 1.001.00 0.991.00 1.001.00 1.001.00,58,0.120915,0.117424,0.014198,0.000245,0.531046,0.421086,1.029728, h,header
+Deve-013-014,1.001.00 1.001.00,17,0.117647,0.046717,0.005496,0.000323,0.531046,0.491793,2.518283, h,header
+Deve-013-015,1.001.00 1.001.00,17,0.117647,0.045455,0.005348,0.000315,0.531046,0.526515,2.588236, h,header
+Deve-013-016,1.001.00 1.001.00 1.00,22,0.117647,0.046717,0.005496,0.00025,0.531046,0.563763,2.518281, h,header
+Deve-013-017,Gesture ClassPalm_Forward (1)Index_Forward (2)Fist (3)Fist_Turned (4)Thumb_Up (5)Middle_Finger_Front (6)OK (7)Palm_Side (8)C (9)Point_Down (10)micro avgmacro avgweighted avg,173,0.186275,0.247475,0.046098,0.000266,0.310458,0.467172,0.752701, v,header
+Deve-013-018,187194,6,0.02451,0.026515,0.00065,0.000108,0.745915,0.448864,0.924371, v,body
+Deve-013-019,F1-score,8,0.058824,0.012626,0.000743,9.3e-05,0.663399,0.352273,4.658826, h,body
+Deve-013-020,1.001.001.001.001.001.001.001.001.001.001.001.001.00,52,0.034314,0.222222,0.007625,0.000147,0.662582,0.474747,0.154412, v,header
+Deve-013-021,186,3,0.026144,0.010101,0.000264,8.8e-05,0.745098,0.474747,2.58823, h,body
+Deve-013-022,199220200,9,0.026144,0.045455,0.001188,0.000132,0.745098,0.510101,0.575163, v,header
+Deve-013-023,2000,4,0.034314,0.010101,0.000347,8.7e-05,0.744281,0.545455,3.397051, h,body
+Deve-013-024,20002000,8,0.034314,0.027778,0.000953,0.000119,0.744281,0.57197,1.235294, h,body
+Deve-013-025,Classification Report for Haar-Like features,44,0.21732,0.008838,0.001921,4.4e-05,0.499183,0.614268,24.588333, h,body
+Deve-013-026,1.002,5,0.022876,0.006313,0.000144,2.9e-05,0.281046,0.631944,3.623548, h,body
+Deve-013-027,1,1,0.003268,0.006313,2.1e-05,2.1e-05,0.29085,0.652146,0.517651, v,body
+Deve-013-028,0.998,5,0.022876,0.007576,0.000173,3.5e-05,0.281046,0.67298,3.019611, h,body
+Deve-013-029,0.996,5,0.022876,0.007576,0.000173,3.5e-05,0.281046,0.694444,3.019587, h,body
+Deve-013-030,"Precision, Recall and F1-score Value",36,0.013072,0.140151,0.001832,5.1e-05,0.256536,0.705177,0.09327, v,header
+Deve-013-031,V,1,0.176471,0.118687,0.020945,0.020945,0.424837,0.699495,1.486859, h,header
+Deve-013-032,0.994,5,0.022876,0.007576,0.000173,3.5e-05,0.281046,0.714646,3.019619, h,body
+Deve-013-033,0.992,5,0.022876,0.008838,0.000202,4e-05,0.281046,0.73548,2.588231, h,body
+Deve-013-034,0.99,4,0.017974,0.006313,0.000113,2.8e-05,0.283497,0.756944,2.84707, h,body
+Deve-013-035,0.988,5,0.022876,0.008838,0.000202,4e-05,0.281046,0.778409,2.588231, h,body
+Deve-013-036,1,1,0.003268,0.006313,2.1e-05,2.1e-05,0.303922,0.789773,0.517645, v,body
+Deve-013-037,2,1,0.003268,0.006313,2.1e-05,2.1e-05,0.352941,0.78851,0.517646, v,body
+Deve-013-038,3,1,0.003268,0.007576,2.5e-05,2.5e-05,0.401961,0.789141,0.431371, v,body
+Deve-013-039,4,1,0.004902,0.006313,3.1e-05,3.1e-05,0.450163,0.78851,0.776465, v,body
+Deve-013-040,5,1,0.003268,0.007576,2.5e-05,2.5e-05,0.5,0.789141,0.431376, v,body
+Deve-013-041,6,1,0.004902,0.006313,3.1e-05,3.1e-05,0.548203,0.78851,0.776469, v,body
+Deve-013-042,7,1,0.003268,0.006313,2.1e-05,2.1e-05,0.598039,0.789773,0.51765, v,body
+Deve-013-043,8,1,0.003268,0.006313,2.1e-05,2.1e-05,0.647059,0.789773,0.517643, v,body
+Deve-013-044,9,1,0.004902,0.006313,3.1e-05,3.1e-05,0.695261,0.78851,0.776457, v,body
+Deve-013-045,10,2,0.009804,0.006313,6.2e-05,3.1e-05,0.743464,0.789773,1.552933, h,body
+Deve-013-046,Gesture Class,13,0.066993,0.007576,0.000508,3.9e-05,0.523693,0.80303,8.843129, h,body
+Deve-013-047,Precision,9,0.044118,0.007576,0.000334,3.7e-05,0.437091,0.829545,5.823539, h,body
+Deve-013-048,Recall,6,0.031046,0.008838,0.000274,4.6e-05,0.513889,0.828914,3.512628, h,body
+Deve-013-049,F1-score,8,0.042484,0.010101,0.000429,5.4e-05,0.593137,0.829545,4.205874, h,body
+Deve-013-050,"Figure 10: Scatter Plot of Precision, Recall and F1-Score for Deep Learning Model",81,0.542484,0.013889,0.007535,9.3e-05,0.498366,0.871843,39.058792, h,body
+Deve-013-051,COPYRIGHT Ã‚Â© SOCIETY FOR SCIENCE AND EDUCATION UNITED KINGDOM,60,0.47549,0.011364,0.005403,9e-05,0.484477,0.936237,41.843269, h,body
+Deve-013-052,40,2,0.017974,0.008838,0.000159,7.9e-05,0.878268,0.936237,2.033623, h,body
+Deve-014-000,"Agbotiname Lucky Imoize, Aanuoluwapo Eberechukwu Babajide; Development of an Infrared-Based Sensor for Finger MovementDetection, Journal of Biomedical Engineering and Medical Imaging, Volume 6, No 4, Aug (2019), pp 29-444.3 Discussion of Results",245,0.795752,0.050505,0.040189,0.000164,0.523693,0.083333,15.755881, h,header
+Deve-014-001,"The result of using the Haar-Cascade shows that hands are detected with small bounding boxes (Figure 4)but only when the hand is stable for a few seconds. This implies that the algorithm may not be suitablefor dynamic frames or gesture recognition. Also, for each distinct position of the hand (fist, palm, palmopen, two fingers up, etc.), a distinct model had to be trained to ensure detection. The confusion matrixshows the TP, TN, FN and FP's of the results when the algorithm was tested with random data. From theconfusion matrix, it can be observed that the algorithm obtained the most difficulty in differentiating fistsfrom turned fists, 'OK' gesture from 'C' gesture and 'Index_forward' from Ã¢â‚¬ËœMiddle_Finger_FronÃ…Â¥. This canbe attributed to the similarity of these gestures. Table 1 shows the calculated Precision, Recall and F1score for the results of the test, and with an overall average of 0.97, the algorithm performs brilliantly indetecting and classifying hands, while Figure 5 gives a graphical representation of the data.The result of using a CNN (Deep Learning Model) gave good results because the model was trained arounda diverse set of infrared images and with a total of 20,000 images, the dataset was split into test and trainsamples. The model is trained on 12,600 samples and validated on 5,400 samples in 10 epochs, runningall samples in each epoch, and the results (Accuracy and Loss) of training after each epoch can be seen inTable 2 and Table 3, respectively. From the tables, the accuracy is observed to increase for each epochuntil the fourth epoch due to over fitting of the model. The model changes trend at the sixth and seventhepoch which is a good sign as it shows that the model is learning. The final three epochs show a steadyincrease in accuracy.Figure 6 is a visual representation of the model accuracy at each epoch and Figure 7 is a visualrepresentation of the model loss at each epoch, while Figure 8 and Figure 9 show the localisedrepresentations in the absence of outliers. The confusion matrix in equation (8) shows that the model isnear perfect in classifying the hands under the given labels, having only one FN and FP. This is becausethe noise in the input data is reduced to a minimum since the images are infrared and have undergone Zaxis filtering. Table 4 gives the values of calculated Precision, Recall and F1-Score based on the ConfusionMatrix, and with an overall average of 1.00, the deep learning model is perfect for predicting such data,while Figure 10 gives a graphical representation of this data.",2560,0.763072,0.516414,0.394061,0.000154,0.499183,0.379419,1.477635, h,other
+Deve-014-002,"From the results of all three techniques, the deep learning model is observed to be the best, scoringalmost perfect scores in all measured metrics. While the deep learning model was slower than the statictechniques, it was more accurate than both. The deep learning model has a weighted average Precisionscore of 1.00, weighted average recall score of 1.00 and weighted average F1-score of 1.00 while the Haarlike feature algorithm has a weighted average Precision score of 0.97, weighted average recall score of0.97, and weighted average F1-score of 0.97.",556,0.763072,0.112374,0.085749,0.000154,0.499183,0.706439,6.790479, h,header
+Deve-014-003,"5 ConclusionGiven the selected techniques of hand detection (Haar-like features and Deep Learning Model), andinfrared images as input, the techniques are implemented in fulfilment of the set design objectives. Theimplementations are then evaluated based on a set of standard metrics (accuracy, precision, recall andF1-score). The results show that the deep learning model works best for hand detection and classificationwith a weighted average precision of 1.0, weighted average recall of 1.0, weighted average F1-score of1.0 and accuracy of 100% mainly due to the absence of noise in the input images (infrared). Findings show",627,0.763072,0.135101,0.103092,0.000164,0.499183,0.842803,5.648157, h,header
+Deve-014-004,URL: ,5,0.318627,0.013889,0.004425,0.000885,0.477941,0.938763,22.941158, h,body
+Deve-014-005,41,2,0.014706,0.008838,0.00013,6.5e-05,0.85866,0.9375,1.663859, h,body
+Deve-015-000,"JOURNAL OF BIOMEDICAL ENGINEERING AND MEDICAL IMAGING, Volume 6, No 4, August 2019",82,0.651961,0.012626,0.008232,0.0001,0.497549,0.064394,51.635291, h,body
+Deve-015-001,"that the Haar-Like features had lower accuracy metrics than the Deep Learning model, with a weightedaverage precision of 0.97, weighted average recall of 0.97, weighted average F1-score of 0.97 andaccuracy of 97%. However, this technique boasts a faster running time than the Deep Learning model.Overall, the Deep Learning model is comparatively favoured because the difference in speed is notnoticeable enough to be a major deciding factor as opposed to the difference in terms of accuracy.",491,0.763072,0.093434,0.071297,0.000145,0.499183,0.132576,8.166931, h,header
+Deve-015-002,"Future work would consider the development of a suitable hybrid model that has the accuracy of the deeplearning model and the speed of the Haar-like features model for optimal results at all times. In addition,due to limited interest in this field, available datasets with holistic information (infrared and colour depthimages alongside accurate detection labels and classes) are grossly insufficient for larger scaled modelling.Hence, there is a need for accurate and holistic datasets of infrared depth images of hands specifically fortraining and testing models that would achieve better results.",599,0.763072,0.112374,0.085749,0.000143,0.499183,0.246843,6.790483, h,header
+Deve-015-003,REFERENCES,10,0.091503,0.015152,0.001386,0.000139,0.513072,0.34596,6.039208, h,body
+Deve-015-004,[1],3,0.014706,0.012626,0.000186,6.2e-05,0.147876,0.378788,1.164706, h,body
+Deve-015-005,"P. Viola and M. Jones, Robust real-time object detection, International Journal of Computer Vision, vol.4, pp. 137-154, 2001.",125,0.69281,0.030303,0.020994,0.000168,0.53268,0.388889,22.862744, h,body
+Deve-015-006,[2],3,0.014706,0.011364,0.000167,5.6e-05,0.14951,0.429924,1.294119, h,body
+Deve-015-007,"Q. Chen, N. D. Georganas, and E. M. Petriu, Hand Gesture Recognition Using Haar-Like Features and aStochastic Context-Free Grammar, IEEE Transactions on Instrumentation and Measurement, vol. 57, pp.1562-1571, 2008.",214,0.691176,0.049242,0.034035,0.000159,0.533497,0.447601,14.036205, h,header
+Deve-015-008,[3],3,0.014706,0.013889,0.000204,6.8e-05,0.14951,0.498106,1.058823, h,body
+Deve-015-009,"S. Sharma and S. Jain, A Static Hand Gesture and Face Recognition System for Blind People, in 2019 6thInternational Conference on Signal Processing and Integrated Networks (SPIN), 2019, pp. 534-539.",198,0.691176,0.030303,0.020945,0.000106,0.533497,0.507576,22.808845, h,body
+Deve-015-010,[4],3,0.014706,0.012626,0.000186,6.2e-05,0.14951,0.549242,1.164702, h,body
+Deve-015-011,"M. De Berg, M. Van Kreveld, M. Overmars, and O. Schwarzkopf, Computational geometry, inComputational geometry, ed: Springer, 1997, pp. 1-17.",140,0.691176,0.030303,0.020945,0.00015,0.533497,0.558081,22.808808, h,body
+Deve-015-012,[5],3,0.014706,0.012626,0.000186,6.2e-05,0.14951,0.599747,1.164705, h,body
+Deve-015-013,"Z. Ren, J. Meng, and J. Yuan, Depth camera based hand gesture recognition and its applications in HumanComputer-Interaction, in 2011 8th International Conference on Information, Communications & SignalProcessing, Singapore., 2011., pp. 1-5.",240,0.69281,0.049242,0.034116,0.000142,0.534314,0.616793,14.069368, h,header
+Deve-015-014,[6],3,0.014706,0.012626,0.000186,6.2e-05,0.14951,0.666667,1.164706, h,body
+Deve-015-015,"M. V. d. Bergh, D. Carton, R. D. Nijs, N. Mitsou, C. Landsiedel, K. Kuehnlenz, et al., Real-time 3D handgesture interaction with a robot for understanding directions from humans, in 2011 RO-MAN, Atlanta,GA., 2011., pp. 357-362.",227,0.691176,0.049242,0.034035,0.00015,0.533497,0.684975,14.036188, h,header
+Deve-015-016,[7],3,0.014706,0.013889,0.000204,6.8e-05,0.14951,0.73548,1.058823, h,body
+Deve-015-017,"H. Guan-Feng, K. Sun-Kyung, S. Won-Chang, and J. Sung-Tae, Real-time gesture recognition using 3Ddepth camera, in 2011 IEEE 2nd International Conference on Software Engineering and Service Science,Beijing, China., 2011., pp. 187-190.",233,0.69281,0.04798,0.033241,0.000143,0.534314,0.753788,14.439616, h,header
+Deve-015-018,[8],3,0.014706,0.012626,0.000186,6.2e-05,0.14951,0.804293,1.164706, h,body
+Deve-015-019,"C. F. Higham and D. J. Higham, Deep Learning: An Introduction for Applied Mathematicians, SIAMReview, vol. 61, pp. 860-891, 2019.",129,0.69281,0.030303,0.020994,0.000163,0.534314,0.813131,22.862745, h,body
+Deve-015-020,[9],3,0.014706,0.012626,0.000186,6.2e-05,0.14951,0.854798,1.164711, h,body
+Deve-015-021,"Y. LeCun, Y. Bengio, and G. Hinton, Deep learning, nature, vol. 521, pp. 436-444, 2015.",87,0.581699,0.013889,0.008079,9.3e-05,0.478758,0.855429,41.882621, h,body
+Deve-015-022,[10],4,0.022876,0.012626,0.000289,7.2e-05,0.153595,0.887626,1.811766, h,body
+Deve-015-023,"O. K. Oyedotun and A. Khashman, Deep learning in vision-based static hand gesture recognition, NeuralComputing and Applications, vol. 28, pp. 3941-3951, December 01 2017.",170,0.69281,0.032828,0.022744,0.000134,0.534314,0.897727,21.104093, h,body
+Deve-015-024,COPYRIGHT Ã‚Â© SOCIETY FOR SCIENCE AND EDUCATION UNITED KINGDOM,60,0.47549,0.011364,0.005403,9e-05,0.484477,0.936237,41.843269, h,body
+Deve-015-025,42,2,0.017974,0.008838,0.000159,7.9e-05,0.878268,0.936237,2.033623, h,body
+Deve-016-000,"Agbotiname Lucky Imoize, Aanuoluwapo Eberechukwu Babajide; Development of an Infrared-Based Sensor for Finger MovementDetection, Journal of Biomedical Engineering and Medical Imaging, Volume 6, No 4, Aug (2019), pp 29-44[11] H. Birk, T. B. Moeslund, and C. B. Madsen, Real-time recognition of hand alphabet gestures using principal",331,0.795752,0.051768,0.041194,0.000124,0.523693,0.082702,15.371593, h,header
+Deve-016-001,"component analysis, in Proceedings of the Scandinavian conference on image analysis, 1997, pp. 261268.",102,0.69281,0.02904,0.020119,0.000197,0.534314,0.126894,23.856781, h,body
+Deve-016-002,[12],4,0.022876,0.012626,0.000289,7.2e-05,0.153595,0.169192,1.811762, h,body
+Deve-016-003,"S. Hussain, R. Saxena, X. Han, J. A. Khan, and H. Shin, Hand gesture recognition using deep learning, in2017 International SoC Design Conference (ISOCC), Seoul, South Korea., 2017., pp. 48-49.",192,0.691176,0.031566,0.021817,0.000114,0.533497,0.178662,21.89646, h,body
+Deve-016-004,[13],4,0.022876,0.012626,0.000289,7.2e-05,0.153595,0.219697,1.811765, h,body
+Deve-016-005,"K. Simonyan and A. Zisserman, Very deep convolutional networks for large-scale image recognition,arXiv preprint arXiv:1409.1556, 2014.",134,0.691176,0.030303,0.020945,0.000156,0.533497,0.228535,22.808823, h,body
+Deve-016-006,[14],4,0.022876,0.013889,0.000318,7.9e-05,0.153595,0.270833,1.647057, h,body
+Deve-016-007,"S. J. Pan and Q. Yang, A survey on transfer learning, IEEE Transactions on knowledge and dataengineering, vol. 22, pp. 1345-1359, 2009.",135,0.69281,0.031566,0.021869,0.000162,0.534314,0.279672,21.948254, h,body
+Deve-016-008,[15],4,0.022876,0.013889,0.000318,7.9e-05,0.153595,0.321338,1.647058, h,body
+Deve-016-009,"H. Cheng, A. M. Chen, A. Razdan, and E. Buller, Contactless gesture recognition system using proximitysensors, in 2011 IEEE International Conference on Consumer Electronics (ICCE), Berlin, Germany., 2011.,pp. 149-150.",217,0.69281,0.049242,0.034116,0.000157,0.534314,0.339015,14.06938, h,header
+Deve-016-010,[16],4,0.022876,0.013889,0.000318,7.9e-05,0.151961,0.38952,1.647058, h,body
+Deve-016-011,"T. Liu, X. Luo, J. Liu, and H. Cui, Compressive infrared sensing for arm gesture acquisition and recognition,in 2015 IEEE International Conference on Information and Automation, Lijiang, China., 2015., pp. 18821886.",215,0.69281,0.04798,0.033241,0.000155,0.534314,0.406566,14.439628, h,header
+Deve-016-012,[17],4,0.022876,0.012626,0.000289,7.2e-05,0.153595,0.458333,1.811765, h,body
+Deve-016-013,"R. K. Megalingam, V. Rangan, S. Krishnan, and A. B. E. Alinkeezhil, IR Sensor-Based Gesture ControlWheelchair for Stroke and SCI Patients, IEEE Sensors Journal, vol. 16, pp. 6755-6765, 2016.",190,0.691176,0.031566,0.021817,0.000115,0.533497,0.46654,21.89646, h,body
+Deve-016-014,[18],4,0.022876,0.012626,0.000289,7.2e-05,0.153595,0.508838,1.811769, h,body
+Deve-016-015,"C. Metzger, M. Anderson, and T. Starner, FreeDigiter: a contact-free device for gesture control, in EighthInternational Symposium on Wearable Computers, Arlington., 2004., pp. 18-21.",182,0.69281,0.031566,0.021869,0.00012,0.534314,0.518308,21.948226, h,body
+Deve-016-016,[19],4,0.022876,0.012626,0.000289,7.2e-05,0.153595,0.559343,1.811767, h,body
+Deve-016-017,"F. Erden and A. E. Ãƒâ€¡etin, Hand gesture based remote control system using infrared sensors and a camera,IEEE Transactions on Consumer Electronics, vol. 60, pp. 675-680, 2014.",173,0.687908,0.031566,0.021714,0.000126,0.531863,0.568813,21.792911, h,body
+Deve-016-018,[20],4,0.022876,0.013889,0.000318,7.9e-05,0.153595,0.609217,1.647058, h,body
+Deve-016-019,"D. Ionescu, V. Suse, C. Gadea, B. Solomon, B. Ionescu, and S. Islam, An infrared-based depth camera forgesture-based control of virtual environments, in 2013 IEEE International Conference on ComputationalIntelligence and Virtual Environments for Measurement Systems and Applications (CIVEMSA), Milan, Italy.,2013., pp. 13-18.",325,0.694444,0.066919,0.046472,0.000143,0.535131,0.635732,10.377365, h,header
+Deve-016-020,[21],4,0.022876,0.012626,0.000289,7.2e-05,0.153595,0.695707,1.811765, h,body
+Deve-016-021,"D. Ionescu, V. Suse, C. Gadea, B. Solomon, B. Ionescu, S. Islam, et al., A single sensor NIR depth camerafor gesture control, in 2014 IEEE International Instrumentation and Measurement Technology Conference(12MTC) Proceedings, Montevideo, Uruguay., 2014., pp. 1600-1605.",270,0.69281,0.050505,0.03499,0.00013,0.534314,0.714646,13.717644, h,header
+Deve-016-022,"[22] Y. Sato, Y. Kobayashi, and H. Koike, Fast tracking of hands and fingertips in infrared images for augmented",112,0.736928,0.012626,0.009305,8.3e-05,0.510621,0.763889,58.364577, h,body
+Deve-016-023,"desk interface, in Proceedings Fourth IEEE International Conference on Automatic Face and GestureRecognition (Cat. No. PRO0580), Grenoble, France., 2000, pp. 462-467.",166,0.69281,0.031566,0.021869,0.000132,0.534314,0.791035,21.948205, h,body
+Deve-016-024,[23],4,0.022876,0.012626,0.000289,7.2e-05,0.153595,0.832071,1.81176, h,body
+Deve-016-025,"L. Xia and K. Fujimura, Hand gesture recognition using depth data, in Sixth IEEE International Conferenceon Automatic Face and Gesture Recognition, 2004. Proceedings., 2004, pp. 529-534.",186,0.69281,0.031566,0.021869,0.000118,0.534314,0.84154,21.948247, h,body
+Deve-016-026,[24],4,0.022876,0.012626,0.000289,7.2e-05,0.153595,0.883838,1.811769, h,body
+Deve-016-027,"J. Suarez and R. R. Murphy, Hand gesture recognition with depth images: A review, in 2012 IEEE ROMAN: The 21st IEEE International Symposium on Robot and Human Interactive Communication, Paris,France., 2012, pp. 411-417.URL: ",224,0.69281,0.069445,0.048112,0.000215,0.534314,0.910985,9.976462, h,header
+Deve-016-028,43,2,0.014706,0.008838,0.00013,6.5e-05,0.85866,0.9375,1.663859, h,body
+Deve-017-000,"JOURNAL OF BIOMEDICAL ENGINEERING AND MEDICAL IMAGING, Volume 6, No 4, August 2019",82,0.651961,0.012626,0.008232,0.0001,0.497549,0.064394,51.635291, h,body
+Deve-017-001,[25],4,0.022876,0.012626,0.000289,7.2e-05,0.153595,0.092172,1.811763, h,body
+Deve-017-002,"H. Ruser, S. Kosterski, and C. Kargel, Gesture-based universal optical remote control: Concept,reconstruction principle and recognition results, in 2015 IEEE International Instrumentation andMeasurement Technology Conference (12MTC) Proceedings, Pisa, Italy., 2015, pp. 1677-1681.",280,0.69281,0.049242,0.034116,0.000122,0.534314,0.11048,14.069383, h,header
+Deve-017-003,[26],4,0.022876,0.013889,0.000318,7.9e-05,0.151961,0.160985,1.64706, h,body
+Deve-017-004,"A. Utsumi, N. Tetsutani, and S. Igi, Hand detection and tracking using pixel value distribution model formultiple-camera-based gesture interactions, in Proceedings. IEEE Workshop on Knowledge MediaNetworking, Anacapri, Italy., 2002, pp. 31-36.",243,0.69281,0.049242,0.034116,0.00014,0.534314,0.178662,14.069383, h,header
+Deve-017-005,[27],4,0.022876,0.012626,0.000289,7.2e-05,0.153595,0.228535,1.811765, h,body
+Deve-017-006,"Z. Zhang, Microsoft Kinect Sensor and Its Effect, IEEE MultiMedia, vol. 19, pp. 4-10, 2012.",91,0.599673,0.013889,0.008329,9.2e-05,0.487745,0.229167,43.176498, h,body
+Deve-017-007,"[28] Y. Li, Hand gesture recognition using Kinect, in 2012 IEEE International Conference on Computer Science",108,0.738562,0.013889,0.010258,9.5e-05,0.511438,0.261995,53.176427, h,body
+Deve-017-008,"and Automation Engineering, 2012, pp. 196-199.",46,0.320261,0.012626,0.004044,8.8e-05,0.348039,0.280303,25.364672, h,body
+Deve-017-009,[29],4,0.022876,0.013889,0.000318,7.9e-05,0.153595,0.3125,1.647057, h,body
+Deve-017-010,"M. Quigley, K. Conley, B. Gerkey, J. Faust, T. Foote, J. Leibs, et al., ROS: an open-source Robot OperatingSystem, in ICRA workshop on open source software, Japan., 2009, p. 5.",176,0.69281,0.031566,0.021869,0.000124,0.534314,0.322601,21.94826, h,body
+Deve-017-011,"[30] Kaggle, Hand Gesture Recognition Database, GTI, Ed., ed. kaggle.com: kaggle.com, 2018.",91,0.642157,0.013889,0.008919,9.8e-05,0.463235,0.363005,46.235258, h,body
+Deve-017-012,[31],4,0.022876,0.011364,0.00026,6.5e-05,0.153595,0.395833,2.013067, h,body
+Deve-017-013,"J. Schmidhuber, Deep learning in neural networks: An overview, Neural networks, vol. 61, pp. 85-117,2015.",105,0.691176,0.027778,0.019199,0.000183,0.533497,0.40404,24.882332, h,body
+Deve-017-014,[32],4,0.02451,0.015152,0.000371,9.3e-05,0.152778,0.445707,1.617645, h,body
+Deve-017-015,"A. L. Imoize, T. Oyedare, M. E. Otuokere, and S. Shetty, Ã¢â‚¬Å“Software Intrusion Detection Evaluation System:A Cost-Based Evaluation of Intrusion Detection Capability,Ã¢â‚¬Â Communications and Network, vol. 10, no. 4,pp. 211-229, Oct. 2018.",231,0.691176,0.049242,0.034035,0.000147,0.533497,0.464015,14.036197, h,header
+Deve-017-016,COPYRIGHT Ã‚Â© SOCIETY FOR SCIENCE AND EDUCATION UNITED KINGDOM,60,0.47549,0.011364,0.005403,9e-05,0.484477,0.936237,41.843269, h,body
+Deve-017-017,44,2,0.017974,0.008838,0.000159,7.9e-05,0.878268,0.936237,2.033623, h,body
+Deve-017-018,View publication stats,22,0.063725,0.00505,0.000322,1.5e-05,0.111928,0.991162,12.617787, h,caption
+mach-001-000,Available online at www.sciencedirect.com,41,0.310662,0.013477,0.004187,0.000102,0.443934,0.067385,23.051107, h,body
+mach-001-001,Procedia,8,0.194853,0.03504,0.006828,0.000853,0.823529,0.088949,5.560804, h,header
+mach-001-002,ScienceDirect,13,0.174632,0.01752,0.00306,0.000235,0.445772,0.101752,9.967472, h,body
+mach-001-003,CrossMark,9,0.055147,0.008086,0.000446,5e-05,0.242647,0.107817,6.819858, h,body
+mach-001-004,Computer Science,16,0.170956,0.020216,0.003456,0.000216,0.82261,0.121968,8.456613, h,body
+mach-001-005,ELSEVIER,8,0.088235,0.013477,0.001189,0.000149,0.117647,0.134771,6.547058, h,body
+mach-001-006,Procedia Computer Science 132 (2018) 342Ã¢â‚¬â€œ351,44,0.284926,0.010782,0.003072,7e-05,0.453125,0.133423,26.426906, h,body
+mach-001-007,www.elsevier.com/locate/procedia,32,0.202206,0.012129,0.002453,7.7e-05,0.825368,0.151617,16.670753, h,body
+mach-001-008,International Conference on Computational Intelligence and Data Science (ICCIDS 2018)Head Gesture Controlled Wheelchair for Quadriplegic Patients,145,0.790441,0.052561,0.041546,0.000287,0.498162,0.204178,15.038653, h,header
+mach-001-009,"Jigmee Wangchuk Machangpaa, Tejbanta Singh Chingthamb",53,0.573529,0.020216,0.011594,0.000219,0.498162,0.251348,28.370567, h,body
+mach-001-010,"Ã¢â‚¬Å“Sikkim Manipal Institute of Technology, Majhitar, Sikkim, 737136, IndiabSikkim Manipal Institute of Technology, Majhitar, Sikkim, 737136, India",144,0.426471,0.025606,0.01092,7.6e-05,0.498162,0.282345,16.654791, h,body
+mach-001-011,Abstract,8,0.060662,0.010782,0.000654,8.2e-05,0.100184,0.34097,5.626364, h,body
+mach-001-012,"The health service sector has been continuously trying to improve the service given to the people in need of mobility assistance. Asa result, more developers have been directed towards robotic wheelchairs. A robotic wheelchair is an intelligent wheelchair that hascapabilities of navigating, detecting obstacles and moving automatically by utilizing sensors and artificial intelligence. We havedeveloped a Robotic WheelChair for the quadriplegic patients for mobility assistance operated using the head gesture. The RoboticWheelChair includes accelerometer sensor, gyroscope sensor, ultrasonic sensor, relay, battery, DC stepper motor and raspberry pi.The MPU 6050 sensor detects the movement of the head and the signal is transmitted to the Pi.The controller processes the signaland enables the motion of wheelchair for its navigation. The ultrasonic sensors help to avoid obstacles, using the environmentinformation gathered during navigation. The wheelchair is designed in a cost-effective way but ensures safety, flexibility, andmobility for the users.",1056,0.856618,0.128032,0.109675,0.000104,0.498162,0.423854,6.690635, h,header
+mach-001-013,Ã‚Â© 2018 The Authors. Published by Elsevier Ltd.This is an open access article under the CC BY-NC-ND license ( under responsibility of the scientific committee of the International Conference on Computational Intelligence andData Science (ICCIDS 2018).,250,0.854779,0.053908,0.04608,0.000184,0.499081,0.525606,15.856169, h,header
+mach-001-014,"Keywords: Robotic Wheelchair,Quadriplegic, Accelerometer, Gyroscope,Head Gestures,Raspberry Pi ;",96,0.606618,0.013477,0.008175,8.5e-05,0.373162,0.570081,45.011094, h,body
+mach-001-015,1. Introduction,15,0.119485,0.012129,0.001449,9.7e-05,0.131434,0.632749,9.850915, h,body
+mach-001-016,"Quads come from the Latin word for four and plegia comes from the Greek word for inability to move. Tetraplegia[13] uses the Greek word tetra for four. The condition of paralysis affecting four limbs (both arms and legs) is alternately termed tetraplegia or quadriplegic. Quadriplegics are individuals whose limbs are impaired. The quadriplegicindividuals are not able to perform their everyday activities such as feeding, toilet usage, and locomotion.The central nervous system consists of the brain and the spinal cord. It sends signals throughout our body. The primarycause of quadriplegic is a spinal cord injury, but other conditions such as age, stroke, arthritis, high blood pressure,paralysis and birth defects also contribute to it. The brain cannot properly communicate with the spinal cord as a resultof an injury to the spinal cord. Therefore the movement and sensation are impaired. Throughout the world, approxi",925,0.858456,0.12938,0.111067,0.00012,0.499081,0.72372,6.635149, h,header
+mach-001-017,Corresponding author. Tel.: +91-943-444-9008 ;E-mail address: cts @livemail.smu.edu.in,86,0.283088,0.025606,0.007249,8.4e-05,0.233456,0.830863,11.055327, h,body
+mach-001-018,1877-0509 Ã‚Â© 2018 The Authors. Published by Elsevier Ltd.This is an open access article under the CC BY-NC-ND license ( under responsibility of the scientific committee of the International Conference on Computational Intelligence and Data Science(ICCIDS 2018).10.1016/j.procs. 2018.05.189,288,0.854779,0.059299,0.050688,0.000176,0.499081,0.911051,14.414687, h,header
+mach-002-000,Jigmee Wangchuk Machangpa et al. / Procedia Computer Science 132 (2018) 342Ã¢â‚¬â€œ351,79,0.514706,0.012129,0.006243,7.9e-05,0.544118,0.066712,42.434642, h,body
+mach-002-001,343,3,0.018382,0.008086,0.000149,5e-05,0.915441,0.066038,2.273291, h,body
+mach-002-002,"mately 0.1 billion people with physical disabilities require the wheelchair for mobility.However, only a small portionof them actually own or can afford to buy one.Manual wheelchairs are boon for individuals with minor disabilities. Quadriplegic individuals require extra assistance to carry out their daily chores. This paper describes a cost-effective wheelchair by taking into consideration themanoeuvering of a robotic wheelchair by simply with the help of head gesture. It includes the modern control anddynamics of wheelchair keeping in mind the affordability of the common masses.This paper has four sections, the literature review discusses some gesture controlled the wheelchair and their findings.Methodology section explains the methods of wheelchair automation,circuit design and controller interface design.The system description describes the process of how the real-time head orientation is converted for wheelchairlocomotion.Future scope explains the future enhancement areas in the field of the robotic wheelchair.",1031,0.856618,0.15903,0.136228,0.000132,0.5,0.177898,5.386528, h,header
+mach-002-003,2. LITERATURE REVIEW,20,0.220588,0.012129,0.002676,0.000134,0.181985,0.295822,18.186245, h,body
+mach-002-004,"The progress in the field of smart wheelchair technology is at its peak. A lot of work has been done by the pioneersin the field of smart wheelchair technology. Wheelchair technology has evolved from manual wheelchairs to electricwheelchairs and then finally to robotic wheelchairs. The most effective control signal can be taken from the eyes,voice, tongue, hands and brain. Some of such methods are discussed here.Rafael Barea, Luciano Boquete, Manuel Mazo[1] developed a wheelchair for mobility impaired individual controlledby the eye movement within the socket based on electrooculography. An acquisition system captures electrooculograms and the continuous wavelet transform and neural network are analysed in real time using a microcontrollerbased platform running the Linux operating system. The proposed navigation system cannot work properly in dimenvironment and the eye size of an individual also contributes to proper navigation. The itching or irritations sensationcould develop after long use.The control signal for quadriplegic individuals can be taken from tongue.X. Huo, J. Wang, and M. Ghovanloo[5]developed the Tongue Drive System (TDS). By using a magnet and magnetic sensors it drives the wheelchair bydetecting tongue motion. The proposed navigation system requires tongue to be pierced. Individuals should avoid inserting Ferromagnetic objects into their mouth and the magnetic tracer should be removed if the user is undergoingMRI.It's quite uncomfortable to talk to individuals with the magnetic tracer in the mouth.One of the most effective control signals is the users voice. M. B. Kumaran and A. P. Renold[8] developed a roboticwheelchair controlled and driven using voice recognition. The proposed system cannot be used by dumps. It is noteffective in a noisy environment.N. Shinde and K. George [12] designed a robotic wheelchair controlled and driven by brain waves and eye blinks ofthe user are presented for wheelchair locomotion.Brain impulse varies from person to person and needs to be calibrated for proper locomotion.Aleksandar Pajkanovic, Branko Dokic [7] designed a robotic wheelchair controlled using head motion. The prototypeconsists of the digital system (an accelerometer and a microcontroller) and a mechanical actuator. The accelerometergathers head gesture data and the microcontroller computes the data, which is used to position the wheelchair joystickin accordance with the users head gesture.Preeti Srivastava, Dr.S. Chatterjee, Ritula Thakur[10] designed a wheelchair controlled using gesture recognition withthe help of accelerometer IC MMA7361L placed on the head of the user.The accelerometer IC MMA7361L andthe ATMEGA328 microcontroller is used as the control unit. The proposed navigation system [7] and [10] uses anaccelerometer and predefined threshold voltage for gesture control which may not give real-time desired navigationoutput.",2896,0.858456,0.481132,0.413031,0.000143,0.499081,0.562668,1.784242, h,other
+mach-002-005,3. METHODOLOGY,14,0.172794,0.013477,0.002329,0.000166,0.158088,0.842318,12.821312, h,body
+mach-002-006,"In this paper, the cost-efficient and reliable system are designed in which the wheelchair locomotion is controlledusing the head gesture.The head motion is calculated using both accelerometer and gyroscope sensor data and thedata is processed using the novel algorithm. The algorithm is used for the tailor-made threshold for head movement forquadriplegic patients. While navigating, the wheelchair avoids obstacles, using the environment information gathered",460,0.854779,0.063342,0.054144,0.000118,0.499081,0.899596,13.494598, h,header
+mach-003-000,344,3,0.020221,0.008086,0.000164,5.5e-05,0.079963,0.06469,2.500612, h,body
+mach-003-001,Jigmee Wangchuk Machangpa et al. / Procedia Computer Science 132 (2018) 342Ã¢â‚¬â€œ351,79,0.514706,0.012129,0.006243,7.9e-05,0.544118,0.066712,42.434642, h,body
+mach-003-002,through the ultrasonic sensor.The methodology for the proposed system are discussed as follows:,95,0.494485,0.030997,0.015328,0.000161,0.317096,0.113881,15.952527, h,body
+mach-003-003,Ã¢â‚¬Â¢ Block Diagram: Describes the various hardware components.Ã¢â‚¬Â¢ Wheelchair Automation Design: Describes the mechanical design of the proposed wheelchair.Ã¢â‚¬Â¢ Wheelchair Circuit Design: Describes the electric design of the proposed wheelchair.Ã¢â‚¬Â¢ Controller Interface Design: Describes the interface between the controller and the devices.,330,0.704044,0.06469,0.045545,0.000138,0.451287,0.177898,10.88335, h,header
+mach-003-004,3.1. Block Diagram,18,0.147059,0.016173,0.002378,0.000132,0.143382,0.233154,9.093141, h,body
+mach-003-005,The block diagram of the system is shown in Fig. 1.,51,0.378676,0.016173,0.006124,0.00012,0.28125,0.265499,23.414839, h,body
+mach-003-006,SENSOR,6,0.049632,0.006739,0.000334,5.6e-05,0.295037,0.321429,7.365449, h,body
+mach-003-007,RASPBERRY PI,12,0.088235,0.008086,0.000713,5.9e-05,0.472426,0.322102,10.911756, h,body
+mach-003-008,RASPBERRY PI,12,0.088235,0.008086,0.000713,5.9e-05,0.678309,0.318059,10.911748, h,body
+mach-003-009,RELAY 5V,8,0.056985,0.008086,0.000461,5.8e-05,0.67739,0.326146,7.047174, h,body
+mach-003-010,BATTERY,7,0.053309,0.009434,0.000503,7.2e-05,0.473346,0.386119,5.65074, h,body
+mach-003-011,HIGH POWERRELAY 12V,19,0.079044,0.016173,0.001278,6.7e-05,0.67739,0.386792,4.887562, h,body
+mach-003-012,DC MOTOR,8,0.064338,0.006739,0.000434,5.4e-05,0.679228,0.457547,9.547811, h,body
+mach-003-013,Fig. 1. Block Diagram,21,0.128676,0.012129,0.001561,7.4e-05,0.498162,0.506065,10.608669, h,body
+mach-003-014,3.1.1. MPU-6050 Triple Axis Accelerometer and Gyroscope,55,0.446691,0.01752,0.007826,0.000142,0.293199,0.562668,25.495707, h,body
+mach-003-015,"The tiny MPU-6050 Triple Axis Accelerometer and Gyroscope [14] as shown in Fig. 2(a). was used to sensethe head motion. The MPU-6050 has sensing range:= 2g, 4g, 8g, 169, + 250/sec, + 500Ã‚Â° /sec, + 1000Ã‚Â° /sec, 2000Ã‚Â°/sec,voltage - supply:2.3 V 3.4 V and interface: 1C . The Digital Motion ProcessorTM (DMPTM)of MPU 6050 is",319,0.856618,0.04717,0.040406,0.000127,0.498162,0.596361,18.160299, h,header
+mach-003-016,AD,2,0.023897,0.013477,0.000322,0.000161,0.33364,0.707547,1.77316, h,body
+mach-003-017,ALSYNC,6,0.071691,0.043127,0.003092,0.000515,0.340993,0.722372,1.66234, h,header
+mach-003-018,VODGNDINT,9,0.047794,0.039084,0.001868,0.000208,0.382353,0.710916,1.22287, h,header
+mach-003-019,7,4,0.034926,0.010782,0.000377,9.4e-05,0.63511,0.708895,3.239411, h,body
+mach-003-020,Y1,2,0.007353,0.004043,3e-05,1.5e-05,0.628676,0.723046,1.818642, h,caption
+mach-003-021,SCLSDA,6,0.036765,0.026954,0.000991,0.000165,0.336397,0.742588,1.363972, h,body
+mach-003-022,HC-SR04,7,0.042279,0.008086,0.000342,4.9e-05,0.627757,0.739892,5.228593, h,body
+mach-003-023,UIO,3,0.027574,0.013477,0.000372,0.000124,0.324449,0.75876,2.045957, h,body
+mach-003-024,CLK!Y ASCL2.,12,0.079044,0.051213,0.004048,0.000337,0.287684,0.77089,1.543439, h,header
+mach-003-025,ASDA,4,0.029412,0.016173,0.000476,0.000119,0.284926,0.78841,1.818622, h,body
+mach-003-026,J1,2,0.005515,0.005391,3e-05,1.5e-05,0.671875,0.773585,1.022987, h,caption
+mach-003-027,Fig. 2. (a) MPU 6050 Sensor[14],31,0.191176,0.010782,0.002061,6.6e-05,0.349265,0.858491,17.731571, h,body
+mach-003-028,Fig.2.(b) Ultrasonic Sensor HC-SR04[15],39,0.242647,0.012129,0.002943,7.5e-05,0.621324,0.859164,20.004868, h,body
+mach-003-029,"capable of processing complex 9-axis MotionFusion algorithms which removes the cross-axis alignment problems.The MPU 6050 has 6 Degree of freedom which means that it gives six values as output, 3 for accelerometer and 3 forthe gyroscope, that helps to accurately calculate head motions. The gyroscope and accelerometer data is used to sense",340,0.856618,0.048518,0.041561,0.000122,0.498162,0.908356,17.655842, h,header
+mach-004-000,Jigmee Wangchuk Machangpa et al. / Procedia Computer Science 132 (2018) 342Ã¢â‚¬â€œ351,79,0.514706,0.012129,0.006243,7.9e-05,0.544118,0.066712,42.434642, h,body
+mach-004-001,345,3,0.018382,0.008086,0.000149,5e-05,0.915441,0.066038,2.273291, h,body
+mach-004-002,"the head motion. The X-axis for front and back movement, Y axis for the front left and front right movement and Zaxis for back left and back right movement are calibrated for wheelchair locomotion.",197,0.854779,0.02965,0.025344,0.000129,0.499081,0.113208,28.829384, h,body
+mach-004-003,3.1.2. Ultrasonic Sensor HC-SR04,32,0.255515,0.012129,0.003099,9.7e-05,0.199449,0.15027,21.065752, h,body
+mach-004-004,"Ultrasonic ranging module HC - SR04 [15] as shown in Fig. 2(b). provides 3cm - 390cm non-contact measurementfunction, the ranging accuracy can reach to 3mm. The modules include ultrasonic transmitters, receiver and controlcircuit. Two ultrasonic sensors are attached to the wheelchair, One sensor is kept near the toe rest and the others keptdiagonally at the handle of the wheelchair. Ultrasonic sensors are used for sensing the obstacle and avoidance duringnavigation.",470,0.854779,0.078167,0.066816,0.000142,0.499081,0.200809,10.935282, h,header
+mach-004-005,3.1.3. JQC-3FF Relay and Diode 1N4008 (3A /400V),48,0.393382,0.014825,0.005832,0.000121,0.268382,0.264825,26.535424, h,body
+mach-004-006,"JQC-3FF Relay as shown in Fig. 3(a). is an extremely low cost, SPST-NO & SPDT configuration relay and Diode1N4008 is a low reverse leakage and high-temperature soldering guaranteed diode.The 5V Pi relay would capture thesignal from MPU 6050 and would trigger the 12V JQC-3FF for motor rotation. The Diode 1N4008 were used forforward and reverse bias for clockwise and anticlockwise rotation of the motor.",404,0.854779,0.063342,0.054144,0.000134,0.499081,0.305256,13.494598, h,header
+mach-004-007,3.1.4. Battery,14,0.102941,0.016172,0.001665,0.000119,0.123162,0.361186,6.365199, h,body
+mach-004-008,Two Exide Powersafe SMF 12V battery capacity 26Ah are used to drive the motor and IT-PB11K 11000mAHpower bank was used for Raspberry Pi.,136,0.854779,0.02965,0.025344,0.000186,0.499081,0.386792,28.829355, h,body
+mach-004-009,3.1.5. Raspberry Pi 5V 6 Channel Relay,38,0.297794,0.014825,0.004415,0.000116,0.220588,0.425202,20.087564, h,body
+mach-004-010,"It is a 5V 6-channel relay interface board as shown in Fig. 3(a)., and each channel needs a 15-20mA driver current.It is equipped with high-current relays that work under AC250V 10A or DC30V 10A. It has a standard interface thatcan be controlled by Raspberry Pi. It is used for the motor controller. With this relay board, any logic-level signal fromPi (3V up to 5V) can be used to activate a relay. The sensor would activate the relay for wheelchair automation.",462,0.854779,0.061995,0.052992,0.000115,0.499081,0.466307,13.787961, h,header
+mach-004-011,Fig. 3. (a) Pi 5V 6 channel Relay Board[16],43,0.255515,0.013477,0.003444,8e-05,0.363051,0.733154,18.959174, h,body
+mach-004-012,Fig.3.(b) TATA 407 Wiper Motor[17],34,0.216912,0.010782,0.002339,6.9e-05,0.652573,0.733154,20.11859, h,body
+mach-004-013,3.1.6. DC Stepper Motor,23,0.185662,0.013477,0.002502,0.000109,0.164522,0.777628,13.776102, h,body
+mach-004-014,"Two DC motors (TATA 407 Wiper Motor) as shown in Fig. 3(b).,are used to drive the robotic wheelchair.Each DCStepper motor has a gearbox consisting of two spur gear. The motor has power 89.01 W, uses a 24V battery, maximumload capacity 140kg, noise less than 60dB and a maximum angular speed of 50 RPM.",301,0.854779,0.048517,0.041472,0.000138,0.499081,0.811321,17.617961, h,header
+mach-004-015,3.1.7. Raspberry Pi,19,0.145221,0.014825,0.002153,0.000113,0.144301,0.857817,9.795787, h,body
+mach-004-016,"The Raspberry Pi is an open hardware computer available in the market at low cost. It is a device that enablespeople to explore computing and human-machine interaction. Using the general-purpose input/output GPIO pins andthe SDA (data line) and SCL (clock line), the MPU6050 is connected to the Raspberry Pi. The data sent by gyroscopeis processed in Pi. Pi then sends the signal to relay for wheelchair locomotion.",415,0.854779,0.063342,0.054144,0.00013,0.499081,0.899596,13.494598, h,header
+mach-005-000,346,3,0.020221,0.009434,0.000191,6.4e-05,0.079963,0.065364,2.143383, h,body
+mach-005-001,Jigmee Wangchuk Machangpa et al. / Procedia Computer Science 132 (2018) 342Ã¢â‚¬â€œ351,79,0.514706,0.012129,0.006243,7.9e-05,0.544118,0.066712,42.434642, h,body
+mach-005-002,3.2. Wheelchair Automated Design,32,0.264706,0.014825,0.003924,0.000123,0.202206,0.104447,17.855616, h,body
+mach-005-003,"The wheelchair Automated design describes the mechanical and electrical design of the proposed wheelchair.The manual wheelchair with overall length -1000-1100mm, width 650-720mm, height 910-950mm, sensitive castorwheels178 mm dia with height adjustable footrest.The gears were designed using the Alto Flywheel and Bendix.TheAlto Flywheel was fixed with the inner rim of the wheelchair. The Bendix was fixed to the shaft of the DC steppermotor as shown in Fig. 4.(a). The manual wheelchair was designed into an electric wheelchair with a gear ratio of 1:6(spur gear)as shown in Fig. 4(b).",587,0.856618,0.09434,0.080813,0.000138,0.498162,0.177898,9.080147, h,header
+mach-005-004,Fig. 4. (a) Bendix on Motor Shaft,33,0.194853,0.012129,0.002363,7.2e-05,0.288603,0.492588,16.064543, h,body
+mach-005-005,Fig.4.(b) Spur Gear for Wheelchair,34,0.205882,0.013477,0.002775,8.2e-05,0.702206,0.493261,15.276458, h,body
+mach-005-006,The wheels are controlled via stepper motor using a 24V battery.The maximum speed of wheelchair is approximately3.6 kmph.The data obtained using both accelerometer and gyroscope sensor are processed using novel algorithm inRaspberry Pi and the user's command would enable the JQC-3FF relay to trigger the DC stepper motor for wheelchairlocomotion.,347,0.856618,0.059299,0.050797,0.000146,0.498162,0.54717,14.445687, h,header
+mach-005-007,3.3. Wheelchair Circuit Design,30,0.231618,0.014825,0.003434,0.000114,0.185662,0.604447,15.62365, h,body
+mach-005-008,The electric wheelchair automation from manual wheelchair was designed as shown in Fig. 5.,90,0.685662,0.014825,0.010165,0.000113,0.434743,0.636792,46.250994, h,body
+mach-005-009,oo,2,0.014706,0.005391,7.9e-05,4e-05,0.237132,0.690027,2.72794, h,caption
+mach-005-010,Oo,2,0.014706,0.004043,5.9e-05,3e-05,0.237132,0.708221,3.637281, h,caption
+mach-005-011,D2,2,0.009191,0.005391,5e-05,2.5e-05,0.477022,0.706199,1.704945, h,caption
+mach-005-012,D4,2,0.009191,0.005391,5e-05,2.5e-05,0.651654,0.706199,1.70494, h,caption
+mach-005-013,D3NADIODE,9,0.018382,0.016173,0.000297,3.3e-05,0.580882,0.71159,1.136638, h,body
+mach-005-014,DIODE,5,0.016544,0.004043,6.7e-05,1.3e-05,0.377757,0.717655,4.091939, h,caption
+mach-005-015,DIODE,5,0.016544,0.004043,6.7e-05,1.3e-05,0.47886,0.717655,4.091934, h,caption
+mach-005-016,DIODE,5,0.016544,0.004043,6.7e-05,1.3e-05,0.655331,0.717655,4.091937, h,caption
+mach-005-017,oo,2,0.016544,0.005391,8.9e-05,4.5e-05,0.236213,0.726415,3.068909, h,caption
+mach-005-018,RL112V,6,0.012868,0.009434,0.000121,2e-05,0.431066,0.727089,1.363981, h,body
+mach-005-019,RL212V,6,0.012868,0.009434,0.000121,2e-05,0.532169,0.727089,1.36398, h,body
+mach-005-020,RL312V,6,0.014706,0.008086,0.000119,2e-05,0.634191,0.727763,1.818633, h,body
+mach-005-021,Ã Â©Â©Ã Â¥Â¥,2,0.014706,0.01752,0.000258,0.000129,0.659926,0.73248,0.839366, v,body
+mach-005-022,RL412V,6,0.014706,0.009434,0.000139,2.3e-05,0.702206,0.727089,1.558835, h,body
+mach-005-023,..,2,0.016544,0.005391,8.9e-05,4.5e-05,0.236213,0.745283,3.068926, h,caption
+mach-005-024,D6,2,0.009191,0.005391,5e-05,2.5e-05,0.477022,0.742588,1.704977, h,caption
+mach-005-025,D7,2,0.009191,0.004043,3.7e-05,1.9e-05,0.578125,0.743261,2.273305, h,caption
+mach-005-026,D8,2,0.009191,0.004043,3.7e-05,1.9e-05,0.64614,0.743261,2.273305, h,caption
+mach-005-027,D5Ã¤Â»Â¥DIODE,8,0.020221,0.01752,0.000354,4.4e-05,0.377757,0.748652,1.154131, h,body
+mach-005-028,DIODE,5,0.016544,0.005391,8.9e-05,1.8e-05,0.47886,0.754717,3.068922, h,caption
+mach-005-029,DIODE,5,0.014706,0.002695,4e-05,8e-06,0.580882,0.754717,5.455925, h,caption
+mach-005-030,DIODE,5,0.016544,0.002695,4.5e-05,9e-06,0.647978,0.754717,6.137902, h,caption
+mach-005-031,B112V,5,0.009191,0.009434,8.7e-05,1.7e-05,0.307904,0.764825,0.974263, v,body
+mach-005-032,D9,2,0.009191,0.002695,2.5e-05,1.2e-05,0.394301,0.816712,3.409939, h,caption
+mach-005-033,D11,3,0.014706,0.006739,9.9e-05,3.3e-05,0.498162,0.817385,2.182357, h,body
+mach-005-034,D13,3,0.014706,0.005391,7.9e-05,2.6e-05,0.601103,0.818059,2.727962, h,caption
+mach-005-035,D15,3,0.014706,0.005391,7.9e-05,2.6e-05,0.669118,0.818059,2.727962, h,caption
+mach-005-036,B212V,5,0.009191,0.008086,7.4e-05,1.5e-05,0.307904,0.820755,1.136643, h,body
+mach-005-037,KADIODE,7,0.020221,0.013477,0.000273,3.9e-05,0.499081,0.826146,1.500366, h,body
+mach-005-038,DIODE,5,0.016544,0.004043,6.7e-05,1.3e-05,0.397978,0.829515,4.091884, h,caption
+mach-005-039,DIODE,5,0.018382,0.004043,7.4e-05,1.5e-05,0.601103,0.829515,4.546529, h,caption
+mach-005-040,RL512v,6,0.012868,0.009434,0.000121,2e-05,0.451287,0.838949,1.363963, h,body
+mach-005-041,RL612v,6,0.014706,0.009434,0.000139,2.3e-05,0.553309,0.838949,1.558819, h,body
+mach-005-042,IODERL712v,10,0.029412,0.016173,0.000476,4.8e-05,0.661765,0.83558,1.818622, h,body
+mach-005-043,RLS12V,6,0.014706,0.009434,0.000139,2.3e-05,0.722426,0.838949,1.558819, h,body
+mach-005-044,Ã Â©Â©Ã Â¥Â¥Ã Â¥Â¥,3,0.020221,0.01752,0.000354,0.000118,0.51011,0.84434,1.154131, h,body
+mach-005-045,311,3,0.016544,0.01752,0.00029,9.7e-05,0.681066,0.84434,0.944287, v,body
+mach-005-046,D16,3,0.014706,0.005391,7.9e-05,2.6e-05,0.669118,0.854447,2.727947, h,caption
+mach-005-047,D10NADIODE,10,0.018382,0.01752,0.000322,3.2e-05,0.397059,0.860512,1.049209, h,body
+mach-005-048,D12NDIODE,9,0.018382,0.01752,0.000322,3.6e-05,0.498162,0.860512,1.049211, h,body
+mach-005-049,D14KADIODE,10,0.018382,0.016172,0.000297,3e-05,0.601103,0.859838,1.136642, h,body
+mach-005-050,DIODE,5,0.014706,0.004043,5.9e-05,1.2e-05,0.669118,0.867251,3.637256, h,caption
+mach-005-051,Fig. 5. Wheelchair Circuit Diagram,34,0.205882,0.013477,0.002775,8.2e-05,0.498162,0.921833,15.276459, h,body
+mach-006-000,Jigmee Wangchuk Machangpa et al. / Procedia Computer Science 132 (2018) 342Ã¢â‚¬â€œ351,79,0.514706,0.012129,0.006243,7.9e-05,0.544118,0.066712,42.434642, h,body
+mach-006-001,347,3,0.018382,0.009434,0.000173,5.8e-05,0.915441,0.065364,1.948535, h,body
+mach-006-002,"The front, back, left and right motion of the head is considered as the signal that triggers the relay which enableslocomotion of wheelchair.",141,0.854779,0.028302,0.024192,0.000172,0.499081,0.112534,30.202203, h,body
+mach-006-003,3.4. Controller Interface Design,32,0.238971,0.01752,0.004187,0.000131,0.191176,0.177224,13.639718, h,body
+mach-006-004,"The 12C(Inter Integrated Circuit) protocol is a synchronous serial protocol that communicates data between twodevices and to interface MPU6050 using Raspberry Pi, the 12C should be turned on. Using the SDA (data line) andSCL (clock line), the MPU 6050 sensor is connected to the Raspberry Pi as shown in Fig.6(a) and using the generalpurpose input/output GPIO pins the relay is connected to the Raspberry Pi as shown in Fig.6(b)",428,0.854779,0.06469,0.055296,0.000129,0.499081,0.233154,13.213469, h,header
+mach-006-005,"Fig. 6. (a) Raspberry Pi,Relay and MPU 6050 Interface",53,0.321691,0.014825,0.004769,9e-05,0.278493,0.557278,21.699529, h,body
+mach-006-006,Fig.6.(b) Wheelchair Interface Design,37,0.220588,0.012129,0.002676,7.2e-05,0.764706,0.557278,18.186302, h,body
+mach-006-007,4. SYSTEM DESCRIPTION,21,0.227941,0.013477,0.003072,0.000146,0.185662,0.641509,16.91327, h,body
+mach-006-008,"The ultrasonic sensors detect the obstacles during navigation, the data are computed and safety measures areconsidered. The inclination angle almost which the patient can locomote in the wheelchair is 20Ã‚Â°The system description can be classified into as follows:",261,0.856618,0.04717,0.040407,0.000155,0.498162,0.692049,18.16028, h,header
+mach-006-009,Ã¢â‚¬Â¢ Head Orientation-It would determine the the orientation of the head.Ã¢â‚¬Â¢ Motion Detection-It would detect and compute the signal data from head orientation.Ã¢â‚¬Â¢ Wheelchair Locomotion-It would convert motion detection data into actual locomotion.,241,0.658088,0.045822,0.030155,0.000125,0.428309,0.761456,14.361812, h,header
+mach-006-010,4.1. Head Orientation,21,0.163603,0.012129,0.001984,9.4e-05,0.153493,0.810647,13.488176, h,body
+mach-006-011,"The head orientation can be categorized into three angles as Pitch angle, the X-axis, Roll angle, the Y-axis and theYaw angle, the Z-axis. The orientation of the head is shown in Fig. 7[3].The algorithm finds the orientation of the head using the x,y and z-axis values and determines the control signal forrobotic wheelchair locomotion.The pitch angle would give the forward and backward control signals, roll angle wouldgive the forward left and forward right control signals and yaw angle would give the back left and back right controlsignals for wheelchair locomotion.",572,0.854779,0.09434,0.08064,0.000141,0.499081,0.882749,9.060664, h,header
+mach-007-000,348,3,0.020221,0.008086,0.000164,5.5e-05,0.079963,0.06469,2.500612, h,body
+mach-007-001,Jigmee Wangchuk Machangpa et al. /Procedia Computer Science 132 (2018) 342Ã¢â‚¬â€œ351,78,0.514706,0.012129,0.006243,8e-05,0.544118,0.066712,42.434642, h,body
+mach-007-002,Yaw,3,0.029412,0.010782,0.000317,0.000106,0.365809,0.125337,2.727938, h,body
+mach-007-003,..,2,0.077206,0.057951,0.004474,0.002237,0.625,0.123315,1.332251, h,header
+mach-007-004,Pitch,5,0.023897,0.008086,0.000193,3.9e-05,0.642463,0.152291,2.955269, h,body
+mach-007-005,Pitch,5,0.033088,0.013477,0.000446,8.9e-05,0.487132,0.200809,2.455151, h,body
+mach-007-006,Roll,4,0.025735,0.012129,0.000312,7.8e-05,0.310662,0.206873,2.121734, h,body
+mach-007-007,A,1,0.068015,0.028302,0.001925,0.001925,0.304228,0.227089,2.403187, h,body
+mach-007-008,A,1,0.069853,0.025606,0.001789,0.001789,0.485294,0.221698,2.727941, h,body
+mach-007-009,Roll,4,0.016544,0.006739,0.000111,2.8e-05,0.642463,0.237871,2.455152, h,body
+mach-007-010,Yaw,3,0.018382,0.008086,0.000149,5e-05,0.643382,0.322102,2.273281, h,body
+mach-007-011,Fig. 7. Head Orientation [3] ;,30,0.169118,0.012129,0.002051,6.8e-05,0.498162,0.360512,13.942822, h,body
+mach-007-012,4.2. Motion Detection,21,0.165441,0.012129,0.002007,9.6e-05,0.152574,0.425202,13.639729, h,body
+mach-007-013,The major interaction is the head motion detection and wheelchair locomotion.The head motion detection is thesteering for the wheelchair. The head motions for navigation are detected by the MPU-6050 sensor and the followingdata would be sent to Raspberry Pi.,258,0.854779,0.04717,0.04032,0.000156,0.499081,0.47372,18.12132, h,header
+mach-007-014,Ã¢â‚¬Â¢ Gx = Gyro X-axis data in degree/secondsÃ¢â‚¬Â¢ Gy = Gyro Y-axis data in degree/secondsÃ¢â‚¬Â¢ Gz = Gyro Z-axis data in degree/secondsÃ¢â‚¬Â¢ Ax,127,0.321691,0.060647,0.01951,0.000154,0.258272,0.545148,5.30433, h,header
+mach-007-015,Accelerometer X-axis data in gÃ¢â‚¬Â¢ Ay = Accelerometer Y-axis data inÃ¢â‚¬Â¢ Az Accelerometer Z-axis data in g,100,0.288603,0.045822,0.013224,0.000132,0.241728,0.586253,6.298339, h,header
+mach-007-016,=,1,0.009191,0.004043,3.7e-05,3.7e-05,0.147978,0.570755,2.273298, h,caption
+mach-007-017,=,1,0.009191,0.004043,3.7e-05,3.7e-05,0.14614,0.601752,2.273258, h,caption
+mach-007-018,Example:Output window will show all values mentioned as shown in Fig 8.,71,0.551471,0.016172,0.008919,0.000126,0.345588,0.634771,34.099362, h,body
+mach-007-019,Gx=-0.214 Ã‚Â°/s,13,0.086397,0.006739,0.000582,4.5e-05,0.232537,0.697439,12.821332, h,body
+mach-007-020,Gy=-0.053 Ã‚Â°/s,13,0.086397,0.009434,0.000815,6.3e-05,0.335478,0.697439,9.158148, h,body
+mach-007-021,Gz=0.000 Ã‚Âº/s,12,0.080882,0.006739,0.000545,4.5e-05,0.443015,0.697439,12.002952, h,body
+mach-007-022,Ax=-0.061 g,11,0.075368,0.009434,0.000711,6.5e-05,0.548713,0.697439,7.989024, h,body
+mach-007-023,Ay=-0.027 g,11,0.075368,0.008086,0.000609,5.5e-05,0.659007,0.698113,9.320529, h,body
+mach-007-024,Az=0.965 g,10,0.068015,0.009434,0.000642,6.4e-05,0.765625,0.697439,7.209616, h,body
+mach-007-025,Gx=-0.305 /s,12,0.086397,0.009434,0.000815,6.8e-05,0.232537,0.716307,9.158052, h,body
+mach-007-026,Gy=0.084 Ã‚Â°/s,12,0.080882,0.009434,0.000763,6.4e-05,0.332721,0.716307,8.573494, h,body
+mach-007-027,GZ=-0.107 Ã‚Â°/s,13,0.086397,0.009434,0.000815,6.3e-05,0.445772,0.716307,9.158051, h,body
+mach-007-028,Ax=-0.048 g,11,0.075368,0.009434,0.000711,6.5e-05,0.548713,0.716307,7.988939, h,body
+mach-007-029,Ay=-0.024 g,11,0.075368,0.008086,0.000609,5.5e-05,0.659007,0.716981,9.320414, h,body
+mach-007-030,Az=0.939 g,10,0.068015,0.009434,0.000642,6.4e-05,0.765625,0.716307,7.20954, h,body
+mach-007-031,Gx=-0.290 Ã‚Â°/s,13,0.086397,0.009434,0.000815,6.3e-05,0.232537,0.735175,9.158052, h,body
+mach-007-032,Gy=0.092 Ã‚Â°75,12,0.080882,0.010782,0.000872,7.3e-05,0.332721,0.735849,7.501817, h,body
+mach-007-033,GZ=-0.069 Ã‚Â°/s,13,0.086397,0.008086,0.000699,5.4e-05,0.445772,0.735849,10.684374, h,body
+mach-007-034,Ax=-0.061 g,11,0.075368,0.010782,0.000813,7.4e-05,0.548713,0.735849,6.990331, h,body
+mach-007-035,Ay=-0.041 g,11,0.075368,0.009434,0.000711,6.5e-05,0.659007,0.735175,7.98894, h,body
+mach-007-036,Az=0.938 g,10,0.068015,0.008086,0.00055,5.5e-05,0.765625,0.735849,8.411115, h,body
+mach-007-037,Gx=-0.298 Ã‚Â°/s,13,0.090074,0.008086,0.000728,5.6e-05,0.230699,0.754717,11.139072, h,body
+mach-007-038,Gy=0.107Ã‚Â°/s,11,0.080882,0.009434,0.000763,6.9e-05,0.332721,0.754043,8.573557, h,body
+mach-007-039,GZ=-0.053Ã‚Â°/s,12,0.086397,0.006739,0.000582,4.9e-05,0.445772,0.754043,12.821274, h,body
+mach-007-040,Ax=-0.070 g,11,0.075368,0.010782,0.000813,7.4e-05,0.548713,0.754717,6.990376, h,body
+mach-007-041,Ay=-0.031 g,11,0.075368,0.009434,0.000711,6.5e-05,0.659007,0.755391,7.988965, h,body
+mach-007-042,Az=0.947 g,10,0.068015,0.009434,0.000642,6.4e-05,0.765625,0.754043,7.209593, h,body
+mach-007-043,Fig. 8. Eg. Readings from MPU 6050 Sensor ;,43,0.270221,0.012129,0.003278,7.6e-05,0.497243,0.787736,22.278225, h,body
+mach-007-044,"As an accelerometer measures all forces that are acting on the object and even a small force working on the objectwill produce unclean data. The gyroscope measurement has the tendency to drift on the long term and only reliableat short term. Thus noisy data would trigger undesirable output, therefore a clean data is very important for speciallyquadriplegic patient's. The novel algorithm would use the short term data of gyroscope, which is reliable and longterm data of accelerometer as it does not drift.",508,0.854779,0.076819,0.065664,0.000129,0.499081,0.872641,11.12713, h,header
+mach-008-000,Jigmee Wangchuk Machangpa et al. / Procedia Computer Science 132 (2018) 342Ã¢â‚¬â€œ351,79,0.514706,0.012129,0.006243,7.9e-05,0.544118,0.066712,42.434642, h,body
+mach-008-001,349,3,0.018382,0.009434,0.000173,5.8e-05,0.915441,0.065364,1.948535, h,body
+mach-008-002,4.3. Wheelchair Locomotion,26,0.211397,0.012129,0.002564,9.9e-05,0.17739,0.104447,17.428513, h,body
+mach-008-003,"The novel algorithm would filter both the gyroscope and accelerometer readings and the data would be provided forsignal processing. The threshold for wheelchair navigation is based on gyroscope values in terms of degrees/secondsand accelerometer in g, which yields better navigation output.The displacement from initial head position to the current position is calculated and the algorithm would then recognize the user signal as shown in the logic table [Table 1].",465,0.854779,0.078167,0.066816,0.000144,0.499081,0.169811,10.935282, h,header
+mach-008-004,Table 1. Logic Table for Head Orientation and Wheelchair Locomotion,67,0.415441,0.012129,0.005039,7.5e-05,0.279412,0.241914,34.250816, h,body
+mach-008-005,Angles,6,0.040441,0.010782,0.000436,7.3e-05,0.091912,0.265499,3.750916, h,body
+mach-008-006,Front Movement (t),18,0.115809,0.012129,0.001405,7.8e-05,0.274816,0.264825,9.547778, h,body
+mach-008-007,Back Movement (t),17,0.112132,0.009434,0.001058,6.2e-05,0.475184,0.264825,11.886043, h,body
+mach-008-008,Right Movement (t),18,0.113971,0.012129,0.001382,7.7e-05,0.674632,0.264825,9.396223, h,body
+mach-008-009,Left Movement (t),17,0.106618,0.009434,0.001006,5.9e-05,0.873162,0.264825,11.301486, h,body
+mach-008-010,PITCH(+)PITCH(-)ROLL(+)ROLL(-)YAW(+)YAW(-),42,0.060662,0.078167,0.004742,0.000113,0.100184,0.322102,0.776052, v,header
+mach-008-011,TFTTF,5,0.007353,0.061995,0.000456,9.1e-05,0.220588,0.314016,0.118606, v,header
+mach-008-012,FTFFTT,6,0.007353,0.075472,0.000555,9.2e-05,0.420956,0.320755,0.097426, v,header
+mach-008-013,FFTFTF,6,0.009191,0.075472,0.000694,0.000116,0.620404,0.320755,0.121783, v,header
+mach-008-014,FFFTFT,6,0.009191,0.075472,0.000694,0.000116,0.82261,0.320755,0.121783, v,header
+mach-008-015,F,1,0.007353,0.006739,5e-05,5e-05,0.220588,0.353774,1.091177, h,body
+mach-008-016,"The variation in the head orientation angles would determine the optimal threshold, at which the wheelchair shouldlocomote.The Fig. 9. shows the flowchart of the system locomotion.",180,0.854779,0.02965,0.025344,0.000141,0.499081,0.412399,28.829404, h,body
+mach-008-017,Start,5,0.023897,0.008086,0.000193,3.9e-05,0.660846,0.477089,2.955262, h,body
+mach-008-018,Read Head Position,18,0.099265,0.014825,0.001472,8.2e-05,0.661765,0.52628,6.695851, h,body
+mach-008-019,initial position - current position,35,0.174632,0.009434,0.001647,4.7e-05,0.460478,0.577493,18.510993, h,body
+mach-008-020,1,4,0.023897,0.008086,0.000193,4.8e-05,0.340993,0.595687,2.955283, h,body
+mach-008-021,0,5,0.03125,0.013477,0.000421,8.4e-05,0.449449,0.598383,2.318748, h,body
+mach-008-022,Brake,5,0.03125,0.008086,0.000253,5.1e-05,0.267463,0.626685,3.864575, h,body
+mach-008-023,current position - pitch forward,32,0.178309,0.013477,0.002403,7.5e-05,0.465993,0.628032,13.230503, h,body
+mach-008-024,0,5,0.034926,0.014825,0.000518,0.000104,0.412684,0.647574,2.355957, h,body
+mach-008-025,The,3,0.025735,0.009434,0.000243,8.1e-05,0.518382,0.646226,2.727931, h,body
+mach-008-026,current position - pitch backword,33,0.181985,0.012129,0.002207,6.7e-05,0.38511,0.677224,15.003651, h,body
+mach-008-027,Move Forward,12,0.073529,0.013477,0.000991,8.3e-05,0.608456,0.677898,5.45588, h,body
+mach-008-028,0,5,0.029412,0.009434,0.000277,5.5e-05,0.402574,0.697439,3.117667, h,body
+mach-008-029,current position roll left,26,0.139706,0.013477,0.001883,7.2e-05,0.446691,0.727763,10.366197, h,body
+mach-008-030,Move Backward,13,0.082721,0.014825,0.001226,9.4e-05,0.638787,0.728437,5.579876, h,body
+mach-008-031,Falsel,6,0.029412,0.008086,0.000238,4e-05,0.435662,0.747978,3.637256, h,body
+mach-008-032,Move Forward Left,17,0.097426,0.013477,0.001313,7.7e-05,0.662684,0.777628,7.229042, h,body
+mach-008-033,current position - roll rightFalse,34,0.150735,0.030997,0.004672,0.000137,0.454044,0.787736,4.862854, h,body
+mach-008-034,1,4,0.027574,0.006739,0.000186,4.6e-05,0.539522,0.795822,4.091904, h,body
+mach-008-035,Move Forward Right,18,0.102941,0.014825,0.001526,8.5e-05,0.676471,0.828167,6.943848, h,body
+mach-008-036,current position yaw leftTrue,29,0.145221,0.030997,0.004501,0.000155,0.451287,0.836253,4.684937, h,body
+mach-008-037,0,5,0.03125,0.012129,0.000379,7.6e-05,0.486213,0.847035,2.57639, h,body
+mach-008-038,Move Backward Left,18,0.104779,0.014825,0.001553,8.6e-05,0.355699,0.878032,7.067844, h,body
+mach-008-039,Move Backward Right,19,0.112132,0.009434,0.001058,5.6e-05,0.55239,0.878032,11.886021, h,body
+mach-008-040,Fig. 9. Flowchart Diagram,25,0.152573,0.012129,0.001851,7.4e-05,0.499081,0.922507,12.578858, h,body
+mach-009-000,350,3,0.020221,0.008086,0.000164,5.5e-05,0.079963,0.066038,2.500614, h,body
+mach-009-001,Jigmee Wangchuk Machangpa et al. / Procedia Computer Science 132 (2018) 342Ã¢â‚¬â€œ351,79,0.514706,0.012129,0.006243,7.9e-05,0.544118,0.066712,42.434642, h,body
+mach-009-002,The threshold value can be tailored made for quadriplegic patients as it does not depend on the voltage but the degrees/second. The optimal threshold can be obtained by using novel algorithm. The Fig 10.(a) and 10.(b) shows thetailored threshold for two different quadriplegic patients.for front movement,304,0.858456,0.045822,0.039336,0.000129,0.499081,0.121294,18.734539, h,header
+mach-009-003,4,1,0.003676,0.004043,1.5e-05,1.5e-05,0.393382,0.228437,0.90932, v,caption
+mach-009-004,5,1,0.001838,0.004043,7e-06,7e-06,0.813419,0.228437,0.45465, v,caption
+mach-009-005,2,1,0.003676,0.004043,1.5e-05,1.5e-05,0.391544,0.243261,0.909305, v,caption
+mach-009-006,Z Label,7,0.007353,0.018868,0.000139,2e-05,0.402574,0.262803,0.389706, v,body
+mach-009-007,Z LabelWNLON,12,0.027573,0.052561,0.001449,0.000121,0.815257,0.27965,0.524603, v,header
+mach-009-008,-4,2,0.007353,0.004043,3e-05,1.5e-05,0.387868,0.287736,1.818629, h,caption
+mach-009-009,6,1,0.011029,0.008086,8.9e-05,8.9e-05,0.387868,0.303235,1.363974, h,body
+mach-009-010,-25-20-15-10 -5 0 5,19,0.097426,0.025606,0.002495,0.000131,0.201287,0.337601,3.804758, h,body
+mach-009-011,X Label,7,0.027574,0.010782,0.000297,4.2e-05,0.219669,0.347709,2.557444, h,body
+mach-009-012,-60-50-40-30-20-10 0,20,0.110294,0.026954,0.002973,0.000149,0.628676,0.338275,4.091914, h,body
+mach-009-013,X Label,7,0.027574,0.012129,0.000334,4.8e-05,0.640625,0.348383,2.273288, h,body
+mach-009-014,Y Label,7,0.027574,0.01752,0.000483,6.9e-05,0.355699,0.334906,1.573812, h,body
+mach-009-015,10 15 20,8,0.038603,0.013477,0.00052,6.5e-05,0.278493,0.351752,2.864335, h,body
+mach-009-016,10,2,0.007353,0.006739,5e-05,2.5e-05,0.696691,0.351078,1.091166, h,body
+mach-009-017,20,2,0.009191,0.005391,5e-05,2.5e-05,0.714154,0.355795,1.704962, h,caption
+mach-009-018,Ã Â¥Â¨Ã Â¥Â¦Ã Â¥Â¦Ã Â¥Â¤Ã Â¥ÂªÃ Â¥Â¨Ã Â¥Â¦Ã Â¥Â¨Ã Â¥Â«Ã Â¥Â¦,10,0.082721,0.053908,0.004459,0.000446,0.765625,0.332884,1.534467, h,header
+mach-009-019,Y Label,7,0.027574,0.018868,0.00052,7.4e-05,0.776654,0.33558,1.4614, h,body
+mach-009-020,Fig. 10. (a) User:1 - (Front),29,0.159926,0.010782,0.001724,5.9e-05,0.337316,0.394879,14.833168, h,body
+mach-009-021,Fig. 10.(b) User:2 - (Front),28,0.154412,0.012129,0.001873,6.7e-05,0.658088,0.394205,12.730397, h,body
+mach-009-022,The quadreplegic patient can change the threshold as per the environment and requirements. It enable them and theirfamilies to enjoy ordinary lives.,148,0.856618,0.032345,0.027707,0.000187,0.498162,0.438005,26.483774, h,body
+mach-009-023,5. Future Scope,15,0.126838,0.016172,0.002051,0.000137,0.133272,0.497305,7.842844, h,body
+mach-009-024,"For further development, the project can be developed as",56,0.420956,0.014825,0.006241,0.000111,0.30239,0.530323,28.395572, h,body
+mach-009-025,Ã¢â‚¬Â¢ Addition of solar charged battery.,36,0.261029,0.016173,0.004222,0.000117,0.229779,0.561995,16.140275, h,body
+mach-009-026,Facility to operate on ordinary 6-volt alkaline battery used in EVM's.Ã¢â‚¬Â¢ Intelligent indoor navigation.Ã¢â‚¬Â¢ Intelligent eye gesture control can be integrated for reading using Raspberry Pi and other technologies.,208,0.768382,0.052561,0.040387,0.000194,0.483456,0.595013,14.618969, h,header
+mach-009-027,6. Conclusion,13,0.108456,0.012129,0.001316,0.000101,0.125919,0.661051,8.941569, h,body
+mach-009-028,"This automated wheelchair is valuable for the people who could not move independently like amputees - missinglegs and/or arms, people with weak or no upper body movement and paralyzed children. The robotic wheelchaircan be used to help quadriplegic individuals to lead their life without extra assistance. The combined data(filtered)of accelerometer and gyroscope ensures proper wheelchair locomotion for quadriplegic patients. The tailored madethreshold for users convenience. Moreover, the low cost of the assembly parts of this wheelchair has enhanced itsaffordability.",572,0.856618,0.098383,0.084276,0.000147,0.498162,0.735175,8.706994, h,header
+mach-009-029,7. ACKNOWLEDGEMENTS,19,0.233456,0.012129,0.002832,0.000149,0.188419,0.825472,19.247108, h,body
+mach-009-030,"This work is supported by the Sikkim Manipal Institue of Technology, Sikkim, India, and Centre for Computersand Communication Technology, Sikkim, India. The authors would like to thank AD(R&D), SMIT for support andproject funding. Also, the authors would like to thank Mr.Bikal Rai and Mr Ugen Tenzing Bhutia, Sikkim India fortheir valued efforts in system testing and Robotics Lab, CSE Dept., E&C Dept., E&E Dept., and the entire SMITfaculty for their generous help and technical support.",489,0.856618,0.079515,0.068114,0.000139,0.498162,0.891509,10.773059, h,header
+mach-010-000,Jigmee Wangchuk Machangpa et al. / Procedia Computer Science 132 (2018) 342Ã¢â‚¬â€œ351,79,0.514706,0.012129,0.006243,7.9e-05,0.544118,0.066712,42.434642, h,body
+mach-010-001,351,3,0.018382,0.008086,0.000149,5e-05,0.915441,0.066038,2.273291, h,body
+mach-010-002,References,10,0.082721,0.012129,0.001003,0.0001,0.116728,0.104447,6.819854, h,body
+mach-010-003,"[1] R. Barea, L. Boquete, M. Mazo and E. Lopez, Ã¢â‚¬ÂSystem for assisted mobility using eye movements based on electrooculography,Ã¢â‚¬Â in IEEE",135,0.856618,0.012129,0.01039,7.7e-05,0.503676,0.135445,70.623367, h,body
+mach-010-004,"Transactions on Neural Systems and Rehabilitation Engineering, vol. 10, no. 4, pp. 209-218, Dec. 2002.[2] Francois, Alexandre. Real-Time Multi-Resolution Blob Tracking.Ã¢â‚¬Â Institute for Robotics and Intelligent Systems, University of Southern",240,0.854779,0.024259,0.020736,8.6e-05,0.502757,0.156334,35.235892, h,body
+mach-010-005,"California (2004).[3] J.S. Jin. Ã¢â‚¬ÂPose determination of human head using one feature point based on head movementÃ¢â‚¬Â, 2004 IEEE International Conference on",152,0.856618,0.03504,0.030016,0.000197,0.501838,0.185984,24.446557, h,header
+mach-010-006,"Multimedia and Expo (ICME) (IEEE Cat No 04TH8763) ICME-04, 2004[4] National Spinal Cord Injury Statistical Center. Ã¢â‚¬ÂFacts and Figures About SCI.Ã¢â‚¬Â Spinalcord.org. National Spinal Cord Injury Association, 29",205,0.854779,0.025606,0.021888,0.000107,0.502757,0.209569,33.381384, h,body
+mach-010-007,"July 2007.[5] X. Huo, J. Wang and M. Ghovanloo, Ã¢â‚¬ÂWireless control of powered wheelchairs with tongue motion using tongue drive assistive technol",144,0.858456,0.070081,0.060161,0.000418,0.502757,0.237197,12.249506, h,header
+mach-010-008,"ogy,2008 30th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Vancouver, BC, 2008, pp. 4199",132,0.829044,0.012129,0.010056,7.6e-05,0.515625,0.256739,68.350138, h,body
+mach-010-009,"4202.[6] Akmeliawati, Rini, Faez S. Ba Tis, and Umar J. Wani.Ã¢â‚¬ÂDesign and development of a hand- glove controlled wheel chairÃ¢â‚¬Â, 2011 4th International",149,0.854779,0.036388,0.031104,0.000209,0.502757,0.282345,23.490611, h,header
+mach-010-010,"Conference on Mechatronics (ICOM), 2011.[7] Aleksandar Pajkanovic, Branko Dokic: Ã¢â‚¬ÂWheelchair Control by Head MotionÃ¢â‚¬Â, Serbian Journal of Electrical Engineering , Vol. 10, No. 1,",177,0.854779,0.025606,0.021888,0.000124,0.502757,0.303908,33.381371, h,body
+mach-010-011,"February 2013, 135-151.[8] M. B. Kumaran and A. P. Renold, Ã¢â‚¬ÂImplementation of voice based wheelchair for differently abled,Ã¢â‚¬Â 2013 Fourth International Conference on",164,0.856618,0.044474,0.038098,0.000232,0.501838,0.330863,19.260919, h,header
+mach-010-012,"Computing, Communications and Networking Technologies (ICCCNT), Tiruchengode, 2013, pp. 1-6.[9] S.Shaheen and A.Umamakeswari: Ã¢â‚¬Â Intelligent Wheelchair For People With DisabilitiesÃ¢â‚¬Â, International Journal of Engineering and Technology",233,0.854779,0.025606,0.021888,9.4e-05,0.502757,0.357817,33.381371, h,body
+mach-010-013,"(IJET), 5(1), pp.391-397,2013.[10] Preeti Srivastava, Dr.S. Chatterjee, Ritula Thakur: Ã¢â‚¬Â A Novel Head Gesture Recognition Based Control for Intelligent Wheelchairs Ã¢â‚¬Â, Interna",174,0.863971,0.025606,0.022123,0.000127,0.5,0.383423,33.740351, h,body
+mach-010-014,"tional Journal of Research in Electrical and Electronics Engineering Volume 2, Issue 2, April-June, 2014, pp. 10-17[11] Arcoverde, Euclides & M. Duarte, Rafael & M. Barreto, Rafael & Paulo Magalhaes, Joao & C. M. Bastos, Carlos & Ing Ren, Tsang &",246,0.862132,0.025606,0.022076,9e-05,0.499081,0.410377,33.668562, h,body
+mach-010-015,"Cavalcanti, George. (2014).Ã¢â‚¬ÂEnhanced real-time head pose estimation system for mobile deviceÃ¢â‚¬Â. Integrated Computer Aided Engineering.21.",136,0.829044,0.012129,0.010056,7.4e-05,0.515625,0.430593,68.350138, h,body
+mach-010-016,"281-293. 10.3233/ICA-140462.[12] N. Shinde and K. George, Ã¢â‚¬ÂBrain-controlled driving aid for electric wheelchairsÃ¢â‚¬Â 2016 IEEE 13th International Conference on Wearable and",169,0.862132,0.025606,0.022076,0.000131,0.499081,0.450809,33.668536, h,body
+mach-010-017,"Implantable Body Sensor Networks (BSN), San Francisco, CA, 2016, pp. 115-118.[13] Home BrainAndSpinalCord.org Brain & Spinal Cord Injury Information, Brain and Spinal Cord. [Online]. Available:",193,0.863971,0.025606,0.022123,0.000115,0.498162,0.477763,33.740297, h,body
+mach-010-018,"Ã¢â‚¬Â[14] MPU-6050 Triple Axis Accelerometer and Gyro Breakout Board - SparkFun Electronics - Sensors DigiKey Electronics, Digikey.In. (2018).Ã¢â‚¬ÂÃ¢â‚¬Â.",141,0.862132,0.039084,0.033695,0.000239,0.499081,0.511456,22.058696, h,header
+mach-010-019,"HC-SR04, Ultrasonic Sensor HC-SR04 SEN-13959 SparkFun Electronics, Sparkfun.Com. (2018).Ã¢â‚¬Â.[16] Amazon.In. Relay 6 Channel 5V,[image] Available at:Ã¢â‚¬Â (2018).[17] Tata Wiper Motor, 2018.[image] Ã¢â‚¬Â[18] Raspberry Pi. (2018). Raspberry Pi 3 Model B - Raspberry Pi. [online] Available at: ",281,0.865809,0.079515,0.068845,0.000245,0.500919,0.565364,10.888643, h,header
+mach-010-020,"model-b/[19] Generationrobots.com. (2018). [online] Available at: [20] Sciencing.com. (2018). [online] Available at:  7448252.html.[21] Anon, (2018). [online] Available at:  100ah-powersafe-plus-smf-battery-11407755230.html.[22] intex.in. (2018). Intex Power Bank 11K Ã¢â‚¬â€ 11000 mAh Power Bank with Torch. [online] Available at: ",326,0.863971,0.075472,0.065205,0.0002,0.498162,0.636119,11.44761, h,header
+mach-010-021,[15] U.,7,0.045956,0.013477,0.000619,8.8e-05,0.089154,0.537736,3.409924, h,body
+2021-001-000,UNIVERSITY OF LAGOSDEPARTMENT OF ELECTRICAL AND ELECTRONICS ENGINEERING,71,0.647059,0.031566,0.020425,0.000288,0.498366,0.107955,20.498821, h,body
+2021-001-001,INTERNAL MEMORANDUM,19,0.263072,0.013889,0.003654,0.000192,0.499183,0.133207,18.941162, h,body
+2021-001-002,From: Departmental Project Coordinator,38,0.318627,0.017677,0.005632,0.000148,0.288399,0.170455,18.025208, h,body
+2021-001-003,"Date: March 28, 2021",20,0.168301,0.015152,0.00255,0.000128,0.497549,0.186869,11.107844, h,body
+2021-001-004,To: Departmental Academic Staff,31,0.267974,0.018939,0.005075,0.000164,0.73366,0.169823,14.149022, h,body
+2021-001-005,SUBMISSION OF INTERIM REPORT ON FINAL-YEAR PROJECTS,51,0.602941,0.012626,0.007613,0.000149,0.499183,0.22096,47.752914, h,body
+2021-001-006,"This is to inform you that you are to submit a copy of the INTERIM REPORTS of your final-yearproject students to Mr. Adeniyi Adenola latest 12:00 noon on Friday, 30th of April, 2021. Thereport should include the following:",222,0.743464,0.055556,0.041304,0.000186,0.489379,0.277778,13.382354, h,header
+2021-001-007,1. Introduction2. Literature Review3. Design Considerations/Problem Formulation4. Method of Construction /Solution Methodology5. Clear Statement on Outstanding Work,164,0.408497,0.088384,0.036105,0.00022,0.351307,0.364899,4.62185, h,header
+2021-001-008,"6. List of ReferencesIn view of this, your project students have been duly instructed to submit two copies of theirspiral-bound project reports to you latest 12:00 noon on Thursday, 29th April 2021.",198,0.735294,0.054293,0.039921,0.000202,0.485294,0.440025,13.543086, h,header
+2021-001-009,Supervisors should please note that they would be required to grade their students beforesubmitting the reports to Mr. Adeniyi Adenola. The grading sheet is attached to this mail.,179,0.722222,0.037879,0.027357,0.000153,0.478758,0.498737,19.06666, h,header
+2021-001-010,"Also, note that students have been asked to upload a video presentation in defence of theirprojects on LMS latest 12.00 noon on Sunday 2nd of May 2021. This will enable us to grade theirdefence virtually. The details of this exercise would be communicated to lecturers later.",275,0.761438,0.055556,0.042302,0.000154,0.498366,0.558081,13.705871, h,header
+2021-001-011,"I would also like to inform all supervisors that a departmental committee has been set up forthe 5th CODET Engineering students project competition. Towards this, students have beenencouraged to submit a separate video presentation of the project they want to showcase forthe competition. The committee has been asked to select the best, as only one can besubmitted for the department. Please encourage your students to put in for the competition,especially those that have finished the design stage and have progressed with theirconstruction. It is good that they show something tangible.",589,0.743464,0.136364,0.101381,0.000172,0.489379,0.669192,5.452071, h,header
+2021-001-012,Thank you.,10,0.086601,0.017677,0.001531,0.000153,0.159314,0.789141,4.899151, h,body
+2021-001-013,Raon,4,0.052288,0.025253,0.00132,0.00033,0.168301,0.818182,2.07059, h,body
+2021-001-014,Dr. A.O. Gbenga-llori,21,0.163399,0.017677,0.002888,0.000138,0.199346,0.853535,9.243733, h,body
+2021-001-015,Departmental Project Coordinator,32,0.269608,0.017677,0.004766,0.000149,0.252451,0.883838,15.252073, h,body
+2021-001-016,Page 1 of 1,11,0.078431,0.016414,0.001287,0.000117,0.498366,0.928662,4.778291, h,body
+mach-010-017,"Implantable Body Sensor Networks (BSN), San Francisco, CA, 2016, pp. 115-118.[13] Home BrainAndSpinalCord.org Brain & Spinal Cord Injury Information, Brain and Spinal Cord. [Online]. Available:",193,0.863971,0.025606,0.022123,0.000115,0.498162,0.477763,33.740297, h,body
+mach-010-018,"Ã¢â‚¬Â[14] MPU-6050 Triple Axis Accelerometer and Gyro Breakout Board - SparkFun Electronics - Sensors DigiKey Electronics, Digikey.In. (2018).Ã¢â‚¬ÂÃ¢â‚¬Â.",141,0.862132,0.039084,0.033695,0.000239,0.499081,0.511456,22.058696, h,header
+mach-010-019,"HC-SR04, Ultrasonic Sensor HC-SR04 SEN-13959 SparkFun Electronics, Sparkfun.Com. (2018).Ã¢â‚¬Â.[16] Amazon.In. Relay 6 Channel 5V,[image] Available at:Ã¢â‚¬Â (2018).[17] Tata Wiper Motor, 2018.[image] Ã¢â‚¬Â[18] Raspberry Pi. (2018). Raspberry Pi 3 Model B - Raspberry Pi. [online] Available at: ",281,0.865809,0.079515,0.068845,0.000245,0.500919,0.565364,10.888643, h,header
+mach-010-020,"model-b/[19] Generationrobots.com. (2018). [online] Available at: [20] Sciencing.com. (2018). [online] Available at:  7448252.html.[21] Anon, (2018). [online] Available at:  100ah-powersafe-plus-smf-battery-11407755230.html.[22] intex.in. (2018). Intex Power Bank 11K Ã¢â‚¬â€ 11000 mAh Power Bank with Torch. [online] Available at: ",326,0.863971,0.075472,0.065205,0.0002,0.498162,0.636119,11.44761, h,header
+mach-010-021,[15] U.,7,0.045956,0.013477,0.000619,8.8e-05,0.089154,0.537736,3.409924, h,body
+2021-001-000,UNIVERSITY OF LAGOSDEPARTMENT OF ELECTRICAL AND ELECTRONICS ENGINEERING,71,0.647059,0.031566,0.020425,0.000288,0.498366,0.107955,20.498821, h,body
+2021-001-001,INTERNAL MEMORANDUM,19,0.263072,0.013889,0.003654,0.000192,0.499183,0.133207,18.941162, h,body
+2021-001-002,From: Departmental Project Coordinator,38,0.318627,0.017677,0.005632,0.000148,0.288399,0.170455,18.025208, h,body
+2021-001-003,"Date: March 28, 2021",20,0.168301,0.015152,0.00255,0.000128,0.497549,0.186869,11.107844, h,body
+2021-001-004,To: Departmental Academic Staff,31,0.267974,0.018939,0.005075,0.000164,0.73366,0.169823,14.149022, h,body
+2021-001-005,SUBMISSION OF INTERIM REPORT ON FINAL-YEAR PROJECTS,51,0.602941,0.012626,0.007613,0.000149,0.499183,0.22096,47.752914, h,body
+2021-001-006,"This is to inform you that you are to submit a copy of the INTERIM REPORTS of your final-yearproject students to Mr. Adeniyi Adenola latest 12:00 noon on Friday, 30th of April, 2021. Thereport should include the following:",222,0.743464,0.055556,0.041304,0.000186,0.489379,0.277778,13.382354, h,header
+2021-001-007,1. Introduction2. Literature Review3. Design Considerations/Problem Formulation4. Method of Construction /Solution Methodology5. Clear Statement on Outstanding Work,164,0.408497,0.088384,0.036105,0.00022,0.351307,0.364899,4.62185, h,header
+2021-001-008,"6. List of ReferencesIn view of this, your project students have been duly instructed to submit two copies of theirspiral-bound project reports to you latest 12:00 noon on Thursday, 29th April 2021.",198,0.735294,0.054293,0.039921,0.000202,0.485294,0.440025,13.543086, h,header
