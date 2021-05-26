@@ -17,6 +17,7 @@ from google.cloud import storage
 from google.cloud import vision
 from google.cloud import texttospeech_v1 as texttospeech
 from google.cloud import automl_v1beta1 as automl
+from google.oauth2 import service_account
 from google.protobuf import json_format
 import requests
 
@@ -45,7 +46,10 @@ project_id = os.environ.get("GCLOUD_PROJECT") # os.environ["GCP_PROJECT"]
 vision_client = vision.ImageAnnotatorClient()
 storage_client = storage.Client()
 speech_client = texttospeech.TextToSpeechClient()
-automl_client = automl.TablesClient(project=project_id, region=compute_region)
+client_options = {'api_endpoint': 'eu-automl.googleapis.com:443'}
+automl_client = automl.TablesClient(project=project_id, 
+                                    region=compute_region,
+                                    client_options=client_options)
 
 
 def p2a_gcs_trigger(file, context):
@@ -123,38 +127,38 @@ def p2a_ocr_pdf(bucket, pdf_blob):
 
     # Once the request has completed and the output has been
     # written to GCS, we can list all the output files.
-    storage_client = storage.Client()
+    # storage_client = storage.Client()
 
-    match = re.match(r'gs://([^/]+)/(.+)', gcs_destination_uri)
-    bucket_name = match.group(1)
-    prefix = match.group(2)
+    # match = re.match(r'gs://([^/]+)/(.+)', gcs_destination_uri)
+    # bucket_name = match.group(1)
+    # prefix = match.group(2)
 
-    bucket = storage_client.get_bucket(bucket_name)
+    # bucket = storage_client.get_bucket(bucket_name)
 
-    # List objects with the given prefix.
-    blob_list = list(bucket.list_blobs(prefix=prefix))
-    print('Output files:')
-    for blob in blob_list:
-        print(blob.name)
+    # # List objects with the given prefix.
+    # blob_list = list(bucket.list_blobs(prefix=prefix))
+    # print('Output files:')
+    # for blob in blob_list:
+    #     print(blob.name)
 
-    # Process the first output file from GCS.
-    # Since we specified batch_size=2, the first response contains
-    # the first two pages of the input file.
-    output = blob_list[0]
+    # # Process the first output file from GCS.
+    # # Since we specified batch_size=2, the first response contains
+    # # the first two pages of the input file.
+    # output = blob_list[0]
 
-    json_string = output.download_as_string()
-    response = json.loads(json_string)
+    # json_string = output.download_as_string()
+    # response = json.loads(json_string)
 
-    # The actual response for the first page of the input file.
-    first_page_response = response['responses'][0]
-    annotation = first_page_response['fullTextAnnotation']
+    # # The actual response for the first page of the input file.
+    # first_page_response = response['responses'][0]
+    # annotation = first_page_response['fullTextAnnotation']
 
-    # Here we print the full text from the first page.
-    # The response contains more information:
-    # annotation/pages/blocks/paragraphs/words/symbols
-    # including confidence scores and bounding boxes
-    print('Full text:\n')
-    print(annotation['text'])
+    # # Here we print the full text from the first page.
+    # # The response contains more information:
+    # # annotation/pages/blocks/paragraphs/words/symbols
+    # # including confidence scores and bounding boxes
+    # print('Full text:\n')
+    # print(annotation['text'])
 
     # convert PDF to PNG files for annotation
     if ANNOTATION_MODE:
@@ -187,7 +191,7 @@ def p2a_predict(bucket, json_blob):
     print("Started AutoML batch prediction for {}".format(feature_file_name))
     response = automl_client.batch_predict(
         gcs_input_uris=gcs_input_uris,
-        gcs_output_uris=gcs_output_uri,
+        gcs_output_uri_prefix=gcs_output_uri,
         model_display_name=model_display_name
     )
     response.result()
