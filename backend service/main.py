@@ -342,10 +342,10 @@ def parse_prediction_results(bucket, csv_blob):
         text_dict[id] = text
 
         # build label_dict
-        sc_other = float(row["label_other_source"])
-        sc_body = float(row["label_body_source"])
-        sc_caption = float(row["label_caption_source"])
-        sc_header = float(row["label_header_source"])
+        sc_other = float(row["label_other_score"])
+        sc_body = float(row["label_body_score"])
+        sc_caption = float(row["label_caption_score"])
+        sc_header = float(row["label_header_score"])
         # if sc_other > 0.7
         if sc_other > max(sc_header, sc_body, sc_caption):
             label_dict[id] = LABEL_OTHER
@@ -426,18 +426,18 @@ def generate_mp3_for_ssml(bucket, id, ssml):
     ssml = "<speak>\n" + ssml + "</speak>\n"
     synthesis_input = texttospeech.types.SynthesisInput(ssml=ssml)
     voice = texttospeech.types.VoiceSelectionParams(
-        language_code="en-US", ssml_gender=texttospeech.enums.SsmlVoiceGender.FEMALE
+        language_code="en-US", ssml_gender=texttospeech.SsmlVoiceGender.FEMALE
     )
     audoio_config = texttospeech.types.AudioConfig(
-        audio_encoding=texttospeech.enums.AudioEncoding.MP3, speaking_rate=1.5
+        audio_encoding=texttospeech.AudioEncoding.MP3, speaking_rate=1.5
     )
 
     # generate speech
     try:
-        response = speech_client.synthesize_speech(synthesis_input, voice, audoio_config)
+        response = speech_client.synthesize_speech(input=synthesis_input, voice=voice, audio_config=audoio_config)
     except Exception as e:
         print("Retrying speech generation...") # sometimes the api returns 500 error
-        response = speech_client.synthesize_speech(synthesis_input, voice, audoio_config)
+        response = speech_client.synthesize_speech(input=synthesis_input, voice=voice, audio_config=audoio_config)
     
     # save a MP3 file and delete the text file
     mp3_file_name = id + ".mp3"
